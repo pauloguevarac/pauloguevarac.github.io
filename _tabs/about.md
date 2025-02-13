@@ -6,8 +6,11 @@ order: 4
 
 # Paulo Guevara
 **DevOps Engineer | Cloud Architect | Automation Enthusiast**  
-📍 Location: [Mazatlán, Sinaloa, México] | 📧 paulo.guevara@gmail.com | 📞 +52 669 1460634
-💼 LinkedIn: [linkedin.com/in/pauloguevara](https://linkedin.com/in/pauloguevara) | GitHub: [github.com/pauloguevarac](https://github.com/pauloguevarac)  
+📍 Location: [Mazatlán, Sinaloa, México]  
+📧 paulo.guevara@gmail.com  
+📞 +52 669 1460634  
+💼 LinkedIn: [linkedin.com/in/pauloguevara](https://linkedin.com/in/pauloguevara)  
+💻 GitHub: [github.com/pauloguevarac](https://github.com/pauloguevarac)  
 
 
 ---
