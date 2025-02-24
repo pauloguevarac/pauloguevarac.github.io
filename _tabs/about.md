@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# Paulo Guevara
+# Paulo Guevara, M.S.
 **DevOps Engineer | Cloud Architect | Automation Enthusiast**  
 📍 Location: [Mazatlán, Sinaloa, México]  
 📧 paulo.guevara@gmail.com  
@@ -114,11 +114,11 @@ Highly skilled **DevOps Engineer** with 6+ years of experience designing, implem
 ---
 
 ## 🏆 **Certifications**
-- **AWS Certified Solutions Architect – Associate**
+<!-- - **AWS Certified DevOps Engineer**  
 - **Certified Kubernetes Administrator (CKA)**
 - **HashiCorp Terraform Associate**
 - **Docker Certified Associate**
-- **Microsoft Certified: Azure Fundamentals**
+- **Microsoft Certified: Azure Fundamentals** -->
 
 ---
 
@@ -143,9 +143,9 @@ Highly skilled **DevOps Engineer** with 6+ years of experience designing, implem
 ---
 
 ## 🌟 **Interests**
-- Open-source contributions (maintainer of [GitHub repositories](https://github.com/johndoe)).
 - Cloud-native technologies and serverless computing.
-- Tech blogging and mentoring junior engineers.
+- Tech blogging.
+- IoT for home and life automation.
 
 ---
 
