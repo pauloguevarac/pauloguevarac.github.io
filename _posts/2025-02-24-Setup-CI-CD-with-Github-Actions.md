@@ -1,6 +1,6 @@
 ---
 title: Setup CI/CD Workflow with Github Actions to AWS
-date: 2025-002-124 09:54:23 +/-TTTT
+date: 2025-02-124 09:54:23 +/-TTTT
 categories: [Github Actions]
 tags: [github, aws, ci/cd]     # TAG names should always be lowercase
 toc: true
