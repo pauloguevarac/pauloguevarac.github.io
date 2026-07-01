@@ -8,7 +8,6 @@ order: 4
 **Senior DevOps Engineer | Cloud Architect | Automation & IoT Specialist**  
 📍 Location: Mazatlán, Sinaloa, México  
 📧 [paulo.guevara@gmail.com](mailto:paulo.guevara@gmail.com)  
-📞 +52 669 1460634  
 💼 LinkedIn: [/in/pauloguevara](https://linkedin.com/in/pauloguevara)  
 💻 GitHub: [@pauloguevarac](https://github.com/pauloguevarac)  
 
