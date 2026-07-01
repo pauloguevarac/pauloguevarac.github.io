@@ -5,7 +5,7 @@ order: 4
 ---
 
 # Paulo Guevara, M.S.
-**Senior DevOps Engineer | Cloud Architect | Automation & IoT Specialist**  
+**DevOps Cloud Architect & Engineer | Automation & IoT Specialist**  
 📍 Location: Mazatlán, Sinaloa, México  
 📧 [paulo.guevara@gmail.com](mailto:paulo.guevara@gmail.com)  
 💼 LinkedIn: [/in/pauloguevara](https://linkedin.com/in/pauloguevara)  
@@ -14,7 +14,7 @@ order: 4
 ---
 
 ## 👨‍💻 **Professional Summary**
-Highly accomplished **Senior DevOps Engineer & Cloud Architect** with over 6 years of expertise designing, building, and operating highly resilient, automated, and secure multi-cloud infrastructures. Proven record of success in architecting production-grade **Kubernetes clusters (GKE/EKS)**, designing secure **AWS/GCP network topologies**, and optimizing large-scale **CI/CD pipelines**. Recognized for automating complex deployments to slash delivery times, engineering reliable IoT battery systems, and championing DevOps/SRE culture to drive developer velocity and optimize infrastructure cost efficiency.
+Highly accomplished **DevOps Cloud Architect & Engineer** with over 6 years of expertise designing, building, and operating highly resilient, automated, and secure multi-cloud infrastructures. Proven record of success in architecting production-grade **Kubernetes clusters (GKE/EKS)**, designing secure **AWS/GCP network topologies**, and optimizing large-scale **CI/CD pipelines**. Recognized for automating complex deployments to slash delivery times, engineering reliable IoT battery systems, and championing DevOps/SRE culture to drive developer velocity and optimize infrastructure cost efficiency.
 
 ---
 
@@ -36,28 +36,17 @@ Highly accomplished **Senior DevOps Engineer & Cloud Architect** with over 6 yea
 
 ## 💼 **Professional Experience**
 
-### **Senior DevOps Engineer**  
-*Rentalika* – *Mexico (Remote)*  
-*05/2024 – Present*
-
-- **Kubernetes & Containerization**: Designed and engineered **highly available containerized microservices** on AWS ECS and EKS.
-- **Infrastructure as Code**: Automated secure, modular VPC topologies containing segmented public and private subnets using **Terraform**, cutting infrastructure deployment time by 60%.
-- **Secure Networking**: Implemented strict network access controls, isolating sensitive databases in private subnets with NAT Gateways to ensure compliant, outbound-only connectivity.
-- **CI/CD Pipelines**: Automated multi-stage deployment workflows with **Jenkins** and **GitHub Actions**, increasing overall deployment frequency and reliability.
-- **Cost Optimization**: Achieved a **20% reduction in cloud costs** by configuring automated right-sizing of EC2 instances and utilizing Spot Instances for non-critical environments.
-- **Proactive Monitoring**: Established real-time observability, telemetry, and automated notifications to mobile devices via **Pushover** utilizing **CloudWatch**, **AWS Lambda**, and **UptimeRobot**, maintaining a **99.9% system uptime**.
-
----
-
-### **DevOps Engineer (Consultant)**  
+### **DevOps Cloud Architect & Engineer**  
 *HyphaMetrics* – *Remote*  
-*10/2019 – 04/2024*
+*10/2019 – Present*
 
+- **Cloud Architecture & Engineering**: Design, implement, and maintain highly available, scalable, and secure cloud infrastructures across **AWS** and **GCP**.
 - **Automation & Configuration Management**: Programmed modular **Ansible** playbooks, reducing virtual machine provisioning times by 50% and standardizing server environments.
-- **CI/CD Engineering**: Built and maintained robust CI/CD pipelines across multiple enterprise projects using **GitLab CI/CD**, reducing manual server deployment steps by 80%.
+- **CI/CD Engineering**: Built and maintained robust CI/CD pipelines across multiple enterprise projects using **GitLab CI/CD** and **GitHub Actions**, reducing manual server deployment steps by 80%.
 - **Serverless Architectures**: Deployed highly scalable and cost-efficient backend microservices on **AWS Lambda** and **API Gateway**, improving API performance and response times.
-- **Centralized Observability**: Architected and configured a centralized logging platform using the **ELK Stack**, slashing incident detection and troubleshooting times by half.
+- **Centralized Observability**: Architected and configured centralized logging and monitoring platforms using the **ELK Stack**, **Prometheus**, and **Grafana**, slashing incident detection and troubleshooting times by half.
 - **Cloud Compliance**: Ensured tight infrastructure security by enforcing minimal-privilege **IAM policies**, custom **security group rules**, and **VPC flow log** analysis.
+- **Cost & Resource Optimization**: Performed regular infrastructure audits to right-size cloud instances, significantly reducing overall operational expenditure.
 
 ---
 
