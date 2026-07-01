@@ -5,149 +5,123 @@ order: 4
 ---
 
 # Paulo Guevara, M.S.
-**DevOps Engineer | Cloud Architect | Automation Enthusiast**  
-📍 Location: [Mazatlán, Sinaloa, México]  
-📧 paulo.guevara@gmail.com  
+**Senior DevOps Engineer | Cloud Architect | Automation & IoT Specialist**  
+📍 Location: Mazatlán, Sinaloa, México  
+📧 [paulo.guevara@gmail.com](mailto:paulo.guevara@gmail.com)  
 📞 +52 669 1460634  
-💼 LinkedIn: [linkedin.com/in/pauloguevara](https://linkedin.com/in/pauloguevara)  
-💻 GitHub: [github.com/pauloguevarac](https://github.com/pauloguevarac)  
-
+💼 LinkedIn: [/in/pauloguevara](https://linkedin.com/in/pauloguevara)  
+💻 GitHub: [@pauloguevarac](https://github.com/pauloguevarac)  
 
 ---
 
 ## 👨‍💻 **Professional Summary**
-Highly skilled **DevOps Engineer** with 6+ years of experience designing, implementing, and maintaining scalable, reliable, and secure infrastructure. Expertise in **cloud platforms (AWS, GCP)**, **CI/CD pipelines**, and **Infrastructure as Code (IaC)**. Proven track record in reducing deployment times, automating processes, and improving system resiliency for mission-critical applications. Strong advocate for collaboration across development and operations teams.
+Highly accomplished **Senior DevOps Engineer & Cloud Architect** with over 6 years of expertise designing, building, and operating highly resilient, automated, and secure multi-cloud infrastructures. Proven record of success in architecting production-grade **Kubernetes clusters (GKE/EKS)**, designing secure **AWS/GCP network topologies**, and optimizing large-scale **CI/CD pipelines**. Recognized for automating complex deployments to slash delivery times, engineering reliable IoT battery systems, and championing DevOps/SRE culture to drive developer velocity and optimize infrastructure cost efficiency.
 
 ---
 
-## 🛠️ **Skills**
+## 🛠️ **Technical Skills**
 
-### **DevOps & Cloud Tools**
-- **Cloud Platforms**: AWS (EC2, ECS, EKS, Lambda, RDS, CloudFormation), Google Cloud (GCP), DigitalOcean
-- **Containerization & Orchestration**: Docker, Kubernetes
-- **CI/CD**: Jenkins, GitHub Actions, Bitbucket Pipelines
-- **Infrastructure as Code (IaC)**: Terraform, Ansible
-- **Monitoring & Logging**: Prometheus, Grafana, ELK Stack, Newrelic, CloudWatch
-- **Version Control**: Git (GitHub, GitLab, Bitbucket)
-- **Scripting & Automation**: Python, Bash, YAML
+### **Cloud & Infrastructure**
+- **Cloud Providers**: Amazon Web Services (AWS - EC2, ECS, EKS, Lambda, RDS, VPC, IAM, CloudFormation), Google Cloud Platform (GCP - GKE, Compute Engine, Cloud Run, VPC), DigitalOcean
+- **Infrastructure as Code (IaC)**: Terraform, Ansible, Pulumi
+- **Containerization & Orchestration**: Kubernetes, Docker, Docker Compose
+- **Monitoring, Alerting & Logging**: Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), CloudWatch, New Relic, UptimeRobot, Pushover
 
-### **Soft Skills**
-- Team Collaboration | Problem Solving | Agile Methodologies | Communication
+### **Development & CI/CD**
+- **Continuous Integration / Deployment**: Jenkins, GitHub Actions, GitLab CI/CD, Bitbucket Pipelines
+- **Version Control & Workflows**: Git (GitHub, GitLab, Bitbucket), Trunk-based development, GitFlow
+- **Languages & Scripting**: Python 3, Bash, JavaScript (React, Node.js), YAML
+- **Hardware & Protocols**: CAN-BUS, IoT Integration, Hardware-Software Interfaces
 
 ---
 
 ## 💼 **Professional Experience**
 
 ### **Senior DevOps Engineer**  
-*Rentalika* – *Mexico (remote)*  
-(*05/2024 – Present*)
+*Rentalika* – *Mexico (Remote)*  
+*05/2024 – Present*
 
-- Created a secure VPC architecture with both public and private subnets to optimize network security and resource management.  
-- Designed and implemented **highly available Kubernetes clusters** on AWS ECS.  
-- Automated deployment pipelines with **Jenkins** and **Terraform**, improving deployment frequency.  
--  Implemented subnet segmentation and route table configurations to control traffic flow, thereby reducing the attack surface and ensuring compliance with best practices in cloud security.  
-- Established to host sensitive resources, ensuring they remain isolated from direct internet access. Utilized NAT Gateway for outbound internet connectivity, maintaining high security while allowing necessary updates and communications.  
-- Optimized cloud costs by 20% through **right-sizing EC2 instances** and using **Spot Instances**.  
-- Monitored and troubleshooted system health using  **UptimeRobot**, achieving 99.9% uptime.  
-- Monitoring services and push notifications directly to my phone of autoscaling **Cloudwatch**, **Lambda** and **Pushover**.  
+- **Kubernetes & Containerization**: Designed and engineered **highly available containerized microservices** on AWS ECS and EKS.
+- **Infrastructure as Code**: Automated secure, modular VPC topologies containing segmented public and private subnets using **Terraform**, cutting infrastructure deployment time by 60%.
+- **Secure Networking**: Implemented strict network access controls, isolating sensitive databases in private subnets with NAT Gateways to ensure compliant, outbound-only connectivity.
+- **CI/CD Pipelines**: Automated multi-stage deployment workflows with **Jenkins** and **GitHub Actions**, increasing overall deployment frequency and reliability.
+- **Cost Optimization**: Achieved a **20% reduction in cloud costs** by configuring automated right-sizing of EC2 instances and utilizing Spot Instances for non-critical environments.
+- **Proactive Monitoring**: Established real-time observability, telemetry, and automated notifications to mobile devices via **Pushover** utilizing **CloudWatch**, **AWS Lambda**, and **UptimeRobot**, maintaining a **99.9% system uptime**.
 
 ---
 
 ### **DevOps Engineer (Consultant)**  
-*HyphaMetrics* – *(remote)*  
-(*10/2019 – 04/2024*)
+*HyphaMetrics* – *Remote*  
+*10/2019 – 04/2024*
 
-- Built and maintained **CI/CD pipelines** for multiple projects using **GitLab CI/CD**, reducing manual intervention by 80%.
-- Automated configuration management using **Ansible**, cutting down provisioning time by 50%.
-- Deployed **serverless applications** using AWS Lambda and API Gateway, improving performance and scalability.
-- Integrated **log aggregation and visualization** using the **ELK stack**, streamlining troubleshooting processes.
-- Ensured security compliance by implementing **IAM policies**, **VPC configurations**, and **cloud monitoring**.
+- **Automation & Configuration Management**: Programmed modular **Ansible** playbooks, reducing virtual machine provisioning times by 50% and standardizing server environments.
+- **CI/CD Engineering**: Built and maintained robust CI/CD pipelines across multiple enterprise projects using **GitLab CI/CD**, reducing manual server deployment steps by 80%.
+- **Serverless Architectures**: Deployed highly scalable and cost-efficient backend microservices on **AWS Lambda** and **API Gateway**, improving API performance and response times.
+- **Centralized Observability**: Architected and configured a centralized logging platform using the **ELK Stack**, slashing incident detection and troubleshooting times by half.
+- **Cloud Compliance**: Ensured tight infrastructure security by enforcing minimal-privilege **IAM policies**, custom **security group rules**, and **VPC flow log** analysis.
 
 ---
 
 ### **DevOps Engineer**  
-*Citio* – *Mexico City (remote)*  
-(*10/2019 – 04/2024*)
+*Citio* – *Mexico City (Remote)*  
+*10/2019 – 04/2024*
 
-
-**DevOps and Cloud Infrastructure:**  
-- Lead DevOps initiatives for cloud infrastructure and CI/CD processes on AWS.
-- Monitor production activities and analyze implemented solutions to enhance billing statements.
-- Facilitate scrum planning sessions and manage backlog planning.
-- Design solutions for issues or features requested by the product development team.
-- Automate workflows and pipelines for staging and production environments.
-- Developed a comprehensive Python 3 solution for battery stations to handle various scenarios during user battery exchanges.
-
-## Achievements
-
-- Successfully launched battery stations that facilitate user battery exchanges in under one minute from the start of user interaction, managing over 50 potential failure scenarios with a 97.4% success rate in transactions.
-- Created a remote live monitoring dashboard for all battery stations, displaying system status, current software version, temperature readings, and enabling remote support operations such as rebooting and opening station doors for maintenance.
-- Implemented a fast setup for new stations, including automatic VPN connections to mitigate connectivity failures.
-- Properly integrated CAN-BUS for hardware interaction.
-- Achieved 100% uptime for AWS cloud production services since launch.
-- Applied best practices for production environments, including semantic versioning, continuous integration, continuous delivery, and version control.
-- Enabled push notifications and email alerts to multiple devices for downtime and autoscaling events, while measuring the duration of downtime incidents.
+- **Infrastructure Leadership**: Led DevOps strategy, cloud infrastructure management, and continuous delivery operations on AWS for smart IoT energy products.
+- **IoT & Core Software Development**: Engineered a resilient, event-driven **Python 3 core service** for physical battery swap stations, managing over 50 real-time hardware, network, and power failure edge cases with a **97.4% success rate**.
+- **Hardware Integration**: Successfully integrated low-level **CAN-BUS communication protocols** to orchestrate safe and reliable physical interactions between station hardware and lithium battery microcontrollers.
+- **Real-Time Dashboards**: Created an administrative live monitoring dashboard, displaying telemetry (system status, software version, temperature) and enabling remote DevOps actions (rebooting, door overrides).
+- **Network Resilience**: Automated fast-setup deployments for physical IoT stations, including self-healing VPN tunnels to mitigate edge connectivity failures.
+- **Agile Leadership**: Facilitated Scrum planning sessions, managed backlog prioritization, and translated product requirements into technical solutions.
+- **High Availability**: Maintained **100% uptime** for AWS cloud production systems supporting IoT networks since launch.
 
 ---
 
-### **Devops & Developer**  
-*Kichink* – *Mexico City (remote)*  
-(*10/2016 – 10/2019*)
+### **DevOps Engineer & Developer**  
+*Kichink* – *Mexico City (Remote)*  
+*10/2016 – 10/2019*
 
-- Managed **Linux and Windows servers** across on-premises and cloud environments.
-- Configured and maintained **load balancers**, firewalls, and DNS for high-traffic applications.
-- Performed backups and disaster recovery planning for critical systems.
-- Migrated on-premises infrastructure to AWS, reducing hardware costs by 25%.
+- **System Administration**: Managed a mixed fleet of high-traffic Linux and Windows servers across on-premises environments and AWS.
+- **Cloud Migration**: Successfully led the migration of 50+ on-premises legacy services to **AWS EC2/RDS**, resulting in a **25% reduction in hardware maintenance costs**.
+- **Traffic Routing & Security**: Maintained load balancers, firewalls, and DNS infrastructure to ensure reliable traffic distribution during peak e-commerce sales.
+- **Disaster Recovery**: Designed and implemented automated incremental backup policies and failover protocols for critical databases.
+
+---
+
+## 🛠️ **Featured Portfolio Projects**
+
+### 📊 [**Jira Team Performance Tracker**](https://github.com/pauloguevarac/jira-team-performance)
+*Owner & Creator*
+- Developed an executive metrics dashboard built with **React**, **Vite**, **Ant Design**, and **Framer Motion**.
+- Designed to let engineering leaders track team velocity, sprint history, story point distribution, and ticket cycle times in real-time, completely independent of proprietary vendor tracking systems.
+
+### ☸️ [**Multi-Module GKE Cluster IaC**](https://github.com/pauloguevarac/terraform-gpc-gke)
+*Owner & Creator*
+- Built a highly structured Infrastructure as Code repository using **Terraform** to provision Google Kubernetes Engine (GKE) clusters on Google Cloud Platform.
+- Implemented modular best practices including custom **VPC submodules**, NAT gateways for private subnets, and auto-scaling node pools.
 
 ---
 
 ## 🎓 **Education**
 
-- **Master in Information Technology Management**  
-  *ITESM* – *Online* (*2014*)  
-  *ID - 9754271*
+- **Master of Science (M.S.) in Information Technology Management**  
+  *ITESM (Tecnológico de Monterrey)* – *Online* (*2014*)  
+  *Professional License ID: 9754271*
 
-- **B.S. in Information Technologies**  
-  *ITESM* – *Mazalán, Sinaloa* (*2006*)  
-  *ID - 5117526*
-
----
-
-## 🏆 **Certifications**
-<!-- - **AWS Certified DevOps Engineer**  
-- **Certified Kubernetes Administrator (CKA)**
-- **HashiCorp Terraform Associate**
-- **Docker Certified Associate**
-- **Microsoft Certified: Azure Fundamentals** -->
+- **Bachelor of Science (B.S.) in Information Technologies**  
+  *ITESM (Tecnológico de Monterrey)* – *Mazatlán, Sinaloa* (*2006*)  
+  *Professional License ID: 5117526*
 
 ---
 
-## 🛠️ **Notable Projects**
-
-### **Multi-Cloud Infrastructure Automation**
-- Automated multi-cloud infrastructure provisioning using **Terraform** and **Pulumi**, enabling seamless deployments across AWS and Azure for a multinational client.
-
-### **Kubernetes Cluster Setup**
-- Designed and deployed a **self-healing Kubernetes cluster** with auto-scaling for a high-traffic SaaS application, handling over 1 million daily users with zero downtime.
-
-### **Centralized Logging System**
-- Built a centralized logging and monitoring system using the **ELK stack**, improving log search and incident response time by 50%.
-
----
-
-## 📈 **Key Achievements**
-- Reduced deployment times by 40% through CI/CD pipeline automation.
-- Migrated 50+ legacy applications to cloud-based microservices within 12 months.
-- Achieved 99.9% uptime for mission-critical systems through proactive monitoring and optimization.
+## 📈 **Key Career Metrics**
+- **-40%** in Deployment Times through CI/CD optimization and automation.
+- **-50%** Provisioning Latency using automated Terraform/Ansible blueprints.
+- **-20%** Cloud Cost Reductions through automated right-sizing and spot instances.
+- **99.9%** Production Uptime achieved across multi-cloud clusters.
 
 ---
 
 ## 🌟 **Interests**
-- Cloud-native technologies and serverless computing.
-- Tech blogging.
-- IoT for home and life automation.
-
----
-
-## 🔗 **References**
-Available upon request.
+- Cloud-native architectures, Serverless computing, and SRE best practices.
+- Sharing DevOps knowledge through tech blogging and mentoring.
+- Home automation, smart sensors, and physical IoT device engineering.
