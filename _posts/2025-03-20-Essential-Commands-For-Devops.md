@@ -99,7 +99,7 @@ Real-life scenario: When joining as a consultant, Wei needed to quickly understa
 
 While often considered a customization tool, neofetch provides a surprisingly useful system overview, including OS, kernel version, uptime, and hardware specifications.
 
-Docker Domination: Container Commands that Save Lives
+## Docker Domination: Container Commands that Save Lives
 11. List All Containers
 docker ps -a
 Real-life scenario: After taking over a project with mysterious resource usage, Ava ran this command and discovered dozens of zombie containers in various states. These abandoned containers were consuming resources without providing any value. Cleaning them up immediately improved performance.
@@ -160,7 +160,7 @@ Real-life scenario: A mysterious bug appeared in production that couldn’t be r
 
 This forces Docker to rebuild every layer from scratch, ignoring any cached layers, which is useful for troubleshooting build issues.
 
-Kubernetes Kung Fu: Orchestrating with Confidence
+## Kubernetes Kung Fu: Orchestrating with Confidence
 21. Check All Resources
 kubectl get all --all-namespaces
 Real-life scenario: After joining DigitalNomad Inc. as their first dedicated DevOps engineer, Zara needed to quickly understand their Kubernetes environment. This command gave her a complete overview of all resources across all namespaces, revealing several abandoned deployments and services.
@@ -221,7 +221,7 @@ Real-life scenario: Before performing server maintenance, Raj needed to safely m
 
 This cordons the node (marks it as unschedulable) and evicts all pods, allowing for safe maintenance.
 
-Networking Ninjas: Diagnose and Fix Connectivity Issues
+## Networking Ninjas: Diagnose and Fix Connectivity Issues
 31. Test Connectivity with Ping
 ping -c 4 [hostname]
 Real-life scenario: After a network reconfiguration, Lucia needed to quickly verify basic connectivity to various services. The simple ping command helped her confirm that the network routes were working as expected.
@@ -282,7 +282,7 @@ Real-life scenario: After moving to a new data center, Kwame needed to verify th
 
 This measures network throughput between hosts. You’ll need to run iperf3 in server mode on the destination with iperf3 -s.
 
-Monitoring Magic: Catching Problems Before Users Do
+## Monitoring Magic: Catching Problems Before Users Do
 41. Simple HTTP Service Check
 watch -n 5 "curl -s -o /dev/null -w '%{http_code}' [url]"
 Real-life scenario: During a critical deployment, Isabella wanted to continuously monitor the API’s health. This command showed her the HTTP status code every 5 seconds, letting her immediately spot when the service returned anything other than 200.
@@ -343,7 +343,7 @@ Real-life scenario: A configuration file kept changing unexpectedly, causing ser
 
 This monitors a directory for file system events (create, modify, delete, etc.), which is useful for debugging issues related to file changes.
 
-Shell Scripting Sorcery: Automation for the Win
+## Shell Scripting Sorcery: Automation for the Win
 51. Find and Replace in Multiple Files
 find . -type f -name "*.conf" -exec sed -i 's/old_value/new_value/g' {} \;
 Real-life scenario: After changing a database hostname, Nikita needed to update dozens of configuration files across multiple directories. This command allowed her to make the change consistently across all files without manual editing.
@@ -406,7 +406,7 @@ Real-life scenario: As part of a nightly check, Leila set up a script that scann
 
 The && operator runs the second command only if the first one succeeds (returns a zero exit code).
 
-Cloud Companion: AWS, Azure, and GCP Essentials
+## Cloud Companion: AWS, Azure, and GCP Essentials
 61. AWS: List All EC2 Instances
 aws ec2 describe-instances --query "Reservations[*].Instances[*].[InstanceId, State.Name, InstanceType, PrivateIpAddress, PublicIpAddress, Tags[?Key=='Name'].Value|[0]]" --output table
 Real-life scenario: During a cost optimization exercise, Rohan needed to inventory all running EC2 instances across regions. This command provided a concise table of instance details, helping him identify forgotten instances that could be terminated.
@@ -467,7 +467,7 @@ Real-life scenario: To prepare for a FinOps initiative, Maya needed to confirm t
 
 This confirms the billing export configuration to BigQuery, which is essential for cost analysis and optimization.
 
-Git Guru: Version Control Mastery
+## Git Guru: Version Control Mastery
 71. Find Recent Branches
 git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:short) %(refname:short)'
 Real-life scenario: After returning from vacation, Yasmin needed to recall which branches she had been working on. This command showed her branches sorted by most recent activity, helping her quickly resume her work.
@@ -528,7 +528,7 @@ Real-life scenario: While working on a feature, Sofia was asked to fix a critica
 
 This interactively lets you choose which changes to stash, allowing you to keep some changes in your working directory while stashing others.
 
-Security Sentinel: Protecting Your Kingdom
+## Security Sentinel: Protecting Your Kingdom
 81. Check for Open Ports
 sudo nmap -sS -O 127.0.0.1
 Real-life scenario: After configuring a new firewall, Hiroshi wanted to verify that only the intended ports were accessible. This scan revealed that an old development service was still listening on a high port, creating a potential security risk.
@@ -589,7 +589,7 @@ Real-life scenario: After a critical vulnerability was announced, Elena immediat
 
 This updates the package lists and installs available upgrades, which is essential for maintaining security.
 
-Performance Prowess: Making Things Blazing Fast
+## Performance Prowess: Making Things Blazing Fast
 91. Find CPU-Intensive Processes
 ps -eo pcpu,pid,user,args | sort -r | head -10
 Real-life scenario: During a performance investigation, Noah needed to identify which processes were consuming the most CPU. This command revealed that a log parsing script was unexpectedly using 90% of CPU resources.
