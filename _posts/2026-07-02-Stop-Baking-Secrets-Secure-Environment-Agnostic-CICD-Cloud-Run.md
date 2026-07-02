@@ -1,6 +1,6 @@
 ---
 title: "Stop Baking Secrets! Secure, Environment-Agnostic CI/CD for Google Cloud Run with GitHub Actions"
-date: 2026-07-04 10:00:00 -0600
+date: 2026-07-02 12:00:00 -0600
 categories: [DevOps, Security]
 tags: [github-actions, gcp, cloud-run, secrets, devsecops]
 toc: true
