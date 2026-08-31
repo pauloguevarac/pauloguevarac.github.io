@@ -1,0 +1,28 @@
+---
+layout: matrix-base
+title: GitHub Trending Repos
+permalink: /github-trending-repos/
+---
+<section class="page-body">
+  <div class="page-hero">
+    <div class="k">// github trending</div>
+    <h1>GitHub Trending Repos</h1>
+    <p style="color:var(--muted);margin-top:10px">Fresh open-source finds, refreshed daily. Updated {{ site.data.trending.updated }}.</p>
+  </div>
+
+  <div class="wrap" style="max-width:960px;margin:0 auto;padding:0 24px">
+    <div class="tlist">
+      {% for repo in site.data.trending.repos %}
+      <div class="trow">
+        <div class="rk">{{ forloop.index }}</div>
+        <div>
+          <div class="nm"><a href="{{ repo.url }}" target="_blank" rel="noopener">{{ repo.name }}</a></div>
+          <div class="ds">{{ repo.description }}</div>
+          {% if repo.language %}<div class="lang">{{ repo.language }}</div>{% endif %}
+        </div>
+        <div class="st">★ {{ repo.stars }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
