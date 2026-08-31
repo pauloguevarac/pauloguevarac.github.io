@@ -1,0 +1,23 @@
+---
+layout: matrix-base
+---
+<section class="page-body">
+  <div class="page-hero">
+    <div class="k">// archive</div>
+    <h1>Archives</h1>
+    <p style="color:var(--muted);margin-top:10px">All posts, by year.</p>
+  </div>
+
+  {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in postsByYear %}
+  <div class="list-year">{{ year.name }}</div>
+  <ul class="m-list">
+    {% for post in year.items %}
+    <li>
+      <span class="d">{{ post.date | date: "%b %d" }}</span>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</section>

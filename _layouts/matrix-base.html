@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if page.title %}{{ page.title }} — Paulo Guevara{% else %}Paulo Guevara — DevOps & Cloud Architect{% endif %}</title>
+<link rel="stylesheet" href="/assets/css/matrix.css">
+<link rel="stylesheet" href="/assets/css/matrix-content.css">
+</head>
+<body>
+<canvas id="rain"></canvas>
+<div class="veil"></div>
+
+<nav>
+  <div class="wrap">
+    <div class="brand"><span class="cube">⚡</span> paulo<span class="ac">.guevara</span></div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/resume/">Resume</a></li>
+      <li><a href="/#work">Work</a></li>
+      <li><a href="/#writing">Writing</a></li>
+      <li><a href="/#trending">Trending</a></li>
+    </ul>
+    <a class="nav-cta" href="/#contact">Let's talk</a>
+  </div>
+</nav>
+
+{{ content }}
+
+<footer>
+  <div class="wrap">
+    <div class="mono">© 2026 paulo.guevara · DevOps Cloud Architect &amp; Engineer</div>
+  </div>
+</footer>
+
+<script>
+const c = document.getElementById('rain');
+const ctx = c.getContext('2d');
+c.width = window.innerWidth;
+c.height = window.innerHeight;
+const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノ0123456789ABCDEF';
+const fontSize = 16;
+let columns = Math.floor(c.width / fontSize);
+let drops = new Array(columns).fill(1);
+function draw(){
+  ctx.fillStyle = 'rgba(3,7,4,0.06)';
+  ctx.fillRect(0,0,c.width,c.height);
+  ctx.fillStyle = '#00ff41';
+  ctx.font = fontSize + 'px monospace';
+  for(let i=0;i<drops.length;i++){
+    const text = chars[Math.floor(Math.random()*chars.length)];
+    ctx.fillText(text, i*fontSize, drops[i]*fontSize);
+    if(drops[i]*fontSize>c.height && Math.random()>0.975) drops[i]=0;
+    drops[i]++;
+  }
+}
+setInterval(draw, 60);
+window.addEventListener('resize',()=>{
+  c.width = window.innerWidth; c.height = window.innerHeight;
+  columns = Math.floor(c.width / fontSize);
+  drops = new Array(columns).fill(1);
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+---
+layout: matrix-base
+---
+<section class="page-body">
+  <div class="page-hero">
+    <div class="k">// taxonomy</div>
+    <h1>Categories</h1>
+    <p style="color:var(--muted);margin-top:10px">Browse posts by category.</p>
+  </div>
+
+  <div class="cat-list">
+    {% for category in site.categories %}
+    <a href="/categories/{{ category[0] | slugify }}/">{{ category[0] }} <span class="count">{{ category[1].size }}</span></a>
+    {% endfor %}
+  </div>
+</section>

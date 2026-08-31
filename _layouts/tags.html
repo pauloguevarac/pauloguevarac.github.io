@@ -1,0 +1,16 @@
+---
+layout: matrix-base
+---
+<section class="page-body">
+  <div class="page-hero">
+    <div class="k">// taxonomy</div>
+    <h1>Tags</h1>
+    <p style="color:var(--muted);margin-top:10px">Browse posts by tag.</p>
+  </div>
+
+  <div class="tag-list">
+    {% for tag in site.tags %}
+    <a href="/tags/{{ tag[0] }}/">{{ tag[0] }} <span class="count">{{ tag[1].size }}</span></a>
+    {% endfor %}
+  </div>
+</section>
