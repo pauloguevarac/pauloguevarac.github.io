@@ -10,7 +10,7 @@ layout: matrix-base
 
   <div class="tag-list">
     {% for tag in site.tags %}
-    <a href="/tags/{{ tag[0] }}/">{{ tag[0] }} <span class="count">{{ tag[1].size }}</span></a>
+    <a href="/tags/{{ tag[0] | slugify }}/">{{ tag[0] }} <span class="count">{{ tag[1].size }}</span></a>
     {% endfor %}
   </div>
 </section>
