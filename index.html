@@ -63,6 +63,31 @@ title: Paulo Guevara — DevOps & Cloud Architect
   .metric .v{font-size:2.1rem;font-weight:800;background:linear-gradient(135deg,var(--matrix),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent;font-family:var(--mono)}
   .metric .k{color:var(--muted);font-size:.84rem;margin-top:6px}
 
+  /* ABOUT / RESUME */
+  .about{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .about-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:26px;align-items:start}
+  .abox{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:28px}
+  .abox h3{font-size:1.1rem;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:10px}
+  .abox h3 .k{font-size:.72rem;font-family:var(--mono);color:var(--matrix-dim);letter-spacing:1.5px}
+  .abox p{color:var(--muted);font-size:.92rem;margin-bottom:12px}
+  .abox p:last-child{margin-bottom:0}
+  .exp{position:relative;padding-left:20px;margin-left:6px}
+  .exp::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:2px;background:var(--line2)}
+  .job{position:relative;margin-bottom:22px}
+  .job:last-child{margin-bottom:0}
+  .job::before{content:"";position:absolute;left:-23px;top:8px;width:10px;height:10px;border-radius:50%;background:var(--matrix);box-shadow:0 0 8px var(--matrix)}
+  .job .role{font-weight:700;color:var(--text);font-size:1rem}
+  .job .co{color:var(--matrix);font-size:.88rem;margin:2px 0}
+  .job .when{font-family:var(--mono);font-size:.74rem;color:var(--dim);margin-bottom:8px}
+  .job ul{padding-left:18px;color:var(--muted);font-size:.86rem}
+  .job ul li{margin-bottom:6px}
+  .edu{display:flex;gap:14px;margin-bottom:18px}
+  .edu:last-child{margin-bottom:0}
+  .edu .deg{font-weight:700;color:var(--text);font-size:.95rem}
+  .edu .sch{color:var(--matrix);font-size:.84rem}
+  .edu .year{font-family:var(--mono);font-size:.74rem;color:var(--dim)}
+  .edu .badge{background:var(--surface2);border:1px solid var(--line);color:var(--muted);font-size:.7rem;font-family:var(--mono);padding:2px 8px;border-radius:6px;white-space:nowrap;margin-top:4px;display:inline-block}
+
   section{padding:84px 0}
   .sec-head{max-width:680px;margin:0 auto 44px;text-align:center}
   .sec-head .k{font-family:var(--mono);font-size:.8rem;letter-spacing:2.5px;text-transform:uppercase;color:var(--matrix);margin-bottom:12px}
@@ -140,6 +165,7 @@ title: Paulo Guevara — DevOps & Cloud Architect
     <div class="brand"><span class="cube">⚡</span> paulo<span class="ac">.guevara</span></div>
     <ul>
       <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#work">Work</a></li>
       <li><a href="#writing">Writing</a></li>
       <li><a href="#trending">Trending</a></li>
@@ -183,6 +209,96 @@ title: Paulo Guevara — DevOps & Cloud Architect
       <div class="tile"><div class="ic">🔁</div><h3>CI/CD Pipelines</h3><p>Automated delivery with GitHub Actions, Jenkins and GitLab CI.</p><div class="chips"><span class="chip">GitHub Actions</span><span class="chip">Jenkins</span><span class="chip">GitLab CI</span></div></div>
       <div class="tile"><div class="ic">📈</div><h3>Observability</h3><p>Monitoring and logging with Prometheus, Grafana and the ELK stack.</p><div class="chips"><span class="chip">Prometheus</span><span class="chip">Grafana</span><span class="chip">ELK</span></div></div>
       <div class="tile"><div class="ic">🤖</div><h3>AI + DevOps</h3><p>LLM-powered security scanning, agentic pipelines and self-healing systems.</p><div class="chips"><span class="chip">LLM</span><span class="chip">DevSecOps</span><span class="chip">Agentic</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="k">About / resume</div>
+      <h2>DevOps Cloud Architect &amp; Engineer</h2>
+      <p>Over 6 years designing, building and operating resilient, automated, secure multi-cloud infrastructures.</p>
+    </div>
+    <div class="about-grid">
+      <div class="abox">
+        <h3>👨‍💻 <span class="k">// professional summary</span></h3>
+        <p>Highly accomplished <strong>DevOps Cloud Architect &amp; Engineer</strong> with over 6 years of expertise designing, building, and operating highly resilient, automated, and secure multi-cloud infrastructures. Proven record architecting production-grade <strong>Kubernetes clusters (GKE/EKS)</strong>, designing secure <strong>AWS/GCP network topologies</strong>, and optimizing large-scale <strong>CI/CD pipelines</strong>. Recognized for automating complex deployments to slash delivery times, engineering reliable IoT battery systems, and championing DevOps/SRE culture to drive developer velocity and optimize infrastructure cost efficiency.</p>
+      </div>
+      <div class="abox">
+        <h3>🎓 <span class="k">// education</span></h3>
+        <div class="edu">
+          <div>
+            <div class="deg">M.S. in Information Technology Management</div>
+            <div class="sch">ITESM (Tecnológico de Monterrey)</div>
+            <div class="year">2014 · Online</div>
+            <span class="badge">Lic. ID: 9754271</span>
+          </div>
+        </div>
+        <div class="edu">
+          <div>
+            <div class="deg">B.S. in Information Technologies</div>
+            <div class="sch">ITESM (Tecnológico de Monterrey)</div>
+            <div class="year">2006 · Mazatlán, Sinaloa</div>
+            <span class="badge">Lic. ID: 5117526</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="experience" style="background:var(--bg);border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="k">Career</div>
+      <h2>Professional experience</h2>
+    </div>
+    <div class="about-grid">
+      <div class="abox">
+        <h3>💼 <span class="k">// roles</span></h3>
+        <div class="exp">
+          <div class="job">
+            <div class="role">DevOps Cloud Architect &amp; Engineer</div>
+            <div class="co">HyphaMetrics · Remote</div>
+            <div class="when">10/2019 — Present</div>
+            <ul>
+              <li>Design, implement and maintain highly available, scalable and secure cloud infrastructures across AWS and GCP.</li>
+              <li>Programmed modular Ansible playbooks, reducing VM provisioning times by 50%.</li>
+              <li>Built CI/CD pipelines with GitLab CI and GitHub Actions, reducing manual deployment steps by 80%.</li>
+              <li>Architected centralized observability with ELK, Prometheus and Grafana, halving incident detection times.</li>
+              <li>Enforced minimal-privilege IAM, custom security groups and VPC flow log analysis.</li>
+            </ul>
+          </div>
+          <div class="job">
+            <div class="role">DevOps Engineer</div>
+            <div class="co">Citio · Mexico City (Remote)</div>
+            <div class="when">10/2019 — 04/2024</div>
+            <ul>
+              <li>Led DevOps strategy on AWS for smart IoT energy products.</li>
+              <li>Engineered a resilient Python 3 core service for battery swap stations with a 97.4% success rate.</li>
+              <li>Integrated low-level CAN-BUS communication for station hardware.</li>
+              <li>Maintained 100% uptime for AWS production systems supporting IoT networks since launch.</li>
+            </ul>
+          </div>
+          <div class="job">
+            <div class="role">DevOps Engineer &amp; Developer</div>
+            <div class="co">Kichink · Mexico City (Remote)</div>
+            <div class="when">10/2016 — 10/2019</div>
+            <ul>
+              <li>Managed a mixed fleet of high-traffic Linux and Windows servers on-premises and in AWS.</li>
+              <li>Led migration of 50+ legacy services to AWS EC2/RDS, cutting hardware maintenance costs by 25%.</li>
+              <li>Designed automated backup policies and failover protocols for critical databases.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="abox">
+        <h3>🌟 <span class="k">// interests</span></h3>
+        <p>Cloud-native architectures, serverless computing and SRE best practices.</p>
+        <p>Sharing DevOps knowledge through tech blogging and mentoring.</p>
+        <p>Home automation, smart sensors and physical IoT device engineering.</p>
+      </div>
     </div>
   </div>
 </section>
