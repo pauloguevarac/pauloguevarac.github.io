@@ -1,0 +1,247 @@
+---
+title: Resume — Paulo Guevara
+permalink: /resume/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume — Paulo Guevara · DevOps &amp; Cloud Architect</title>
+<link rel="stylesheet" href="/assets/css/matrix.css">
+{% raw %}
+<style>
+  /* resume-specific layout additions */
+  .resume-hero{padding:70px 0 40px;text-align:center}
+  .resume-hero h1{font-size:2.6rem;font-weight:800;letter-spacing:-.8px}
+  .resume-hero .sub{color:var(--matrix);font-family:var(--mono);font-size:.9rem;margin-top:8px}
+  .resume-hero .contact{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:22px;font-size:.88rem}
+  .resume-hero .contact a{color:var(--muted)}
+  .resume-hero .contact a:hover{color:var(--matrix)}
+  .rgrid{display:grid;grid-template-columns:1.5fr 1fr;gap:24px;align-items:start}
+  .rbox{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:28px}
+  .rbox h3{font-size:1.1rem;font-weight:700;margin-bottom:18px;display:flex;align-items:center;gap:10px}
+  .rbox h3 .k{font-size:.72rem;font-family:var(--mono);color:var(--matrix-dim);letter-spacing:1.5px}
+  .rbox p{color:var(--muted);font-size:.92rem;margin-bottom:12px}
+  .skills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+  .skill{background:var(--surface2);border:1px solid var(--line);color:var(--matrix-dim);padding:6px 12px;border-radius:8px;font-family:var(--mono);font-size:.78rem}
+  .exp{position:relative;padding-left:22px;margin-left:6px}
+  .exp::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:2px;background:var(--line2)}
+  .job{position:relative;margin-bottom:24px}
+  .job:last-child{margin-bottom:0}
+  .job::before{content:"";position:absolute;left:-25px;top:8px;width:10px;height:10px;border-radius:50%;background:var(--matrix);box-shadow:0 0 8px var(--matrix)}
+  .job .role{font-weight:700;color:var(--text);font-size:1.02rem}
+  .job .co{color:var(--matrix);font-size:.9rem;margin:2px 0}
+  .job .when{font-family:var(--mono);font-size:.76rem;color:var(--dim);margin-bottom:8px}
+  .job ul{padding-left:18px;color:var(--muted);font-size:.88rem}
+  .job ul li{margin-bottom:7px}
+  .edu{display:flex;gap:14px;margin-bottom:20px}
+  .edu:last-child{margin-bottom:0}
+  .edu .deg{font-weight:700;color:var(--text);font-size:.96rem}
+  .edu .sch{color:var(--matrix);font-size:.85rem}
+  .edu .year{font-family:var(--mono);font-size:.76rem;color:var(--dim)}
+  .edu .badge{background:var(--surface2);border:1px solid var(--line);color:var(--muted);font-size:.7rem;font-family:var(--mono);padding:2px 8px;border-radius:6px;white-space:nowrap;margin-top:5px;display:inline-block}
+  .proj-list{margin-top:8px}
+  .proj-item{padding:12px 0;border-bottom:1px solid var(--line)}
+  .proj-item:last-child{border-bottom:none;padding-bottom:0}
+  .proj-item .pn{font-family:var(--mono);font-weight:700;color:var(--matrix);font-size:.88rem}
+  .proj-item .pd{color:var(--muted);font-size:.84rem;margin-top:3px}
+  @media(max-width:820px){.rgrid{grid-template-columns:1fr}}
+</style>
+{% endraw %}
+</head>
+<body>
+<canvas id="rain"></canvas>
+<div class="veil"></div>
+
+<nav>
+  <div class="wrap">
+    <div class="brand"><span class="cube">⚡</span> paulo<span class="ac">.guevara</span></div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/resume/" style="color:var(--matrix);text-decoration:underline">Resume</a></li>
+      <li><a href="/#work">Work</a></li>
+      <li><a href="/#writing">Writing</a></li>
+      <li><a href="/#trending">Trending</a></li>
+    </ul>
+    <a class="nav-cta" href="/#contact">Let's talk</a>
+  </div>
+</nav>
+
+<section class="resume-hero">
+  <div class="wrap">
+    <h1>Paulo Guevara</h1>
+    <div class="sub">// DevOps Cloud Architect &amp; Engineer</div>
+    <div class="contact">
+      <a href="mailto:paulo.guevara@gmail.com">✉️ paulo.guevara@gmail.com</a>
+      <a href="https://linkedin.com/in/pauloguevara">💼 LinkedIn</a>
+      <a href="https://github.com/pauloguevarac">🐙 GitHub</a>
+      <span>📍 Mazatlán, Mexico · Remote</span>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:10px">
+  <div class="wrap">
+    <div class="rgrid">
+
+      <!-- LEFT COLUMN -->
+      <div>
+        <div class="rbox" style="margin-bottom:24px">
+          <h3>👨‍💻 <span class="k">// professional summary</span></h3>
+          <p>Highly accomplished <strong>DevOps Cloud Architect &amp; Engineer</strong> with over 6 years of expertise designing, building, and operating highly resilient, automated, and secure multi-cloud infrastructures. Proven record architecting production-grade <strong>Kubernetes clusters (GKE/EKS)</strong>, designing secure <strong>AWS/GCP network topologies</strong>, and optimizing large-scale <strong>CI/CD pipelines</strong>. Recognized for automating complex deployments to slash delivery times, engineering reliable IoT battery systems, and championing DevOps/SRE culture to drive developer velocity and optimize infrastructure cost efficiency.</p>
+        </div>
+
+        <div class="rbox" style="margin-bottom:24px">
+          <h3>🛠️ <span class="k">// technical skills</span></h3>
+          <div class="skills">
+            <span class="skill">AWS</span><span class="skill">GCP</span><span class="skill">DigitalOcean</span><span class="skill">Terraform</span><span class="skill">Ansible</span><span class="skill">Pulumi</span><span class="skill">Kubernetes</span><span class="skill">EKS</span><span class="skill">GKE</span><span class="skill">Docker</span><span class="skill">GitHub Actions</span><span class="skill">Jenkins</span><span class="skill">GitLab CI</span><span class="skill">Prometheus</span><span class="skill">Grafana</span><span class="skill">ELK</span><span class="skill">CloudWatch</span><span class="skill">Python</span><span class="skill">Bash</span><span class="skill">Go</span><span class="skill">JS/React</span><span class="skill">CAN-BUS</span><span class="skill">IoT</span><span class="skill">LLM</span><span class="skill">DevSecOps</span>
+          </div>
+        </div>
+
+        <div class="rbox" style="margin-bottom:24px">
+          <h3>💼 <span class="k">// professional experience</span></h3>
+          <div class="exp">
+            <div class="job">
+              <div class="role">DevOps Cloud Architect &amp; Engineer</div>
+              <div class="co">HyphaMetrics · Remote</div>
+              <div class="when">10/2019 — Present</div>
+              <ul>
+                <li>Design, implement and maintain highly available, scalable and secure cloud infrastructures across AWS and GCP.</li>
+                <li>Programmed modular Ansible playbooks, reducing VM provisioning times by 50% and standardizing server environments.</li>
+                <li>Built CI/CD pipelines with GitLab CI and GitHub Actions, reducing manual deployment steps by 80%.</li>
+                <li>Deployed serverless microservices on AWS Lambda and API Gateway, improving API performance.</li>
+                <li>Architected centralized observability with ELK, Prometheus and Grafana, halving incident detection times.</li>
+                <li>Enforced minimal-privilege IAM policies, custom security groups and VPC flow log analysis.</li>
+                <li>Performed cost audits to right-size cloud instances and reduce operational expenditure.</li>
+              </ul>
+            </div>
+            <div class="job">
+              <div class="role">DevOps Engineer</div>
+              <div class="co">Citio · Mexico City (Remote)</div>
+              <div class="when">10/2019 — 04/2024</div>
+              <ul>
+                <li>Led DevOps strategy and cloud infrastructure management on AWS for smart IoT energy products.</li>
+                <li>Engineered a resilient Python 3 core service for battery swap stations with a 97.4% success rate.</li>
+                <li>Integrated low-level CAN-BUS communication for station hardware and microcontrollers.</li>
+                <li>Built a live monitoring dashboard with telemetry and remote DevOps actions.</li>
+                <li>Maintained 100% uptime for AWS production systems supporting IoT networks since launch.</li>
+              </ul>
+            </div>
+            <div class="job">
+              <div class="role">DevOps Engineer &amp; Developer</div>
+              <div class="co">Kichink · Mexico City (Remote)</div>
+              <div class="when">10/2016 — 10/2019</div>
+              <ul>
+                <li>Managed a mixed fleet of high-traffic Linux and Windows servers on-premises and in AWS.</li>
+                <li>Led migration of 50+ legacy services to AWS EC2/RDS, cutting hardware maintenance costs by 25%.</li>
+                <li>Maintained load balancers, firewalls and DNS for peak e-commerce traffic.</li>
+                <li>Designed automated backup policies and failover protocols for critical databases.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div>
+        <div class="rbox" style="margin-bottom:24px">
+          <h3>🎓 <span class="k">// education</span></h3>
+          <div class="edu">
+            <div>
+              <div class="deg">M.S. in Information Technology Management</div>
+              <div class="sch">ITESM (Tecnológico de Monterrey)</div>
+              <div class="year">2014 · Online</div>
+              <span class="badge">Lic. ID: 9754271</span>
+            </div>
+          </div>
+          <div class="edu">
+            <div>
+              <div class="deg">B.S. in Information Technologies</div>
+              <div class="sch">ITESM (Tecnológico de Monterrey)</div>
+              <div class="year">2006 · Mazatlán, Sinaloa</div>
+              <span class="badge">Lic. ID: 5117526</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="rbox" style="margin-bottom:24px">
+          <h3>📊 <span class="k">// key metrics</span></h3>
+          <div class="skills">
+            <span class="skill">99.9% uptime</span><span class="skill">-40% deploy time</span><span class="skill">-50% provisioning</span><span class="skill">-20% cloud cost</span><span class="skill">50+ migrations</span>
+          </div>
+        </div>
+
+        <div class="rbox" style="margin-bottom:24px">
+          <h3>🚀 <span class="k">// featured projects</span></h3>
+          <div class="proj-list">
+            <div class="proj-item">
+              <div class="pn">jira-team-performance</div>
+              <div class="pd">Executive metrics dashboard with React, Vite and Ant Design.</div>
+            </div>
+            <div class="proj-item">
+              <div class="pn">terraform-gpc-gke</div>
+              <div class="pd">Production GKE on GCP: isolated VPCs, NAT gateways, auto-scaling node pools.</div>
+            </div>
+            <div class="proj-item">
+              <div class="pn">terraform-aws-complete-infrastructure</div>
+              <div class="pd">Complete modular AWS provisioning with VPC, compute and networking.</div>
+            </div>
+            <div class="proj-item">
+              <div class="pn">DevOps-Utilities</div>
+              <div class="pd">Scripts and utilities for automation, monitoring and daily operations.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rbox">
+          <h3>🌟 <span class="k">// interests</span></h3>
+          <p>Cloud-native architectures, serverless computing and SRE best practices.</p>
+          <p>Sharing DevOps knowledge through tech blogging and mentoring.</p>
+          <p>Home automation, smart sensors and physical IoT device engineering.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="mono">© 2026 paulo.guevara · DevOps Cloud Architect &amp; Engineer</div>
+  </div>
+</footer>
+
+{% raw %}
+<script>
+const c = document.getElementById('rain');
+const ctx = c.getContext('2d');
+c.width = window.innerWidth;
+c.height = window.innerHeight;
+const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノ0123456789ABCDEF';
+const fontSize = 16;
+let columns = Math.floor(c.width / fontSize);
+let drops = new Array(columns).fill(1);
+function draw(){
+  ctx.fillStyle = 'rgba(3,7,4,0.06)';
+  ctx.fillRect(0,0,c.width,c.height);
+  ctx.fillStyle = '#00ff41';
+  ctx.font = fontSize + 'px monospace';
+  for(let i=0;i<drops.length;i++){
+    const text = chars[Math.floor(Math.random()*chars.length)];
+    ctx.fillText(text, i*fontSize, drops[i]*fontSize);
+    if(drops[i]*fontSize>c.height && Math.random()>0.975) drops[i]=0;
+    drops[i]++;
+  }
+}
+setInterval(draw, 60);
+window.addEventListener('resize',()=>{
+  c.width = window.innerWidth; c.height = window.innerHeight;
+  columns = Math.floor(c.width / fontSize);
+  drops = new Array(columns).fill(1);
+});
+</script>
+{% endraw %}
+
+</body>
+</html>
