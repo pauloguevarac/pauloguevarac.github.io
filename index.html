@@ -1,4 +1,316 @@
 ---
-layout: home
-# Index page
+title: Paulo Guevara — DevOps & Cloud Architect
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paulo Guevara — DevOps &amp; Cloud Architect</title>
+{% raw %}
+<style>
+  :root{
+    --bg:#030704; --bg2:#071008; --surface:#0a130c; --surface2:#0f1d12;
+    --line:#16301c; --line2:#1f4527;
+    --matrix:#00ff41; --matrix-dim:#0f8f2e; --matrix-dark:#062f12;
+    --text:#eaffef; --muted:#9fc9a8; --dim:#4f7a5c;
+    --amber:#ffd166; --cyan:#4deeea;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.65;overflow-x:hidden}
+  a{color:var(--matrix);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  #rain{position:fixed;inset:0;z-index:-2;opacity:.16}
+  .veil{position:fixed;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(3,7,4,.4),rgba(3,7,4,.85) 40%,var(--bg) 90%);pointer-events:none}
+
+  .wrap{max-width:1140px;margin:0 auto;padding:0 26px}
+
+  nav{position:sticky;top:0;z-index:50;background:rgba(3,7,4,.8);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:66px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.06rem;letter-spacing:-.3px}
+  .brand .cube{width:26px;height:26px;background:linear-gradient(135deg,var(--matrix),var(--matrix-dim));border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:.85rem}
+  .brand span.ac{color:var(--matrix)}
+  nav ul{display:flex;gap:28px;list-style:none}
+  nav ul a{color:var(--muted);font-size:.92rem;font-weight:500}
+  nav ul a:hover{color:var(--matrix);text-decoration:none}
+  .nav-cta{background:linear-gradient(135deg,var(--matrix),var(--matrix-dim));color:#00250a!important;padding:9px 18px;border-radius:10px;font-weight:700}
+  .nav-cta:hover{text-decoration:none;box-shadow:0 0 18px rgba(0,255,65,.35)}
+
+  .hero{position:relative;padding:100px 0 80px;text-align:center}
+  .hero .wrap{position:relative}
+  .chip{display:inline-flex;align-items:center;gap:9px;background:rgba(0,255,65,.08);border:1px solid rgba(0,255,65,.3);color:var(--matrix);padding:7px 16px;border-radius:99px;font-size:.8rem;font-weight:600;margin-bottom:26px}
+  .chip .dot{width:8px;height:8px;border-radius:50%;background:var(--matrix);box-shadow:0 0 12px var(--matrix);animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .hero h1{font-size:3.2rem;line-height:1.12;font-weight:800;letter-spacing:-1px;max-width:820px;margin:0 auto}
+  .hero h1 .grad{background:linear-gradient(90deg,var(--matrix),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero .lede{color:var(--muted);font-size:1.12rem;max-width:640px;margin:22px auto 14px}
+  .tags-line{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:32px}
+  .htag{font-family:var(--mono);color:var(--matrix-dim);font-size:.8rem;background:rgba(15,143,46,.1);border:1px solid var(--line);padding:5px 12px;border-radius:8px}
+  .hero-cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:12px;font-weight:700;font-size:.95rem}
+  .btn-primary{background:linear-gradient(135deg,var(--matrix),var(--matrix-dim));color:#00250a}
+  .btn-primary:hover{text-decoration:none;box-shadow:0 0 28px rgba(0,255,65,.35)}
+  .btn-ghost{background:transparent;border:1px solid var(--line2);color:var(--text)}
+  .btn-ghost:hover{border-color:var(--matrix);color:var(--matrix);text-decoration:none}
+
+  .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:56px}
+  .metric{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px 16px;text-align:center;backdrop-filter:blur(6px);transition:.2s}
+  .metric:hover{border-color:var(--matrix-dim);transform:translateY(-3px)}
+  .metric .v{font-size:2.1rem;font-weight:800;background:linear-gradient(135deg,var(--matrix),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent;font-family:var(--mono)}
+  .metric .k{color:var(--muted);font-size:.84rem;margin-top:6px}
+
+  section{padding:84px 0}
+  .sec-head{max-width:680px;margin:0 auto 44px;text-align:center}
+  .sec-head .k{font-family:var(--mono);font-size:.8rem;letter-spacing:2.5px;text-transform:uppercase;color:var(--matrix);margin-bottom:12px}
+  .sec-head h2{font-size:2.3rem;font-weight:800;letter-spacing:-.6px}
+  .sec-head p{color:var(--muted);margin-top:12px}
+
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .tile{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:26px;transition:.22s;position:relative;overflow:hidden}
+  .tile::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--matrix),var(--cyan));opacity:0;transition:.22s}
+  .tile:hover{transform:translateY(-4px);border-color:var(--matrix-dim);box-shadow:0 14px 40px rgba(0,0,0,.4)}
+  .tile:hover::before{opacity:1}
+  .tile .ic{font-size:1.9rem;margin-bottom:14px}
+  .tile h3{font-size:1.08rem;font-weight:700;margin-bottom:8px}
+  .tile p{color:var(--muted);font-size:.9rem;margin-bottom:14px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{background:var(--surface2);border:1px solid var(--line);color:var(--matrix-dim);padding:3px 10px;border-radius:7px;font-size:.75rem;font-family:var(--mono)}
+
+  .proj-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .proj{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:26px;display:flex;flex-direction:column;gap:12px;transition:.22s}
+  .proj:hover{border-color:var(--matrix-dim);transform:translateY(-4px)}
+  .proj .top{display:flex;align-items:center;justify-content:space-between}
+  .proj .top .name{font-family:var(--mono);font-weight:700;color:var(--matrix);font-size:.95rem}
+  .proj p{color:var(--muted);font-size:.9rem;flex:1}
+  .proj .chips{display:flex;gap:6px;flex-wrap:wrap}
+  .proj .go{align-self:flex-end;color:var(--matrix);font-size:.85rem;font-weight:600}
+
+  .posts{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .post{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;transition:.2s}
+  .post:hover{border-color:var(--matrix-dim);transform:translateY(-3px)}
+  .post .date{font-family:var(--mono);font-size:.78rem;color:var(--matrix);margin-bottom:10px}
+  .post h3{font-size:1.12rem;line-height:1.3;font-weight:700;margin-bottom:10px}
+  .post h3 a{color:var(--text)}
+  .post p{color:var(--muted);font-size:.9rem}
+  .post .meta{font-family:var(--mono);font-size:.74rem;color:var(--dim);margin-top:14px}
+
+  .trending{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .tlist{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .trow{display:flex;align-items:center;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px;transition:.2s}
+  .trow:hover{border-color:var(--matrix-dim);transform:translateY(-3px)}
+  .trow .rk{font-family:var(--mono);font-size:1.4rem;font-weight:800;background:linear-gradient(135deg,var(--matrix),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent;min-width:38px}
+  .trow .nm{font-family:var(--mono);font-weight:700;font-size:.9rem;color:var(--matrix)}
+  .trow .ds{color:var(--muted);font-size:.8rem;margin-top:3px}
+  .trow .st{font-family:var(--mono);color:var(--amber);font-size:.82rem;margin-left:auto;white-space:nowrap}
+
+  .cta{background:linear-gradient(135deg,rgba(0,255,65,.08),rgba(0,255,65,.02));border:1px solid var(--matrix-dim);border-radius:26px;padding:60px 40px;text-align:center;position:relative;overflow:hidden}
+  .cta::before{content:"";position:absolute;inset:0;background:radial-gradient(500px 220px at 50% -20%,rgba(0,255,65,.15),transparent)}
+  .cta>*{position:relative}
+  .cta h2{font-size:2.2rem;font-weight:800;margin-bottom:12px}
+  .cta p{color:var(--muted);max-width:540px;margin:0 auto 28px}
+  .cta-links{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+  .cta-links a{background:var(--surface);border:1px solid var(--line2);color:var(--text);padding:11px 20px;border-radius:12px;font-size:.9rem}
+  .cta-links a:hover{border-color:var(--matrix);color:var(--matrix);text-decoration:none}
+
+  footer{border-top:1px solid var(--line);padding:34px 0;text-align:center;color:var(--dim);font-size:.85rem}
+  footer .mono{font-family:var(--mono)}
+
+  @media(max-width:820px){
+    .hero h1{font-size:2.3rem}
+    .grid3{grid-template-columns:1fr}
+    .proj-grid{grid-template-columns:1fr}
+    .posts{grid-template-columns:1fr}
+    .tlist{grid-template-columns:1fr}
+    .metrics{grid-template-columns:1fr 1fr}
+    nav ul{display:none}
+  }
+</style>
+{% endraw %}
+</head>
+<body>
+<canvas id="rain"></canvas>
+<div class="veil"></div>
+
+<nav>
+  <div class="wrap">
+    <div class="brand"><span class="cube">⚡</span> paulo<span class="ac">.guevara</span></div>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#writing">Writing</a></li>
+      <li><a href="#trending">Trending</a></li>
+    </ul>
+    <a class="nav-cta" href="#contact">Let's talk</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="chip"><span class="dot"></span> Open to opportunities · Remote</span>
+    <h1>Cloud infrastructure that <span class="grad">self-heals</span> and ships itself</h1>
+    <p class="lede">Senior DevOps &amp; Cloud Architect with 6+ years designing resilient multi-cloud systems, production Kubernetes, and automated CI/CD that never sleeps.</p>
+    <div class="tags-line">
+      <span class="htag">AWS</span><span class="htag">GCP</span><span class="htag">Kubernetes</span><span class="htag">Terraform</span><span class="htag">Docker</span><span class="htag">GitHub Actions</span>
+    </div>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#work">Explore my work →</a>
+      <a class="btn btn-ghost" href="#contact">Get in touch</a>
+    </div>
+    <div class="metrics">
+      <div class="metric"><div class="v">99.9%</div><div class="k">Production uptime</div></div>
+      <div class="metric"><div class="v">-40%</div><div class="k">Deployment times</div></div>
+      <div class="metric"><div class="v">50+</div><div class="k">Services migrated</div></div>
+      <div class="metric"><div class="v">6+</div><div class="k">Years experience</div></div>
+    </div>
+  </div>
+</header>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="k">What I do</div>
+      <h2>Full-stack infrastructure capability</h2>
+      <p>Everything needed to design, deploy and operate reliable software at scale — clearly organized for easy scanning.</p>
+    </div>
+    <div class="grid3">
+      <div class="tile"><div class="ic">☁️</div><h3>Cloud Architecture</h3><p>Resilient, cost-optimized infrastructure on AWS, GCP and DigitalOcean.</p><div class="chips"><span class="chip">AWS</span><span class="chip">GCP</span><span class="chip">DigitalOcean</span></div></div>
+      <div class="tile"><div class="ic">🏗️</div><h3>Infrastructure as Code</h3><p>Reproducible, versioned environments with Terraform, Ansible and Pulumi.</p><div class="chips"><span class="chip">Terraform</span><span class="chip">Ansible</span><span class="chip">Pulumi</span></div></div>
+      <div class="tile"><div class="ic">🐳</div><h3>Kubernetes &amp; Containers</h3><p>Production-grade clusters on EKS and GKE with auto-scaling and security.</p><div class="chips"><span class="chip">Kubernetes</span><span class="chip">EKS</span><span class="chip">GKE</span></div></div>
+      <div class="tile"><div class="ic">🔁</div><h3>CI/CD Pipelines</h3><p>Automated delivery with GitHub Actions, Jenkins and GitLab CI.</p><div class="chips"><span class="chip">GitHub Actions</span><span class="chip">Jenkins</span><span class="chip">GitLab CI</span></div></div>
+      <div class="tile"><div class="ic">📈</div><h3>Observability</h3><p>Monitoring and logging with Prometheus, Grafana and the ELK stack.</p><div class="chips"><span class="chip">Prometheus</span><span class="chip">Grafana</span><span class="chip">ELK</span></div></div>
+      <div class="tile"><div class="ic">🤖</div><h3>AI + DevOps</h3><p>LLM-powered security scanning, agentic pipelines and self-healing systems.</p><div class="chips"><span class="chip">LLM</span><span class="chip">DevSecOps</span><span class="chip">Agentic</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="work" style="background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="k">Selected work</div>
+      <h2>Projects that demonstrate the craft</h2>
+      <p>Public repositories showing real architecture, automation and development.</p>
+    </div>
+    <div class="proj-grid">
+      <div class="proj">
+        <div class="top"><span class="name">jira-team-performance</span></div>
+        <p>Executive metrics dashboard tracking velocity, sprint history and cycle time in real time — decoupled from expensive trackers.</p>
+        <div class="chips"><span class="chip">React</span><span class="chip">Vite</span><span class="chip">Ant Design</span></div>
+        <a class="go" href="https://github.com/pauloguevarac/jira-team-performance" target="_blank" rel="noopener">View project →</a>
+      </div>
+      <div class="proj">
+        <div class="top"><span class="name">terraform-gpc-gke</span></div>
+        <p>Production-ready GKE on GCP with isolated VPCs, private subnets, NAT gateways and auto-scaling node pools.</p>
+        <div class="chips"><span class="chip">Terraform</span><span class="chip">GCP</span><span class="chip">Kubernetes</span></div>
+        <a class="go" href="https://github.com/pauloguevarac/terraform-gpc-gke" target="_blank" rel="noopener">View project →</a>
+      </div>
+      <div class="proj">
+        <div class="top"><span class="name">terraform-aws-complete-infrastructure</span></div>
+        <p>Complete, modular AWS infrastructure provisioning with Terraform — VPC, compute, networking and security best practices.</p>
+        <div class="chips"><span class="chip">Terraform</span><span class="chip">AWS</span><span class="chip">IaC</span></div>
+        <a class="go" href="https://github.com/pauloguevarac/terraform-aws-complete-infrastructure" target="_blank" rel="noopener">View project →</a>
+      </div>
+      <div class="proj">
+        <div class="top"><span class="name">DevOps-Utilities</span></div>
+        <p>A collection of useful DevOps scripts and utilities for automation, monitoring and day-to-day operations.</p>
+        <div class="chips"><span class="chip">Python</span><span class="chip">Bash</span><span class="chip">DevOps</span></div>
+        <a class="go" href="https://github.com/pauloguevarac/DevOps-Utilities" target="_blank" rel="noopener">View project →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="writing">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="k">Writing</div>
+      <h2>Latest articles</h2>
+      <p>Notes on DevOps, CI/CD, cloud architecture and the AI-operations intersection.</p>
+    </div>
+    <div class="posts">
+      {% for post in site.posts limit:4 %}
+      <div class="post">
+        <div class="date">{{ post.date | date: "%b %d, %Y" }}</div>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | truncatewords: 26 }}</p>
+        <div class="meta">{% for cat in post.categories %}{{ cat }}{% unless forloop.last %} · {% endunless %}{% endfor %}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="trending" id="trending">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="k">GitHub trending · weekly</div>
+      <h2>🔥 Open source gaining traction this week</h2>
+      <p>Fresh open-source finds, refreshed weekly.</p>
+    </div>
+    <div class="tlist">
+      <div class="trow"><div class="rk">1</div><div><div class="nm"><a href="https://github.com/sapientinc/PRAXIST" target="_blank" rel="noopener">sapientinc/PRAXIST</a></div><div class="ds">Autonomous research system with measurable results.</div></div><div class="st">★ 5,428</div></div>
+      <div class="trow"><div class="rk">2</div><div><div class="nm"><a href="https://github.com/XiaoDuoYa/codex-with-chatgpt" target="_blank" rel="noopener">XiaoDuoYa/codex-with-chatgpt</a></div><div class="ds">ChatGPT as planning brain with Codex harness.</div></div><div class="st">★ 1,708</div></div>
+      <div class="trow"><div class="rk">3</div><div><div class="nm"><a href="https://github.com/wide-trace/open-higgsfield" target="_blank" rel="noopener">wide-trace/open-higgsfield</a></div><div class="ds">Image &amp; video generation studio.</div></div><div class="st">★ 1,128</div></div>
+      <div class="trow"><div class="rk">4</div><div><div class="nm"><a href="https://github.com/Tencent/WeMM-Embedding" target="_blank" rel="noopener">Tencent/WeMM-Embedding</a></div><div class="ds">Multimodal embedding models from WeChat Vision.</div></div><div class="st">★ 990</div></div>
+      <div class="trow"><div class="rk">5</div><div><div class="nm"><a href="https://github.com/jub0t/Concat" target="_blank" rel="noopener">jub0t/Concat</a></div><div class="ds">Free &amp; open-source CapCut replacement.</div></div><div class="st">★ 832</div></div>
+      <div class="trow"><div class="rk">6</div><div><div class="nm"><a href="https://github.com/cbrock84/headcount" target="_blank" rel="noopener">cbrock84/headcount</a></div><div class="ds">Claude Code agent org structured as a company.</div></div><div class="st">★ 790</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="cta">
+      <h2>Let's build something together</h2>
+      <p>Looking for someone to automate your deployments, stabilize your infrastructure or speed up your pipelines? Let's talk.</p>
+      <div class="cta-links">
+        <a href="mailto:paulo.guevara@gmail.com">✉️ paulo.guevara@gmail.com</a>
+        <a href="https://linkedin.com/in/pauloguevara">💼 LinkedIn</a>
+        <a href="https://github.com/pauloguevarac">🐙 GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="mono">© 2026 paulo.guevara · DevOps Cloud Architect &amp; Engineer</div>
+  </div>
+</footer>
+
+{% raw %}
+<script>
+const c = document.getElementById('rain');
+const ctx = c.getContext('2d');
+c.width = window.innerWidth;
+c.height = window.innerHeight;
+const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノ0123456789ABCDEF';
+const fontSize = 16;
+let columns = Math.floor(c.width / fontSize);
+let drops = new Array(columns).fill(1);
+function draw(){
+  ctx.fillStyle = 'rgba(3,7,4,0.06)';
+  ctx.fillRect(0,0,c.width,c.height);
+  ctx.fillStyle = '#00ff41';
+  ctx.font = fontSize + 'px monospace';
+  for(let i=0;i<drops.length;i++){
+    const text = chars[Math.floor(Math.random()*chars.length)];
+    ctx.fillText(text, i*fontSize, drops[i]*fontSize);
+    if(drops[i]*fontSize>c.height && Math.random()>0.975) drops[i]=0;
+    drops[i]++;
+  }
+}
+setInterval(draw, 60);
+window.addEventListener('resize',()=>{
+  c.width = window.innerWidth; c.height = window.innerHeight;
+  columns = Math.floor(c.width / fontSize);
+  drops = new Array(columns).fill(1);
+});
+</script>
+{% endraw %}
+
+</body>
+</html>
