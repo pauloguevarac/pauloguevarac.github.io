@@ -5,6 +5,7 @@ categories: [SRE, Kubernetes]
 tags: [sre, kubernetes, llm, rag, monitoring]
 toc: true
 comments: true
+image: /assets/img/covers/LLMs-in-SRE-Kubernetes-Incident-Response-RAG.jpg
 ---
 
 # Introduction

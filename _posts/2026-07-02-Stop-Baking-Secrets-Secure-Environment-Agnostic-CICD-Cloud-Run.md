@@ -5,6 +5,7 @@ categories: [DevOps, Security]
 tags: [github-actions, gcp, cloud-run, secrets, devsecops]
 toc: true
 comments: true
+image: /assets/img/covers/Stop-Baking-Secrets-Secure-Environment-Agnostic-CICD-Cloud-Run.jpg
 ---
 
 # Introduction

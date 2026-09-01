@@ -5,6 +5,7 @@ categories: [Devops, Cheatsheet]
 tags: [devops, linux, bash, commands]
 toc: true
 comments: true
+image: /assets/img/covers/Essential-Commands-For-Devops.jpg
 ---
 
 # Let’s Dive In and Build Your DevOps Toolbox Together

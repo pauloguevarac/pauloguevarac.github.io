@@ -5,6 +5,7 @@ categories: [Cloud Monitoring]
 tags: [grafana, prometheus]     # TAG names should always be lowercase
 toc: true
 comments: true
+image: /assets/img/covers/Install-Grafana-and-Prometheus-for-Powerful-Monitoring-and-Visualization.jpg
 ---
 
 # How to Install Grafana and Prometheus for Powerful Monitoring and Visualization

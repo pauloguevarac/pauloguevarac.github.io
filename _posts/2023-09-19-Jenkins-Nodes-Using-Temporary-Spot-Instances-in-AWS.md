@@ -5,6 +5,7 @@ categories: [Jenkins]
 tags: [jenkins, aws]     # TAG names should always be lowercase
 toc: true
 comments: true
+image: /assets/img/covers/Jenkins-Nodes-Using-Temporary-Spot-Instances-in-AWS.jpg
 ---
 
 # Introduction

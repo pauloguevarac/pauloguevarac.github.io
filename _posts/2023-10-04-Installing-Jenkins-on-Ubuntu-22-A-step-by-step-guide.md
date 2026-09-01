@@ -5,6 +5,7 @@ categories: [Jenkins]
 tags: [jenkins, ubuntu22]     # TAG names should always be lowercase
 toc: true
 comments: true
+image: /assets/img/covers/Installing-Jenkins-on-Ubuntu-22-A-step-by-step-guide.jpg
 ---
 # How to Install Jenkins on Ubuntu 22.04: A Step-by-Step Guide
 

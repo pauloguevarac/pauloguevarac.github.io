@@ -5,6 +5,7 @@ categories: [DevSecOps, Security]
 tags: [security, terraform, iac, llm, github-actions]
 toc: true
 comments: true
+image: /assets/img/covers/Autonomous-DevSecOps-IaC-Security-Scanning-Auto-Patching.jpg
 ---
 
 # Introduction

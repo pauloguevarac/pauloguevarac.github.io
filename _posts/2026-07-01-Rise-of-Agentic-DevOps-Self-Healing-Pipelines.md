@@ -5,6 +5,7 @@ categories: [DevOps, Artificial Intelligence]
 tags: [ai, agents, ci-cd, self-healing, automation]
 toc: true
 comments: true
+image: /assets/img/covers/Rise-of-Agentic-DevOps-Self-Healing-Pipelines.jpg
 ---
 
 # Introduction

@@ -5,6 +5,7 @@ categories: [Github Actions]
 tags: [github, aws, ci/cd]     # TAG names should always be lowercase
 toc: true
 comments: true
+image: /assets/img/covers/Setup-CI-CD-with-Github-Actions.jpg
 ---
 
 # Introduction
