@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-02
+updated: 2026-09-03
 repos:
-  - name: sapientinc/PRAXIST
-    url: https://github.com/sapientinc/PRAXIST
-    description: "Autonomous research system for measurable, computer-executable research."
-    language: Python
-    stars: 6785
   - name: XiaoDuoYa/codex-with-chatgpt
     url: https://github.com/XiaoDuoYa/codex-with-chatgpt
-    description: "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness."
+    description: ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.
     language: TypeScript
-    stars: 2252
-  - name: crmne/fastpotify
-    url: https://github.com/crmne/fastpotify
-    description: "Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows."
-    language: Rust
-    stars: 1745
+    stars: 2355
   - name: Nanako0129/sepia
     url: https://github.com/Nanako0129/sepia
-    description: "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136)."
+    description: De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).
     language: Python
-    stars: 1473
+    stars: 1815
+  - name: anthropics/commerce-agents
+    url: https://github.com/anthropics/commerce-agents
+    description: Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.
+    language: Python
+    stars: 1302
   - name: MetaMask-AI/metamask-desktop
     url: https://github.com/MetaMask-AI/metamask-desktop
-    description: "🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites"
+    description: 🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites
     language: CSS
-    stars: 1229
-  - name: damejan80/tokentab
-    url: https://github.com/damejan80/tokentab
-    description: "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day."
-    language: Python
-    stars: 1142
+    stars: 1230
   - name: cbrock84/headcount
     url: https://github.com/cbrock84/headcount
-    description: "An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable."
+    description: An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.
     language: Markdown
-    stars: 1048
-  - name: jprx/darwin-vm
-    url: https://github.com/jprx/darwin-vm
-    description: "Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported."
+    stars: 1154
+  - name: rakanki911/DLSS5-Swapper
+    url: https://github.com/rakanki911/DLSS5-Swapper
+    description: DLSS 5 Swapper is a powerful, easy-to-use tool for installing, managing, and restoring DLSS 5 across games and supported emulators. It features automatic game detection, optional drive scanning, DLSS5-Feeder for compatible titles without native DLSS, emulator support, and compatibility with DirectX 9/10/11/12, Vulkan, and OpenGL.
+    language: JavaScript
+    stars: 892
+  - name: shadcn-ui/cn
+    url: https://github.com/shadcn-ui/cn
+    description: cn is a new engine for Tailwind class merging and conflict resolution. It replaces tailwind-merge and clsx. Same APIs. Full parity. And it is 30× faster.
+    language: TypeScript
+    stars: 843
+  - name: 2akouwu/reverify
+    url: https://github.com/2akouwu/reverify
+    description: "Verified reverse engineering: AI RE grounded on deterministic tools - results checked against the binary, not hallucinated."
     language: Python
-    stars: 923
+    stars: 700
   - name: chrisgreg/boop
     url: https://github.com/chrisgreg/boop
-    description: "A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone."
+    description: A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.
     language: Go
-    stars: 683
-  - name: brayonpi/hexstellar
-    url: https://github.com/brayonpi/hexstellar
-    description: "Turn any AI agent into a computational researcher. HexStellar Cortex delivers software-accelerated optimization, quantum computing, scientific computing, decision intelligence, and verifiable execution through a Python CLI and API—with certainty labels, verification receipts, examples, and a free sandbox. Start instantly: pip install hexstellar"
-    language: Python
-    stars: 659
-  - name: hkqr/my-free-code
-    url: https://github.com/hkqr/my-free-code
-    description: "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support"
-    language: Python
-    stars: 620
+    stars: 695
+  - name: Player-YN/PawWork_ZhuaZhua
+    url: https://github.com/Player-YN/PawWork_ZhuaZhua
+    description: "Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server."
+    language: JavaScript
+    stars: 663
   - name: jlrouzies-fr/DLSS5-Feeder
     url: https://github.com/jlrouzies-fr/DLSS5-Feeder
-    description: "DLSS 5 neural rendering in D3D11/D12/Vulkan games that ship without any DLSS — feeds a synthetic DLAA contract (ReShade depth + motion vectors) to the DLSS 5 add-on via a private D3D12 device."
+    description: DLSS 5 neural rendering in D3D11/D12/Vulkan games that ship without any DLSS — feeds a synthetic DLAA contract (ReShade depth + motion vectors) to the DLSS 5 add-on via a private D3D12 device.
     language: C++
-    stars: 553
+    stars: 645
+  - name: fanhao375/microduck-replica
+    url: https://github.com/fanhao375/microduck-replica
+    description: "Microduck 复刻 · 从官方 MJCF 与 Rust 源码反推出的装配图、CAD 装配体与完整电控方案 | Mechanical + electronics reconstruction of Pollen Robotics' Microduck"
+    language: Python
+    stars: 411
