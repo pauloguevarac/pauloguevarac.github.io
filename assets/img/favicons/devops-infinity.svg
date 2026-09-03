@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#062f12"/>
+  <!-- DevOps infinity loop -->
+  <path d="M32 32
+           C 26 16, 8 16, 8 32
+           C 8 48, 26 48, 32 32
+           C 38 16, 56 16, 56 32
+           C 56 48, 38 48, 32 32"
+        fill="none" stroke="#00ff41" stroke-width="8" stroke-linecap="round"/>
+</svg>
