@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-05
+updated: 2026-09-06
 repos:
   - name: lnkiai/m3e-canvas
     url: https://github.com/lnkiai/m3e-canvas
     description: Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.
     language: TypeScript
-    stars: 3273
+    stars: 4161
   - name: anthropics/commerce-agents
     url: https://github.com/anthropics/commerce-agents
     description: Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.
     language: Python
-    stars: 2015
+    stars: 2179
   - name: shadcn-ui/cn
     url: https://github.com/shadcn-ui/cn
-    description: cn is a new engine for Tailwind class merging and conflict resolution. It replaces tailwind-merge and clsx. Same APIs. Full parity. And it is 30× faster.
+    description: "cn is a new engine for Tailwind class merging and conflict resolution. It replaces tailwind-merge and clsx. Same APIs. Full parity. And it is 30× faster."
     language: TypeScript
-    stars: 1159
+    stars: 1198
+  - name: ashemag/human-atlas
+    url: https://github.com/ashemag/human-atlas
+    description: "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views."
+    language: TypeScript
+    stars: 1067
   - name: 2akouwu/reverify
     url: https://github.com/2akouwu/reverify
     description: Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.
     language: Python
-    stars: 917
+    stars: 943
   - name: yczz/oc-english
     url: https://github.com/yczz/oc-english
     description: 养成类游戏英语学习
     language: JavaScript
-    stars: 819
-  - name: nahrek/polyledger
-    url: https://github.com/nahrek/polyledger
-    description: "Resumable Polymarket indexer: CLOB market metadata plus on-chain trades from Polygon, in one DuckDB file you can query with SQL"
-    language: Python
-    stars: 618
+    stars: 828
   - name: danielblnc/DLSS-NR-on-AMD
     url: https://github.com/danielblnc/DLSS-NR-on-AMD
     description: Run DLSS 5 Neural Rendering on your AMD GPU. Magic!
     language: null
-    stars: 588
-  - name: Merserk/dlss5-visual-enhancer
-    url: https://github.com/Merserk/dlss5-visual-enhancer
-    description: DLSS 5 Neural Video & Image Enhancer with Frame Interpolation
+    stars: 719
+  - name: sebbbi/NoGraphicsAPI
+    url: https://github.com/sebbbi/NoGraphicsAPI
+    description: "Minimal graphics API. Built on top of latest Vulkan extensions. As close as possibly to my \"No Graphics API\" blog post and the SIGGRAPH talk."
+    language: C++
+    stars: 718
+  - name: Rion-Wu-tech/wechat-intelligence-hub
+    url: https://github.com/Rion-Wu-tech/wechat-intelligence-hub
+    description: Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.
     language: Python
-    stars: 520
-  - name: MSNightmare/FalconFlank
-    url: https://github.com/MSNightmare/FalconFlank
-    description: Crowdstrike Falcon 0day Privilege Escalation Vulnerability
-    language: C
-    stars: 513
-  - name: codejunkie99/fable-orchestrator
-    url: https://github.com/codejunkie99/fable-orchestrator
-    description: Fable 5.1 orchestrates. GPT-5.6 Luna and DeepSeek V4 Flash implement.
-    language: Shell
-    stars: 496
-  - name: Human-Agent-Society/reef
-    url: https://github.com/Human-Agent-Society/reef
-    description: Continual learning infra for self-improving agents
+    stars: 675
+  - name: nahrek/polyledger
+    url: https://github.com/nahrek/polyledger
+    description: "Resumable Polymarket indexer: CLOB market metadata plus on-chain trades from Polygon, in one DuckDB file you can query with SQL"
     language: Python
-    stars: 479
+    stars: 620
   - name: Albert-Weasker/niubigeo
     url: https://github.com/Albert-Weasker/niubigeo
     description: Open-source AI brand visibility and competitor reports
     language: TypeScript
-    stars: 450
+    stars: 581
+  - name: pierrenade/short-video-generator-AI
+    url: https://github.com/pierrenade/short-video-generator-AI
+    description: "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content."
+    language: Python
+    stars: 580
