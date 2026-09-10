@@ -1,44 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-09
+updated: 2026-09-10
 repos:
   - name: ashemag/human-atlas
     url: https://github.com/ashemag/human-atlas
-    description: 'Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.'
+    description: "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views."
     language: TypeScript
-    stars: 2740
-  - name: Albert-Weasker/niubigeo
-    url: https://github.com/Albert-Weasker/niubigeo
-    description: Open-source AI brand visibility and competitor reports.
-    language: TypeScript
-    stars: 2217
+    stars: 3030
   - name: Rion-Wu-tech/wechat-intelligence-hub
     url: https://github.com/Rion-Wu-tech/wechat-intelligence-hub
-    description: Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, and daily briefings.
+    description: "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking."
     language: Python
-    stars: 2009
+    stars: 2057
   - name: openai/NavierStokesAndEuler
     url: https://github.com/openai/NavierStokesAndEuler
-    description: Lean certificates accompanying Navier-Stokes and Euler results.
+    description: "Lean certificates accompanying Navier-Stokes and Euler results"
     language: Lean
-    stars: 1426
+    stars: 1662
   - name: vinzdg/codenotch
     url: https://github.com/vinzdg/codenotch
-    description: A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.
+    description: "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge."
     language: Swift
-    stars: 1224
+    stars: 1350
   - name: EverettFish/holo-card-studio
     url: https://github.com/EverettFish/holo-card-studio
-    description: Turn a description or uploaded reference into a finished, editable Blender card and an interactive Three.js page.
+    description: "Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project."
     language: Python
+    stars: 1312
+  - name: sdli1995/dlssg_for_sm86
+    url: https://github.com/sdli1995/dlssg_for_sm86
+    description: "Here is a dlssg for RTX30 Series GPU "
+    language: null
     stars: 1220
-  - name: ahujasid/camera-to-blender
-    url: https://github.com/ahujasid/camera-to-blender
-    description: Take a photo of real objects, and paste them in Blender.
+  - name: donvito/codex-astra-luna-orchestrator
+    url: https://github.com/donvito/codex-astra-luna-orchestrator
+    description: "Use Astra as orchestrator and Luna for subagents in Codex"
+    language: Python
+    stars: 899
+  - name: yang0/handraw-style
+    url: https://github.com/yang0/handraw-style
+    description: "手绘风格编号画廊与双语提示词 Skill"
+    language: HTML
+    stars: 817
+  - name: KJGX66F/usque-custom-pro
+    url: https://github.com/KJGX66F/usque-custom-pro
+    description: "基于 Cloudflare WARP / MASQUE 的可视化注册、配置生成与多客户端转换工具。 生成、Clash/Mihomo 智能分流、Shadowrocket、sing-box、本地 VLESS 桥接，以及可选的 WARP 出口检测。"
     language: JavaScript
-    stars: 782
+    stars: 743
+  - name: achimala/dream-loop
+    url: https://github.com/achimala/dream-loop
+    description: "Agent skill for impressive 3D visuals using Blender + image gen + subagent critic"
+    language: JavaScript
+    stars: 642
+  - name: AI-FanGe/Microduck-build-tutorial
+    url: https://github.com/AI-FanGe/Microduck-build-tutorial
+    description: "A practical hardware and software setup for a compact RL-powered biped robot."
+    language: Python
+    stars: 631
   - name: Jarvis322/macos-sysdata
     url: https://github.com/Jarvis322/macos-sysdata
-    description: See what is really inside macOS System Data and delete it, item by item, from the menu bar.
+    description: "See what is really inside macOS System Data and delete it, item by item, from the menu bar."
     language: Swift
-    stars: 607
+    stars: 618
