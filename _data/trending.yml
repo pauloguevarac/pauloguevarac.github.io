@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-10
+updated: 2026-09-11
 repos:
   - name: ashemag/human-atlas
     url: https://github.com/ashemag/human-atlas
-    description: "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views."
+    description: Open-source 3D anatomy explorer - 2,234 selectable BodyParts3D meshes, system layers, search, and exploration
     language: TypeScript
-    stars: 3030
-  - name: Rion-Wu-tech/wechat-intelligence-hub
-    url: https://github.com/Rion-Wu-tech/wechat-intelligence-hub
-    description: "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking."
-    language: Python
-    stars: 2057
+    stars: 3191
   - name: openai/NavierStokesAndEuler
     url: https://github.com/openai/NavierStokesAndEuler
-    description: "Lean certificates accompanying Navier-Stokes and Euler results"
+    description: Lean certificates accompanying Navier-Stokes and Euler results
     language: Lean
-    stars: 1662
-  - name: vinzdg/codenotch
-    url: https://github.com/vinzdg/codenotch
-    description: "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge."
-    language: Swift
-    stars: 1350
-  - name: EverettFish/holo-card-studio
-    url: https://github.com/EverettFish/holo-card-studio
-    description: "Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project."
-    language: Python
-    stars: 1312
+    stars: 1768
   - name: sdli1995/dlssg_for_sm86
     url: https://github.com/sdli1995/dlssg_for_sm86
-    description: "Here is a dlssg for RTX30 Series GPU "
+    description: Here is a dlssg for RTX30 Series GPU
     language: null
-    stars: 1220
-  - name: donvito/codex-astra-luna-orchestrator
-    url: https://github.com/donvito/codex-astra-luna-orchestrator
-    description: "Use Astra as orchestrator and Luna for subagents in Codex"
+    stars: 1692
+  - name: vinzdg/codenotch
+    url: https://github.com/vinzdg/codenotch
+    description: A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge
+    language: Swift
+    stars: 1440
+  - name: EverettFish/holo-card-studio
+    url: https://github.com/EverettFish/holo-card-studio
+    description: Turn the user's description or uploaded reference into a finished, editable Blender card and an integrated scene
     language: Python
-    stars: 899
+    stars: 1428
   - name: yang0/handraw-style
     url: https://github.com/yang0/handraw-style
-    description: "手绘风格编号画廊与双语提示词 Skill"
+    description: Hand-drawn style numbered gallery with bilingual prompts (Skill)
     language: HTML
-    stars: 817
-  - name: KJGX66F/usque-custom-pro
-    url: https://github.com/KJGX66F/usque-custom-pro
-    description: "基于 Cloudflare WARP / MASQUE 的可视化注册、配置生成与多客户端转换工具。 生成、Clash/Mihomo 智能分流、Shadowrocket、sing-box、本地 VLESS 桥接，以及可选的 WARP 出口检测。"
-    language: JavaScript
-    stars: 743
+    stars: 1375
+  - name: donvito/codex-astra-luna-orchestrator
+    url: https://github.com/donvito/codex-astra-luna-orchestrator
+    description: Use Astra as orchestrator and Luna for subagents in Codex
+    language: Python
+    stars: 963
+  - name: iamzulx/crypto-rag
+    url: https://github.com/iamzulx/crypto-rag
+    description: Indonesian-language crypto assistant - RAG knowledge of 267 topics plus realtime market data from 6 exchanges (WebSockets)
+    language: Python
+    stars: 901
+  - name: Vincentwei1021/anything2explainer
+    url: https://github.com/Vincentwei1021/anything2explainer
+    description: Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a blackboard-style video
+    language: TypeScript
+    stars: 891
   - name: achimala/dream-loop
     url: https://github.com/achimala/dream-loop
-    description: "Agent skill for impressive 3D visuals using Blender + image gen + subagent critic"
+    description: Agent skill for impressive 3D visuals using Blender + image gen + subagent critic
     language: JavaScript
-    stars: 642
-  - name: AI-FanGe/Microduck-build-tutorial
-    url: https://github.com/AI-FanGe/Microduck-build-tutorial
-    description: "A practical hardware and software setup for a compact RL-powered biped robot."
+    stars: 816
+  - name: gazijarin/itsgiving
+    url: https://github.com/gazijarin/itsgiving
+    description: Express yourself in meetings (with memes, of course).
     language: Python
-    stars: 631
+    stars: 685
   - name: Jarvis322/macos-sysdata
     url: https://github.com/Jarvis322/macos-sysdata
-    description: "See what is really inside macOS System Data and delete it, item by item, from the menu bar."
+    description: See what is really inside macOS System Data and delete it, item by item, from the menu bar.
     language: Swift
-    stars: 618
+    stars: 638
