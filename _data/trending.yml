@@ -1,54 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-13
+updated: 2026-09-14
 repos:
-  - name: sdli1995/dlssg_for_sm86
-    url: https://github.com/sdli1995/dlssg_for_sm86
-    description: Here is a dlssg for RTX30 Series GPU
-    language: null
-    stars: 2356
   - name: openai/NavierStokesAndEuler
     url: https://github.com/openai/NavierStokesAndEuler
     description: Lean certificates accompanying Navier-Stokes and Euler results
     language: Lean
-    stars: 1853
-  - name: EverettFish/holo-card-studio
-    url: https://github.com/EverettFish/holo-card-studio
-    description: Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page
-    language: Python
-    stars: 1493
+    stars: 1878
   - name: Vincentwei1021/anything2explainer
     url: https://github.com/Vincentwei1021/anything2explainer
-    description: Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics video
+    description: Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover and subtitles
     language: TypeScript
-    stars: 1141
-  - name: achimala/dream-loop
-    url: https://github.com/achimala/dream-loop
-    description: Agent skill for impressive 3D visuals using Blender + image gen + subagent critic
-    language: JavaScript
-    stars: 943
-  - name: gazijarin/itsgiving
-    url: https://github.com/gazijarin/itsgiving
-    description: Express yourself in meetings (with memes, of course).
-    language: Python
-    stars: 808
+    stars: 1289
   - name: sumimakito/Mac-Duo
     url: https://github.com/sumimakito/Mac-Duo
     description: Wish you could bring the iPhone Duo effect to your MacBook?
     language: Swift
-    stars: 764
+    stars: 841
+  - name: gazijarin/itsgiving
+    url: https://github.com/gazijarin/itsgiving
+    description: Express yourself in meetings (with memes, of course).
+    language: Python
+    stars: 835
   - name: SpaceDudem/text-humanizer
     url: https://github.com/SpaceDudem/text-humanizer
-    description: Open-source project designed to convert AI-generated text to its humanized version
+    description: Open-source project designed to convert AI-generated text to its humanized version, bypassing most AI detectors such as Turnitin or GPTZero
     language: Python
-    stars: 727
+    stars: 744
   - name: Colafornia/short-video-generator-AI
     url: https://github.com/Colafornia/short-video-generator-AI
-    description: Free open-source project for turning YouTube videos into viral short videos with highlight detection and subtitles
+    description: Free open-source project for turning YouTube videos into viral short videos with highlight detection, subtitles, translation and voiceover
     language: Python
-    stars: 714
-  - name: crwdla/tokentab
-    url: https://github.com/crwdla/tokentab
-    description: A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost
+    stars: 731
+  - name: yifanzhang-pro/recurrent-looped-tranformer
+    url: https://github.com/yifanzhang-pro/recurrent-looped-tranformer
+    description: Official Project Page for Recurrent Looped Transformer (RLT)
+    language: HTML
+    stars: 705
+  - name: eternityspring/reelbench-skills
+    url: https://github.com/eternityspring/reelbench-skills
+    description: Learning notes and tooling skills for AI video
+    language: HTML
+    stars: 647
+  - name: kruzovic7/ai-data-extractor
+    url: https://github.com/kruzovic7/ai-data-extractor
+    description: Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.
     language: Python
-    stars: 703
+    stars: 579
+  - name: unstablebuild/rune
+    url: https://github.com/unstablebuild/rune
+    description: The development environment for pros
+    language: Go
+    stars: 504
+  - name: kevinzakka/mjbatch
+    url: https://github.com/kevinzakka/mjbatch
+    description: A Python library for running thousands of MuJoCo simulations in parallel on CPU
+    language: Python
+    stars: 468
+  - name: jnz/INSLIB
+    url: https://github.com/jnz/INSLIB
+    description: Open Source Inertial Navigation Library
+    language: C
+    stars: 456
