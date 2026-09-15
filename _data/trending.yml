@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-14
+updated: 2026-09-15
 repos:
-  - name: openai/NavierStokesAndEuler
-    url: https://github.com/openai/NavierStokesAndEuler
-    description: Lean certificates accompanying Navier-Stokes and Euler results
-    language: Lean
-    stars: 1878
-  - name: Vincentwei1021/anything2explainer
-    url: https://github.com/Vincentwei1021/anything2explainer
-    description: Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover and subtitles
-    language: TypeScript
-    stars: 1289
+  - name: Chuloo/mural
+    url: https://github.com/Chuloo/mural
+    description: The language app you eventually delete. A native iPhone companion for learning through conversation.
+    language: Kotlin
+    stars: 963
   - name: sumimakito/Mac-Duo
     url: https://github.com/sumimakito/Mac-Duo
     description: Wish you could bring the iPhone Duo effect to your MacBook?
     language: Swift
-    stars: 841
-  - name: gazijarin/itsgiving
-    url: https://github.com/gazijarin/itsgiving
-    description: Express yourself in meetings (with memes, of course).
-    language: Python
-    stars: 835
-  - name: SpaceDudem/text-humanizer
-    url: https://github.com/SpaceDudem/text-humanizer
-    description: Open-source project designed to convert AI-generated text to its humanized version, bypassing most AI detectors such as Turnitin or GPTZero
-    language: Python
-    stars: 744
-  - name: Colafornia/short-video-generator-AI
-    url: https://github.com/Colafornia/short-video-generator-AI
-    description: Free open-source project for turning YouTube videos into viral short videos with highlight detection, subtitles, translation and voiceover
-    language: Python
-    stars: 731
-  - name: yifanzhang-pro/recurrent-looped-tranformer
-    url: https://github.com/yifanzhang-pro/recurrent-looped-tranformer
-    description: Official Project Page for Recurrent Looped Transformer (RLT)
-    language: HTML
-    stars: 705
-  - name: eternityspring/reelbench-skills
-    url: https://github.com/eternityspring/reelbench-skills
-    description: Learning notes and tooling skills for AI video
-    language: HTML
-    stars: 647
+    stars: 902
   - name: kruzovic7/ai-data-extractor
     url: https://github.com/kruzovic7/ai-data-extractor
     description: Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.
     language: Python
-    stars: 579
+    stars: 815
+  - name: yifanzhang-pro/recurrent-looped-tranformer
+    url: https://github.com/yifanzhang-pro/recurrent-looped-tranformer
+    description: Official Project Page for Recurrent Looped Transformer (RLT)
+    language: HTML
+    stars: 801
+  - name: nftechie/stonkfly
+    url: https://github.com/nftechie/stonkfly
+    description: A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions.
+    language: Python
+    stars: 672
+  - name: zjwzcx/Awesome-Astra-Embodied-AI
+    url: https://github.com/zjwzcx/Awesome-Astra-Embodied-AI
+    description: GPT-6 Astra for embodied AI and robotics.
+    language: null
+    stars: 665
   - name: unstablebuild/rune
     url: https://github.com/unstablebuild/rune
-    description: The development environment for pros
+    description: the development environment for pros
     language: Go
-    stars: 504
+    stars: 578
+  - name: agentverse-os/AgentVerse-OS
+    url: https://github.com/agentverse-os/AgentVerse-OS
+    description: Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser — Rust core, Svelte UI.
+    language: Rust
+    stars: 525
   - name: kevinzakka/mjbatch
     url: https://github.com/kevinzakka/mjbatch
     description: A Python library for running thousands of MuJoCo simulations in parallel on CPU
     language: Python
-    stars: 468
-  - name: jnz/INSLIB
-    url: https://github.com/jnz/INSLIB
-    description: Open Source Inertial Navigation Library
-    language: C
-    stars: 456
+    stars: 494
+  - name: nilbuild/page-mascot
+    url: https://github.com/nilbuild/page-mascot
+    description: A mascot that watches the cursor and blinks when you poke it
+    language: Python
+    stars: 470
+  - name: deepseek-ai/DeepSelect
+    url: https://github.com/deepseek-ai/DeepSelect
+    description: DeepSelect - TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers
+    language: Cuda
+    stars: 356
+  - name: ViceVerse-cz/Serein
+    url: https://github.com/ViceVerse-cz/Serein
+    description: Tiny, Performant and 100 percent Native client for Discord made in Rust
+    language: Rust
+    stars: 331
