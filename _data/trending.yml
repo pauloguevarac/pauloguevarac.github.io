@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-15
+updated: 2026-09-16
 repos:
   - name: Chuloo/mural
     url: https://github.com/Chuloo/mural
     description: The language app you eventually delete. A native iPhone companion for learning through conversation.
     language: Kotlin
-    stars: 963
+    stars: 1187
   - name: sumimakito/Mac-Duo
     url: https://github.com/sumimakito/Mac-Duo
     description: Wish you could bring the iPhone Duo effect to your MacBook?
     language: Swift
-    stars: 902
-  - name: kruzovic7/ai-data-extractor
-    url: https://github.com/kruzovic7/ai-data-extractor
-    description: Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.
-    language: Python
-    stars: 815
+    stars: 935
   - name: yifanzhang-pro/recurrent-looped-tranformer
     url: https://github.com/yifanzhang-pro/recurrent-looped-tranformer
     description: Official Project Page for Recurrent Looped Transformer (RLT)
     language: HTML
-    stars: 801
-  - name: nftechie/stonkfly
-    url: https://github.com/nftechie/stonkfly
-    description: A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions.
+    stars: 851
+  - name: kruzovic7/ai-data-extractor
+    url: https://github.com/kruzovic7/ai-data-extractor
+    description: Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.
     language: Python
-    stars: 672
+    stars: 825
   - name: zjwzcx/Awesome-Astra-Embodied-AI
     url: https://github.com/zjwzcx/Awesome-Astra-Embodied-AI
     description: GPT-6 Astra for embodied AI and robotics.
     language: null
-    stars: 665
+    stars: 752
   - name: unstablebuild/rune
     url: https://github.com/unstablebuild/rune
     description: the development environment for pros
     language: Go
-    stars: 578
+    stars: 716
+  - name: nftechie/stonkfly
+    url: https://github.com/nftechie/stonkfly
+    description: A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions.
+    language: Python
+    stars: 707
+  - name: eternityspring/reelbench-skills
+    url: https://github.com/eternityspring/reelbench-skills
+    description: Learning notes and tooling skills for AI video
+    language: HTML
+    stars: 705
   - name: agentverse-os/AgentVerse-OS
     url: https://github.com/agentverse-os/AgentVerse-OS
     description: Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser — Rust core, Svelte UI.
     language: Rust
-    stars: 525
-  - name: kevinzakka/mjbatch
-    url: https://github.com/kevinzakka/mjbatch
-    description: A Python library for running thousands of MuJoCo simulations in parallel on CPU
-    language: Python
-    stars: 494
+    stars: 654
   - name: nilbuild/page-mascot
     url: https://github.com/nilbuild/page-mascot
     description: A mascot that watches the cursor and blinks when you poke it
     language: Python
-    stars: 470
-  - name: deepseek-ai/DeepSelect
-    url: https://github.com/deepseek-ai/DeepSelect
-    description: DeepSelect - TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers
-    language: Cuda
-    stars: 356
-  - name: ViceVerse-cz/Serein
-    url: https://github.com/ViceVerse-cz/Serein
-    description: Tiny, Performant and 100 percent Native client for Discord made in Rust
-    language: Rust
-    stars: 331
+    stars: 599
+  - name: youngyangyang04/llm-master
+    url: https://github.com/youngyangyang04/llm-master
+    description: 大模型（LLM）全栈学习路线与中文教程：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。
+    language: null
+    stars: 552
+  - name: kevinzakka/mjbatch
+    url: https://github.com/kevinzakka/mjbatch
+    description: A Python library for running thousands of MuJoCo simulations in parallel on CPU
+    language: Python
+    stars: 517
