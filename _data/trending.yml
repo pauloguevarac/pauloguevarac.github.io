@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-17
+updated: 2026-09-18
 repos:
+  - name: tamaratran/fast-jev-compaction
+    url: https://github.com/tamaratran/fast-jev-compaction
+    description: Claude Code plugin that replaces the compaction summary with Jev decisions - every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.
+    language: TypeScript
+    stars: 2542
+  - name: TheoLeeCJ/SemIf
+    url: https://github.com/TheoLeeCJ/SemIf
+    description: Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.
+    language: Python
+    stars: 1442
   - name: Chuloo/mural
     url: https://github.com/Chuloo/mural
     description: The language app you eventually delete. A native iPhone companion for learning through conversation.
     language: Kotlin
-    stars: 1297
+    stars: 1347
   - name: yifanzhang-pro/recurrent-looped-tranformer
     url: https://github.com/yifanzhang-pro/recurrent-looped-tranformer
     description: Official Project Page for Recurrent Looped Transformer (RLT)
     language: HTML
-    stars: 868
-  - name: kruzovic7/ai-data-extractor
-    url: https://github.com/kruzovic7/ai-data-extractor
-    description: Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.
-    language: Python
-    stars: 833
+    stars: 877
   - name: agentverse-os/AgentVerse-OS
     url: https://github.com/agentverse-os/AgentVerse-OS
-    description: Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser - a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of 944 self-hosted apps, backups and updates. Rust core, Svelte UI.
+    description: Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser - a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of self-hosted apps, backups and updates. Rust core, Svelte UI.
     language: Rust
-    stars: 719
+    stars: 807
+  - name: mcncarl/jianying-headless
+    url: https://github.com/mcncarl/jianying-headless
+    description: Private source preview - native Jianying drafts, isolated editing/export, and standalone Agent Skill.
+    language: Python
+    stars: 798
   - name: youngyangyang04/llm-master
     url: https://github.com/youngyangyang04/llm-master
-    description: 大模型（LLM）全栈学习路线与中文教程 - 覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。
+    description: LLM full-stack learning path and tutorials - Prompt Engineering, RAG, AI Agents, MCP, fine-tuning, model deployment, Transformer and AI coding, from beginner to production.
     language: null
-    stars: 682
+    stars: 760
   - name: nilbuild/page-mascot
     url: https://github.com/nilbuild/page-mascot
     description: A mascot that watches the cursor and blinks when you poke it
     language: Python
-    stars: 671
-  - name: shinthink/blitzstrike
-    url: https://github.com/shinthink/blitzstrike
-    description: Blitz Strike - a universal MCP penetration-testing toolbelt. Structured methodology - reconnaissance and attack-surface mapping, source-to-sink analysis, and live validation. One server, every agent.
-    language: TypeScript
-    stars: 634
-  - name: letorig/video-generator-client
-    url: https://github.com/letorig/video-generator-client
-    description: Async Python wrapper for Seedance, Kling, MiniMax and Wan video generation. Supports CLI and a local web UI
-    language: Python
-    stars: 525
-  - name: saragordic/window-sweaters
-    url: https://github.com/saragordic/window-sweaters
-    description: A macOS menu-bar app that dresses your windows in knitted borders.
-    language: C
-    stars: 504
+    stars: 701
   - name: theoephraim/awesome-cloudflare-selfhosted
     url: https://github.com/theoephraim/awesome-cloudflare-selfhosted
     description: Open-source apps that replace a SaaS product, running in your own Cloudflare account
     language: JavaScript
-    stars: 489
+    stars: 629
+  - name: saragordic/window-sweaters
+    url: https://github.com/saragordic/window-sweaters
+    description: A macOS menu-bar app that dresses your windows in knitted borders.
+    language: C
+    stars: 565
+  - name: letorig/video-generator-client
+    url: https://github.com/letorig/video-generator-client
+    description: Async Python wrapper for Seedance, Kling, MiniMax and Wan video generation. Supports CLI and a local web UI
+    language: Python
+    stars: 535
   - name: Qiuner/birdview
     url: https://github.com/Qiuner/birdview
     description: Stop letting AI code blind. Map the architecture before every change with Birdview.
-    language: JavaScript
-    stars: 372
-  - name: AetherLabsAI/RSIAgent
-    url: https://github.com/AetherLabsAI/RSIAgent
-    description: A training-free multi-agent framework for recursive self-improvement in new environments through broad-then-deep autonomous exploration and reusable memory.
-    language: Python
-    stars: 299
+    language: TypeScript
+    stars: 396
