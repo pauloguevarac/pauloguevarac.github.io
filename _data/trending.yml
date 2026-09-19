@@ -1,64 +1,54 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-18
+updated: 2026-09-19
 repos:
-  - name: tamaratran/fast-jev-compaction
-    url: https://github.com/tamaratran/fast-jev-compaction
-    description: Claude Code plugin that replaces the compaction summary with Jev decisions - every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.
-    language: TypeScript
-    stars: 2542
+  - name: browser-use/jev-ultrafast
+    url: https://github.com/browser-use/jev-ultrafast
+    description: i. am. speed.
+    language: Python
+    stars: 7239
+  - name: robbietilton/Compositor
+    url: https://github.com/robbietilton/Compositor
+    description: The Photoshop alternative for Mac
+    language: Swift
+    stars: 1816
   - name: TheoLeeCJ/SemIf
     url: https://github.com/TheoLeeCJ/SemIf
     description: Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.
     language: Python
-    stars: 1442
-  - name: Chuloo/mural
-    url: https://github.com/Chuloo/mural
-    description: The language app you eventually delete. A native iPhone companion for learning through conversation.
-    language: Kotlin
-    stars: 1347
-  - name: yifanzhang-pro/recurrent-looped-tranformer
-    url: https://github.com/yifanzhang-pro/recurrent-looped-tranformer
-    description: Official Project Page for Recurrent Looped Transformer (RLT)
-    language: HTML
-    stars: 877
-  - name: agentverse-os/AgentVerse-OS
-    url: https://github.com/agentverse-os/AgentVerse-OS
-    description: Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser - a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of self-hosted apps, backups and updates. Rust core, Svelte UI.
-    language: Rust
-    stars: 807
+    stars: 1772
   - name: mcncarl/jianying-headless
     url: https://github.com/mcncarl/jianying-headless
-    description: Private source preview - native Jianying drafts, isolated editing/export, and standalone Agent Skill.
+    description: Private source preview — native Jianying drafts, isolated editing/export, and standalone Agent Skill.
     language: Python
-    stars: 798
-  - name: youngyangyang04/llm-master
-    url: https://github.com/youngyangyang04/llm-master
-    description: LLM full-stack learning path and tutorials - Prompt Engineering, RAG, AI Agents, MCP, fine-tuning, model deployment, Transformer and AI coding, from beginner to production.
+    stars: 1407
+  - name: zhengkid/Dream-RSI
+    url: https://github.com/zhengkid/Dream-RSI
+    description: 'The official repo for "Dream-RSI: Recursive Self-Improvement through Evolving Worlds"'
     language: null
-    stars: 760
+    stars: 839
+  - name: korcarc/text-humanizer
+    url: https://github.com/korcarc/text-humanizer
+    description: Open-source project designed to convert AI-generated text into humanized text.
+    language: Python
+    stars: 728
   - name: nilbuild/page-mascot
     url: https://github.com/nilbuild/page-mascot
     description: A mascot that watches the cursor and blinks when you poke it
     language: Python
-    stars: 701
+    stars: 720
   - name: theoephraim/awesome-cloudflare-selfhosted
     url: https://github.com/theoephraim/awesome-cloudflare-selfhosted
     description: Open-source apps that replace a SaaS product, running in your own Cloudflare account
     language: JavaScript
-    stars: 629
+    stars: 658
   - name: saragordic/window-sweaters
     url: https://github.com/saragordic/window-sweaters
     description: A macOS menu-bar app that dresses your windows in knitted borders.
     language: C
-    stars: 565
-  - name: letorig/video-generator-client
-    url: https://github.com/letorig/video-generator-client
-    description: Async Python wrapper for Seedance, Kling, MiniMax and Wan video generation. Supports CLI and a local web UI
+    stars: 587
+  - name: arvindear/wp2shell-PoC
+    url: https://github.com/arvindear/wp2shell-PoC
+    description: CVE-2026-63030 and CVE-2026-60137 RCE chain proof-of-concept
     language: Python
-    stars: 535
-  - name: Qiuner/birdview
-    url: https://github.com/Qiuner/birdview
-    description: Stop letting AI code blind. Map the architecture before every change with Birdview.
-    language: TypeScript
-    stars: 396
+    stars: 562
