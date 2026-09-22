@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-21
+updated: 2026-09-22
 repos:
   - name: browser-use/jev-ultrafast
     url: https://github.com/browser-use/jev-ultrafast
     description: Fastest and cheapest web agent
     language: Python
-    stars: 14698
+    stars: 17629
   - name: tamaratran/fast-jev-compaction
     url: https://github.com/tamaratran/fast-jev-compaction
-    description: Claude Code plugin that replaces the compaction summary with Jev decisions - every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.
+    description: Claude Code plugin that replaces the compaction summary with Jev decisions — every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.
     language: TypeScript
-    stars: 5830
+    stars: 6229
   - name: zai-org/ZCode
     url: https://github.com/zai-org/ZCode
     description: Z.ai's coding agent harness. Powerful, intelligent, extensible.
     language: TypeScript
-    stars: 5231
-  - name: robbietilton/Compositor
-    url: https://github.com/robbietilton/Compositor
-    description: The Photoshop alternative for Mac
-    language: Swift
-    stars: 4200
+    stars: 6192
   - name: mizorewww/laya-mlx
     url: https://github.com/mizorewww/laya-mlx
     description: Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.
     language: Python
-    stars: 2981
+    stars: 5081
+  - name: robbietilton/Compositor
+    url: https://github.com/robbietilton/Compositor
+    description: The Photoshop alternative for Mac
+    language: Swift
+    stars: 4735
   - name: TheoLeeCJ/SemIf
     url: https://github.com/TheoLeeCJ/SemIf
     description: Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.
     language: Python
-    stars: 2904
-  - name: mcncarl/jianying-headless
-    url: https://github.com/mcncarl/jianying-headless
-    description: Private source preview - native Jianying drafts, isolated editing/export, and standalone Agent Skill.
-    language: Python
-    stars: 2312
+    stars: 3660
   - name: jaredpalmer/kev
     url: https://github.com/jaredpalmer/kev
-    description: tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own
+    description: Tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own
     language: Python
-    stars: 1896
-  - name: TianyuCodings/NanoJev
-    url: https://github.com/TianyuCodings/NanoJev
-    description: A nano replica of Jev - parallel decisions, dynamic candidates, and an end-to-end training pipeline.
-    language: Python
-    stars: 1739
-  - name: jarrodwatts/jev-trader
-    url: https://github.com/jarrodwatts/jev-trader
-    description: One AI trade decision every Monad block. Jev on Kuru MON-USDC.
-    language: TypeScript
-    stars: 1729
-  - name: bespokelabsai/nimble
-    url: https://github.com/bespokelabsai/nimble
-    description: Local typed decisions, contrastive data curation, and model evaluation.
-    language: Python
-    stars: 1425
+    stars: 3393
+  - name: jev-chat/jev-chat-jarvis
+    url: https://github.com/jev-chat/jev-chat-jarvis
+    description: Conversational copilot for messaging apps (WeChat / QQ / X / Lark) — reads the conversation, suggests replies, one-tap insert. Non-invasive, read-only screen access, no hooks or app patches.
+    language: Kotlin
+    stars: 3342
   - name: Mak5er/AirCard
     url: https://github.com/Mak5er/AirCard
     description: Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)
     language: Swift
-    stars: 1145
+    stars: 2610
+  - name: jarrodwatts/jev-trader
+    url: https://github.com/jarrodwatts/jev-trader
+    description: One AI trade decision every Monad block. Jev on Kuru MON-USDC.
+    language: TypeScript
+    stars: 1989
+  - name: TianyuCodings/NanoJev
+    url: https://github.com/TianyuCodings/NanoJev
+    description: A nano replica of Jev — parallel decisions, dynamic candidates, and an end-to-end training pipeline.
+    language: Python
+    stars: 1956
+  - name: bespokelabsai/nimble
+    url: https://github.com/bespokelabsai/nimble
+    description: Local typed decisions, contrastive data curation, and model evaluation.
+    language: Python
+    stars: 1585
