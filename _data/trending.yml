@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-24
+updated: 2026-09-25
 repos:
-  - name: NandhaKishorM/laya
-    url: https://github.com/NandhaKishorM/laya
-    description: Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass.
-    language: Python
-    stars: 22354
   - name: zai-org/ZCode
     url: https://github.com/zai-org/ZCode
-    description: "Z.ai's coding agent harness. Powerful, intelligent, extensible."
+    description: Z.ai's coding agent harness. Powerful, intelligent, extensible.
     language: TypeScript
-    stars: 6677
-  - name: mizorewww/laya-mlx
-    url: https://github.com/mizorewww/laya-mlx
-    description: Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.
-    language: Python
-    stars: 6159
+    stars: 6758
   - name: jev-chat/jev-chat-jarvis
     url: https://github.com/jev-chat/jev-chat-jarvis
-    description: "Conversational copilot on your phone: reads chats in WeChat / QQ / X / Feishu, suggests replies, one-tap fill. Non-intrusive, read-only."
+    description: Conversational co-pilot on your phone — reads conversations in QQ / X / Feishu, suggests replies, and fills the input box with one tap. Non-intrusive, read-only, no hooking or repackaging.
     language: Kotlin
-    stars: 5829
+    stars: 6477
+  - name: mizorewww/laya-mlx
+    url: https://github.com/mizorewww/laya-mlx
+    description: Native MLX runtime for Laya typed decision models — 7-14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.
+    language: Python
+    stars: 6306
   - name: unreallabsai/unreal-agent
     url: https://github.com/unreallabsai/unreal-agent
     description: Async-first agent harness
     language: Go
-    stars: 1848
-  - name: bespokelabsai/nimble
-    url: https://github.com/bespokelabsai/nimble
-    description: Local typed decisions, contrastive data curation, and model evaluation.
-    language: Python
-    stars: 1719
-  - name: mizorewww/laya-coreml
-    url: https://github.com/mizorewww/laya-coreml
-    description: Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed.
-    language: Python
-    stars: 1410
-  - name: newliver666/apk-reverse
-    url: https://github.com/newliver666/apk-reverse
-    description: Suitable for Android APK reverse engineering analysis
-    language: Python
-    stars: 1406
+    stars: 1916
   - name: driceroland/Search
     url: https://github.com/driceroland/Search
     description: A small, fast WebKit browser for macOS, by Office Commun.
     language: Swift
-    stars: 1075
-  - name: mikehasa/golive-skill
-    url: https://github.com/mikehasa/golive-skill
-    description: Take your agent-built product live — hosting, database, domain, email, payments on your own accounts. Open-source Agent Skill.
-    language: TypeScript
-    stars: 805
-  - name: heyjunpenn/awesome-jev
-    url: https://github.com/heyjunpenn/awesome-jev
-    description: A verified, community-maintained catalog of 896 open-source projects built with Jev.
-    language: Astro
-    stars: 798
+    stars: 1522
+  - name: mizorewww/laya-coreml
+    url: https://github.com/mizorewww/laya-coreml
+    description: Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible.
+    language: Python
+    stars: 1450
+  - name: newliver666/apk-reverse
+    url: https://github.com/newliver666/apk-reverse
+    description: Suitable for Android APK reverse engineering analysis
+    language: Python
+    stars: 1441
   - name: deepopen-com/deepopen
     url: https://github.com/deepopen-com/deepopen
     description: Multilingual, non-autoregressive System 1 decision engine for structured typed decision scenarios.
     language: Python
-    stars: 765
+    stars: 1015
+  - name: pallavi-shekhar/ai-engineering-interview-questions-company-wise
+    url: https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise
+    description: Your Cheat Sheet For AI Engineering Interviews at Top AI Companies - Questions and Answers.
+    language: Markdown
+    stars: 942
+  - name: mikehasa/golive-skill
+    url: https://github.com/mikehasa/golive-skill
+    description: Take your agent-built product live — hosting, database, domain, email, payments on your own accounts. Open-source agent skill.
+    language: TypeScript
+    stars: 933
+  - name: heyjunpenn/awesome-jev
+    url: https://github.com/heyjunpenn/awesome-jev
+    description: A verified, community-maintained catalog of 916 open-source projects built with Jev.
+    language: Astro
+    stars: 823
+  - name: kryvora-network/kryvora-node
+    url: https://github.com/kryvora-network/kryvora-node
+    description: Reference client daemon and verification worker for Kryvora Network nodes.
+    language: Go
+    stars: 788
