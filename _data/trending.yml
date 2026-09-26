@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-25
+updated: 2026-09-26
 repos:
   - name: zai-org/ZCode
     url: https://github.com/zai-org/ZCode
     description: Z.ai's coding agent harness. Powerful, intelligent, extensible.
     language: TypeScript
-    stars: 6758
+    stars: 6820
   - name: jev-chat/jev-chat-jarvis
     url: https://github.com/jev-chat/jev-chat-jarvis
-    description: Conversational co-pilot on your phone — reads conversations in QQ / X / Feishu, suggests replies, and fills the input box with one tap. Non-intrusive, read-only, no hooking or repackaging.
+    description: A mobile AI chat copilot for QQ / X / Feishu — reads the conversation, suggests replies, one-tap insert. Non-intrusive, screen-read only.
     language: Kotlin
-    stars: 6477
-  - name: mizorewww/laya-mlx
-    url: https://github.com/mizorewww/laya-mlx
-    description: Native MLX runtime for Laya typed decision models — 7-14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.
-    language: Python
-    stars: 6306
-  - name: unreallabsai/unreal-agent
-    url: https://github.com/unreallabsai/unreal-agent
-    description: Async-first agent harness
-    language: Go
-    stars: 1916
+    stars: 6636
   - name: driceroland/Search
     url: https://github.com/driceroland/Search
     description: A small, fast WebKit browser for macOS, by Office Commun.
     language: Swift
-    stars: 1522
-  - name: mizorewww/laya-coreml
-    url: https://github.com/mizorewww/laya-coreml
-    description: Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible.
-    language: Python
-    stars: 1450
-  - name: newliver666/apk-reverse
-    url: https://github.com/newliver666/apk-reverse
-    description: Suitable for Android APK reverse engineering analysis
-    language: Python
-    stars: 1441
+    stars: 2036
+  - name: unreallabsai/unreal-agent
+    url: https://github.com/unreallabsai/unreal-agent
+    description: Async-first agent harness
+    language: Go
+    stars: 1956
+  - name: tobi/disktree
+    url: https://github.com/tobi/disktree
+    description: A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.
+    language: Rust
+    stars: 1156
   - name: deepopen-com/deepopen
     url: https://github.com/deepopen-com/deepopen
-    description: Multilingual, non-autoregressive System 1 decision engine for structured typed decision scenarios.
+    description: Multilingual, non-autoregressive System 1 decision engine for structured, typed decision scenarios.
     language: Python
-    stars: 1015
-  - name: pallavi-shekhar/ai-engineering-interview-questions-company-wise
-    url: https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise
-    description: Your Cheat Sheet For AI Engineering Interviews at Top AI Companies - Questions and Answers.
-    language: Markdown
-    stars: 942
+    stars: 1030
   - name: mikehasa/golive-skill
     url: https://github.com/mikehasa/golive-skill
-    description: Take your agent-built product live — hosting, database, domain, email, payments on your own accounts. Open-source agent skill.
+    description: Take your agent-built product live — hosting, database, domain, email, payments on your own accounts. Open-source Agent Skill.
     language: TypeScript
-    stars: 933
-  - name: heyjunpenn/awesome-jev
-    url: https://github.com/heyjunpenn/awesome-jev
-    description: A verified, community-maintained catalog of 916 open-source projects built with Jev.
-    language: Astro
-    stars: 823
+    stars: 970
+  - name: yetone/magpie
+    url: https://github.com/yetone/magpie
+    description: Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
+    language: Go
+    stars: 883
   - name: kryvora-network/kryvora-node
     url: https://github.com/kryvora-network/kryvora-node
     description: Reference client daemon and verification worker for Kryvora Network nodes.
     language: Go
-    stars: 788
+    stars: 856
+  - name: freestylefly/WeChatBridge
+    url: https://github.com/freestylefly/WeChatBridge
+    description: Native macOS tool to forward WeChat chat history to AI agents and Obsidian in one click.
+    language: Swift
+    stars: 774
+  - name: nokia-applied-research/AnyJev
+    url: https://github.com/nokia-applied-research/AnyJev
+    description: Turn any LLM into a Jev-style decision model — typed decisions, real probabilities, no training.
+    language: Python
+    stars: 774
+  - name: asokurasu/text-humanizer
+    url: https://github.com/asokurasu/text-humanizer
+    description: Free, open-source humanization of AI-generated text via a multilingual LLM-powered rewriting pipeline.
+    language: Python
+    stars: 722
