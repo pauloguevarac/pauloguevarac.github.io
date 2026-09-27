@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-26
+updated: 2026-09-27
 repos:
-  - name: zai-org/ZCode
-    url: https://github.com/zai-org/ZCode
-    description: Z.ai's coding agent harness. Powerful, intelligent, extensible.
-    language: TypeScript
-    stars: 6820
   - name: jev-chat/jev-chat-jarvis
     url: https://github.com/jev-chat/jev-chat-jarvis
     description: A mobile AI chat copilot for QQ / X / Feishu — reads the conversation, suggests replies, one-tap insert. Non-intrusive, screen-read only.
     language: Kotlin
-    stars: 6636
-  - name: driceroland/Search
-    url: https://github.com/driceroland/Search
-    description: A small, fast WebKit browser for macOS, by Office Commun.
-    language: Swift
-    stars: 2036
+    stars: 6757
   - name: unreallabsai/unreal-agent
     url: https://github.com/unreallabsai/unreal-agent
     description: Async-first agent harness
     language: Go
-    stars: 1956
+    stars: 1981
   - name: tobi/disktree
     url: https://github.com/tobi/disktree
     description: A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.
     language: Rust
-    stars: 1156
-  - name: deepopen-com/deepopen
-    url: https://github.com/deepopen-com/deepopen
-    description: Multilingual, non-autoregressive System 1 decision engine for structured, typed decision scenarios.
-    language: Python
-    stars: 1030
-  - name: mikehasa/golive-skill
-    url: https://github.com/mikehasa/golive-skill
-    description: Take your agent-built product live — hosting, database, domain, email, payments on your own accounts. Open-source Agent Skill.
-    language: TypeScript
-    stars: 970
+    stars: 1499
   - name: yetone/magpie
     url: https://github.com/yetone/magpie
     description: Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
     language: Go
-    stars: 883
+    stars: 1197
+  - name: deepopen-com/deepopen
+    url: https://github.com/deepopen-com/deepopen
+    description: Multilingual, non-autoregressive System 1 decision engine for structured, typed decision scenarios.
+    language: Python
+    stars: 1044
+  - name: mikehasa/golive-skill
+    url: https://github.com/mikehasa/golive-skill
+    description: Take your agent-built product live — hosting, database, domain, email, payments on your own accounts. Open-source Agent Skill + zero-dependency Node CLI.
+    language: TypeScript
+    stars: 997
   - name: kryvora-network/kryvora-node
     url: https://github.com/kryvora-network/kryvora-node
     description: Reference client daemon and verification worker for Kryvora Network nodes.
     language: Go
-    stars: 856
+    stars: 956
   - name: freestylefly/WeChatBridge
     url: https://github.com/freestylefly/WeChatBridge
     description: Native macOS tool to forward WeChat chat history to AI agents and Obsidian in one click.
     language: Swift
-    stars: 774
+    stars: 836
   - name: nokia-applied-research/AnyJev
     url: https://github.com/nokia-applied-research/AnyJev
     description: Turn any LLM into a Jev-style decision model — typed decisions, real probabilities, no training.
     language: Python
-    stars: 774
+    stars: 814
+  - name: dgreenheck/tidewater
+    url: https://github.com/dgreenheck/tidewater
+    description: Coastal town simulation built with Opus 5.5.
+    language: JavaScript
+    stars: 803
+  - name: 852wa/JIZURA
+    url: https://github.com/852wa/JIZURA
+    description: Browser app that automatically builds lyric-driven character music videos (PV) from song lyrics.
+    language: HTML
+    stars: 752
   - name: asokurasu/text-humanizer
     url: https://github.com/asokurasu/text-humanizer
     description: Free, open-source humanization of AI-generated text via a multilingual LLM-powered rewriting pipeline.
     language: Python
-    stars: 722
+    stars: 739
