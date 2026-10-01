@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-09-27
+updated: 2026-10-01
 repos:
-  - name: jev-chat/jev-chat-jarvis
-    url: https://github.com/jev-chat/jev-chat-jarvis
-    description: A mobile AI chat copilot for QQ / X / Feishu — reads the conversation, suggests replies, one-tap insert. Non-intrusive, screen-read only.
-    language: Kotlin
-    stars: 6757
-  - name: unreallabsai/unreal-agent
-    url: https://github.com/unreallabsai/unreal-agent
-    description: Async-first agent harness
-    language: Go
-    stars: 1981
-  - name: tobi/disktree
-    url: https://github.com/tobi/disktree
-    description: A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.
-    language: Rust
-    stars: 1499
-  - name: yetone/magpie
-    url: https://github.com/yetone/magpie
-    description: Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
-    language: Go
-    stars: 1197
-  - name: deepopen-com/deepopen
-    url: https://github.com/deepopen-com/deepopen
-    description: Multilingual, non-autoregressive System 1 decision engine for structured, typed decision scenarios.
-    language: Python
-    stars: 1044
-  - name: mikehasa/golive-skill
-    url: https://github.com/mikehasa/golive-skill
-    description: Take your agent-built product live — hosting, database, domain, email, payments on your own accounts. Open-source Agent Skill + zero-dependency Node CLI.
+  - name: KKKKhazix/AIHOT
+    url: https://github.com/KKKKhazix/AIHOT
+    description: 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
     language: TypeScript
-    stars: 997
-  - name: kryvora-network/kryvora-node
-    url: https://github.com/kryvora-network/kryvora-node
-    description: Reference client daemon and verification worker for Kryvora Network nodes.
-    language: Go
-    stars: 956
-  - name: freestylefly/WeChatBridge
-    url: https://github.com/freestylefly/WeChatBridge
-    description: Native macOS tool to forward WeChat chat history to AI agents and Obsidian in one click.
+    stars: 4494
+  - name: Louis-CFM/coucou
+    url: https://github.com/Louis-CFM/coucou
+    description: A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.
     language: Swift
-    stars: 836
-  - name: nokia-applied-research/AnyJev
-    url: https://github.com/nokia-applied-research/AnyJev
-    description: Turn any LLM into a Jev-style decision model — typed decisions, real probabilities, no training.
+    stars: 2178
+  - name: feder-cr/dots
+    url: https://github.com/feder-cr/dots
+    description: Open-source dots for the web： an AI agent with its own browser, one that does not get blocked.
     language: Python
-    stars: 814
-  - name: dgreenheck/tidewater
-    url: https://github.com/dgreenheck/tidewater
-    description: Coastal town simulation built with Opus 5.5.
-    language: JavaScript
-    stars: 803
-  - name: 852wa/JIZURA
-    url: https://github.com/852wa/JIZURA
-    description: Browser app that automatically builds lyric-driven character music videos (PV) from song lyrics.
+    stars: 2153
+  - name: dzhng/jevgrep
+    url: https://github.com/dzhng/jevgrep
+    description: Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.
+    language: TypeScript
+    stars: 1963
+  - name: rehan-remade/universal-modder
+    url: https://github.com/rehan-remade/universal-modder
+    description: Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own： recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.
+    language: Python
+    stars: 1321
+  - name: kaankiziltug/logo-design-skill
+    url: https://github.com/kaankiziltug/logo-design-skill
+    description: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents： principles, process, SVG craft, testing tools and a 1,400+ logo reference library.
     language: HTML
-    stars: 752
-  - name: asokurasu/text-humanizer
-    url: https://github.com/asokurasu/text-humanizer
-    description: Free, open-source humanization of AI-generated text via a multilingual LLM-powered rewriting pipeline.
+    stars: 1280
+  - name: firelex/jeff
+    url: https://github.com/firelex/jeff
+    description: Millisecond decisions, any domain： a 0.8B open "System 1" model that picks between your options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.
     language: Python
-    stars: 739
+    stars: 1242
+  - name: yihui-dev/awesome-opus5-5-videos
+    url: https://github.com/yihui-dev/awesome-opus5-5-videos
+    description: A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.
+    language: null
+    stars: 1200
+  - name: feitangyuan/onetake
+    url: https://github.com/feitangyuan/onetake
+    description: Motion films that never cut to the next slide： every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.
+    language: Python
+    stars: 1098
+  - name: supermemoryai/company-brain
+    url: https://github.com/supermemoryai/company-brain
+    description: Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work.
+    language: TypeScript
+    stars: 884
+  - name: nanaism/yomiyasu
+    url: https://github.com/nanaism/yomiyasu
+    description: AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese
+    language: Python
+    stars: 860
+  - name: echris6/motion-video-kit
+    url: https://github.com/echris6/motion-video-kit
+    description: Claude Code skill kit for premium AI-assisted business videos： independent critic loop, motion principles from 28 launch films, quality bar, sound design, business offers, Three.js patterns, scripts
+    language: Python
+    stars: 791
