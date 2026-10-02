@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-10-01
+updated: 2026-10-02
 repos:
   - name: KKKKhazix/AIHOT
     url: https://github.com/KKKKhazix/AIHOT
-    description: 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
+    description: A framework for a website that finds hot topics and writes its own daily reports. Swap in your sources and curation criteria to make it your industry news site.
     language: TypeScript
-    stars: 4494
+    stars: 4921
   - name: Louis-CFM/coucou
     url: https://github.com/Louis-CFM/coucou
-    description: A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.
+    description: A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your computer.
     language: Swift
-    stars: 2178
+    stars: 2804
   - name: feder-cr/dots
     url: https://github.com/feder-cr/dots
-    description: Open-source dots for the web： an AI agent with its own browser, one that does not get blocked.
+    description: Open-source dots for the web — an AI agent with its own browser, one that does not get blocked.
     language: Python
-    stars: 2153
+    stars: 2427
   - name: dzhng/jevgrep
     url: https://github.com/dzhng/jevgrep
     description: Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.
     language: TypeScript
-    stars: 1963
+    stars: 2045
   - name: rehan-remade/universal-modder
     url: https://github.com/rehan-remade/universal-modder
-    description: Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own： recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.
+    description: Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own.
     language: Python
-    stars: 1321
+    stars: 1877
   - name: kaankiziltug/logo-design-skill
     url: https://github.com/kaankiziltug/logo-design-skill
-    description: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents： principles, process, SVG craft, testing tools and a 1,400+ logo reference library.
+    description: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents — principles, process, SVG craft and testing.
     language: HTML
-    stars: 1280
+    stars: 1453
   - name: firelex/jeff
     url: https://github.com/firelex/jeff
-    description: Millisecond decisions, any domain： a 0.8B open "System 1" model that picks between your options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.
+    description: Millisecond decisions, any domain — a 0.8B open System 1 model that picks between your options with calibrated probabilities.
     language: Python
-    stars: 1242
-  - name: yihui-dev/awesome-opus5-5-videos
-    url: https://github.com/yihui-dev/awesome-opus5-5-videos
-    description: A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.
-    language: null
-    stars: 1200
+    stars: 1309
   - name: feitangyuan/onetake
     url: https://github.com/feitangyuan/onetake
-    description: Motion films that never cut to the next slide： every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.
+    description: Motion films that never cut to the next slide — every beat grows out of the one before, one continuous camera.
     language: Python
-    stars: 1098
-  - name: supermemoryai/company-brain
-    url: https://github.com/supermemoryai/company-brain
-    description: Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work.
-    language: TypeScript
-    stars: 884
+    stars: 1267
   - name: nanaism/yomiyasu
     url: https://github.com/nanaism/yomiyasu
-    description: AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese
+    description: Agent Skill for refining AI-generated Japanese into natural Japanese.
     language: Python
-    stars: 860
-  - name: echris6/motion-video-kit
-    url: https://github.com/echris6/motion-video-kit
-    description: Claude Code skill kit for premium AI-assisted business videos： independent critic loop, motion principles from 28 launch films, quality bar, sound design, business offers, Three.js patterns, scripts
-    language: Python
-    stars: 791
+    stars: 1155
+  - name: CopilotKit/OpenDots
+    url: https://github.com/CopilotKit/OpenDots
+    description: Your always-on AI coworkers that move between text, calls, and Slack.
+    language: TypeScript
+    stars: 1088
+  - name: edenfunf/reelmimic
+    url: https://github.com/edenfunf/reelmimic
+    description: Show it a video you love, get a new video in the same style — an AI crew (Claude Code or Codex) plans, builds and reviews it.
+    language: JavaScript
+    stars: 942
+  - name: lemomo-ai/lemo-opuscar
+    url: https://github.com/lemomo-ai/lemo-opuscar
+    description: 43 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5.
+    language: JavaScript
+    stars: 809
