@@ -1,77 +1,73 @@
-# GitHub trending repositories - updated daily by cron
+# GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: '2026-10-03'
 repos:
-- name: KKKKhazix/AIHOT
+- description: 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
+  language: TypeScript
+  name: KKKKhazix/AIHOT
+  stars: 5693
   url: https://github.com/KKKKhazix/AIHOT
-  description: 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
+- description: Your always-on AI coworkers that move between text, calls, and Slack.
   language: TypeScript
-  stars: 5253
-- name: Louis-CFM/coucou
-  url: https://github.com/Louis-CFM/coucou
-  description: 'A tiny friend that lives in your notch (macOS) or at the top of your
-    screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex,
-    Cursor, Gemini CLI, Antigravity and more.'
-  language: Swift
-  stars: 3138
-- name: feder-cr/dots
-  url: https://github.com/feder-cr/dots
-  description: 'Open-source dots for the web: an AI agent with its own browser, one
-    that does not get blocked.'
-  language: Python
-  stars: 2569
-- name: rehan-remade/universal-modder
-  url: https://github.com/rehan-remade/universal-modder
-  description: 'Point Claude at any game. Skills, tools and the fal MCP that let Claude
-    Code mod almost any PC game you own: recon, reverse engineering, fal-generated
-    art/3D/audio, in-game testing, showcase videos.'
-  language: Python
-  stars: 2442
-- name: CopilotKit/OpenDots
+  name: CopilotKit/OpenDots
+  stars: 2991
   url: https://github.com/CopilotKit/OpenDots
-  description: Your always-on AI coworkers that move between text, calls, and Slack.
-  language: TypeScript
-  stars: 2021
-- name: yihui-dev/awesome-opus5-5-videos
-  url: https://github.com/yihui-dev/awesome-opus5-5-videos
-  description: A growing collection of viral videos made with Claude Opus 5.5 and
-    the prompts behind them. Watch each original next to a live remake on Skillry.
-    Updated regularly.
-  language: null
-  stars: 1511
-- name: firelex/jeff
-  url: https://github.com/firelex/jeff
-  description: 'Millisecond decisions, any domain: a 0.8B open "System 1" model that
-    picks between your options with calibrated probabilities. One base, swappable
-    LoRA adapters, on your own hardware.'
+- description: 'Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost
+    any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase
+    videos.'
   language: Python
-  stars: 1342
-- name: nanaism/yomiyasu
+  name: rehan-remade/universal-modder
+  stars: 2886
+  url: https://github.com/rehan-remade/universal-modder
+- description: 'Open-source dots for the web: an AI agent with its own browser, one that does not get
+    blocked.'
+  language: Python
+  name: feder-cr/dots
+  stars: 2593
+  url: https://github.com/feder-cr/dots
+- description: AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural
+    Japanese
+  language: Python
+  name: nanaism/yomiyasu
+  stars: 1369
   url: https://github.com/nanaism/yomiyasu
-  description: AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated
-    Japanese into Natural Japanese
+- description: 'Millisecond decisions, any domain: a 0.8B open "System 1" model that picks between your
+    options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.'
   language: Python
-  stars: 1277
-- name: edenfunf/reelmimic
-  url: https://github.com/edenfunf/reelmimic
-  description: Show it a video you love. Get a new video in the same style. An AI
-    crew (Claude Code or Codex) plans, builds and reviews it with you.
+  name: firelex/jeff
+  stars: 1361
+  url: https://github.com/firelex/jeff
+- description: Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or
+    Codex) plans, builds and reviews it with you.
   language: JavaScript
-  stars: 1031
-- name: CAPCOM-TD-OSS/REDox
-  url: https://github.com/CAPCOM-TD-OSS/REDox
-  description: High-performance, token-based structured data engine for .NET. A core
-    component of REX, the technology behind CAPCOM's next-generation game engine.
+  name: edenfunf/reelmimic
+  stars: 1247
+  url: https://github.com/edenfunf/reelmimic
+- description: Open source SDK to build Muse gadgets
+  language: C
+  name: facebookincubator/muse-gadget-sdk
+  stars: 1059
+  url: https://github.com/facebookincubator/muse-gadget-sdk
+- description: High-performance, token-based structured data engine for .NET. A core component of REX,
+    the technology behind CAPCOM's next-generation game engine.
   language: C#
-  stars: 952
-- name: openai/mcp-extensions
-  url: https://github.com/openai/mcp-extensions
-  description: Build plugins that feel like native, first-class features of ChatGPT.
-  language: TypeScript
-  stars: 713
-- name: chasmlol/SkyCraft
-  url: https://github.com/chasmlol/SkyCraft
-  description: 'Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks
-    and combat inside Skyrim''s world (SKSE plugin + Fabric mod).'
+  name: CAPCOM-TD-OSS/REDox
+  stars: 1014
+  url: https://github.com/CAPCOM-TD-OSS/REDox
+- description: A Claude Code plugin that helps you learn how to build while AI writes the code.
+  language: Python
+  name: nykooi1/vibe-wise
+  stars: 886
+  url: https://github.com/nykooi1/vibe-wise
+- description: Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you
+    can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
+  language: JavaScript
+  name: QingYunA/answer-me-with-html
+  stars: 848
+  url: https://github.com/QingYunA/answer-me-with-html
+- description: 'Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside
+    Skyrim''s world (SKSE plugin + Fabric mod).'
   language: C++
-  stars: 674
+  name: chasmlol/SkyCraft
+  stars: 821
+  url: https://github.com/chasmlol/SkyCraft
+updated: 2026-10-04
