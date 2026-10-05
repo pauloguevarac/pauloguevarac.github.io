@@ -1,73 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
+updated: 2026-10-05
 repos:
-- description: 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
-  language: TypeScript
-  name: KKKKhazix/AIHOT
-  stars: 5693
-  url: https://github.com/KKKKhazix/AIHOT
-- description: Your always-on AI coworkers that move between text, calls, and Slack.
-  language: TypeScript
-  name: CopilotKit/OpenDots
-  stars: 2991
-  url: https://github.com/CopilotKit/OpenDots
-- description: 'Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost
-    any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase
-    videos.'
-  language: Python
-  name: rehan-remade/universal-modder
-  stars: 2886
-  url: https://github.com/rehan-remade/universal-modder
-- description: 'Open-source dots for the web: an AI agent with its own browser, one that does not get
-    blocked.'
-  language: Python
-  name: feder-cr/dots
-  stars: 2593
-  url: https://github.com/feder-cr/dots
-- description: AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural
-    Japanese
-  language: Python
-  name: nanaism/yomiyasu
-  stars: 1369
-  url: https://github.com/nanaism/yomiyasu
-- description: 'Millisecond decisions, any domain: a 0.8B open "System 1" model that picks between your
-    options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.'
-  language: Python
-  name: firelex/jeff
-  stars: 1361
-  url: https://github.com/firelex/jeff
-- description: Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or
-    Codex) plans, builds and reviews it with you.
-  language: JavaScript
-  name: edenfunf/reelmimic
-  stars: 1247
-  url: https://github.com/edenfunf/reelmimic
-- description: Open source SDK to build Muse gadgets
-  language: C
-  name: facebookincubator/muse-gadget-sdk
-  stars: 1059
-  url: https://github.com/facebookincubator/muse-gadget-sdk
-- description: High-performance, token-based structured data engine for .NET. A core component of REX,
-    the technology behind CAPCOM's next-generation game engine.
-  language: C#
-  name: CAPCOM-TD-OSS/REDox
-  stars: 1014
-  url: https://github.com/CAPCOM-TD-OSS/REDox
-- description: A Claude Code plugin that helps you learn how to build while AI writes the code.
-  language: Python
-  name: nykooi1/vibe-wise
-  stars: 886
-  url: https://github.com/nykooi1/vibe-wise
-- description: Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you
-    can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
-  language: JavaScript
-  name: QingYunA/answer-me-with-html
-  stars: 848
-  url: https://github.com/QingYunA/answer-me-with-html
-- description: 'Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside
-    Skyrim''s world (SKSE plugin + Fabric mod).'
-  language: C++
-  name: chasmlol/SkyCraft
-  stars: 821
-  url: https://github.com/chasmlol/SkyCraft
-updated: 2026-10-04
+  - name: rehan-remade/universal-modder
+    url: https://github.com/rehan-remade/universal-modder
+    description: "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game"
+    language: Python
+    stars: 3604
+  - name: CopilotKit/OpenDots
+    url: https://github.com/CopilotKit/OpenDots
+    description: Your always-on AI coworkers that move between text, calls, and Slack.
+    language: TypeScript
+    stars: 3497
+  - name: feder-cr/dots
+    url: https://github.com/feder-cr/dots
+    description: "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked."
+    language: Python
+    stars: 2610
+  - name: storytold/photocraft
+    url: https://github.com/storytold/photocraft
+    description: "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust"
+    language: Rust
+    stars: 1595
+  - name: nanaism/yomiyasu
+    url: https://github.com/nanaism/yomiyasu
+    description: "Agent Skill for Refining AI-Generated Japanese into Natural Japanese"
+    language: Python
+    stars: 1487
+  - name: QingYunA/answer-me-with-html
+    url: https://github.com/QingYunA/answer-me-with-html
+    description: "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually use"
+    language: JavaScript
+    stars: 1400
+  - name: nykooi1/vibe-wise
+    url: https://github.com/nykooi1/vibe-wise
+    description: "A Claude Code plugin that helps you learn how to build while AI writes the code."
+    language: Python
+    stars: 1394
+  - name: facebookincubator/muse-gadget-sdk
+    url: https://github.com/facebookincubator/muse-gadget-sdk
+    description: Open source SDK to build Muse gadgets
+    language: C
+    stars: 1353
+  - name: omlahore/RemoveMacAI
+    url: https://github.com/omlahore/RemoveMacAI
+    description: "Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible."
+    language: Swift
+    stars: 1335
+  - name: CAPCOM-TD-OSS/REDox
+    url: https://github.com/CAPCOM-TD-OSS/REDox
+    description: "High-performance, token-based structured data engine for .NET. A core component of REX"
+    language: C#
+    stars: 1054
+  - name: chasmlol/SkyCraft
+    url: https://github.com/chasmlol/SkyCraft
+    description: "Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside Skyrim"
+    language: C++
+    stars: 943
+  - name: Edwardxlai/easyread
+    url: https://github.com/Edwardxlai/easyread
+    description: "Read English papers in comfortable Chinese: local PDF translation, side-by-side original, AI Q&A, literature management"
+    language: Python
+    stars: 800
