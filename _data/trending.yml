@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-10-07
+updated: 2026-10-08
 repos:
+  - name: alchaincyf/huashu-art-motion
+    url: https://github.com/alchaincyf/huashu-art-motion
+    description: 艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。(Art animation skill — 35 art styles, bring paintings to life with code.)
+    language: JavaScript
+    stars: 2311
   - name: QingYunA/answer-me-with-html
     url: https://github.com/QingYunA/answer-me-with-html
     description: Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
     language: JavaScript
-    stars: 1983
+    stars: 2306
   - name: facebookincubator/muse-gadget-sdk
     url: https://github.com/facebookincubator/muse-gadget-sdk
     description: Open source SDK to build Muse gadgets
     language: C
-    stars: 1625
-  - name: alchaincyf/huashu-art-motion
-    url: https://github.com/alchaincyf/huashu-art-motion
-    description: 艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。
-    language: JavaScript
-    stars: 1379
-  - name: lucasmarkes/hairline
-    url: https://github.com/lucasmarkes/hairline
-    description: Six isometric line figures that answer the pointer. For React and for anything with a DOM.
-    language: TypeScript
-    stars: 1000
+    stars: 1765
+  - name: Jakeschincariol/replica-skill
+    url: https://github.com/Jakeschincariol/replica-skill
+    description: Eleven free Claude skills that clone any app — reverse-engineer it, rebuild it, test it for parity
+    language: Python
+    stars: 993
   - name: sganggs/Stronghold-Protocol
     url: https://github.com/sganggs/Stronghold-Protocol
-    description: 明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）
+    description: Unofficial fan remake of Arknights' "Protocoled Estrangement" — browser auto-chess tower defense, solo or 1-4 player co-op (non-commercial)
     language: JavaScript
-    stars: 901
+    stars: 983
+  - name: alejandrobujan/tendedero
+    url: https://github.com/alejandrobujan/tendedero
+    description: Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line
+    language: Swift
+    stars: 897
+  - name: LoreanXavier/pt-pc
+    url: https://github.com/LoreanXavier/pt-pc
+    description: Native PC port of P.T. (runs from your own PS4 game files)
+    language: C++
+    stars: 812
+  - name: nullmoth/nvidia-macos-driver
+    url: https://github.com/nullmoth/nvidia-macos-driver
+    description: Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, so stop paying for it.
+    language: Rust
+    stars: 781
+  - name: elstongun/leviathan
+    url: https://github.com/elstongun/leviathan
+    description: Deep memory for agents over large datasets. A single static binary that lets agents search and reason over huge corpora.
+    language: Rust
+    stars: 685
+  - name: ythx-101/live-panel-skill
+    url: https://github.com/ythx-101/live-panel-skill
+    description: Config-driven animated architecture diagrams — turn one JSON file into a terminal-style, always-live panel
+    language: HTML
+    stars: 656
+  - name: pingdotgg/ts-rust
+    url: https://github.com/pingdotgg/ts-rust
+    description: An experimental Rust port of the TypeScript 7 compiler (tsc)
+    language: Rust
+    stars: 632
   - name: mizorewww/x_gift_bot
     url: https://github.com/mizorewww/x_gift_bot
     description: X Premium gift CLI and redemption site
     language: Go
-    stars: 834
-  - name: StayLameBro/backburner
-    url: https://github.com/StayLameBro/backburner
-    description: "Your iPhone helps your Mac run a 27B model: faster prompt reading and more context over a USB-C cable"
-    language: Python
-    stars: 826
-  - name: Jakeschincariol/replica-skill
-    url: https://github.com/Jakeschincariol/replica-skill
-    description: "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT."
-    language: Python
-    stars: 785
-  - name: elstongun/leviathan
-    url: https://github.com/elstongun/leviathan
-    description: Deep memory for agents over large datasets.   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.
-    language: Rust
-    stars: 654
-  - name: ythx-101/live-panel-skill
-    url: https://github.com/ythx-101/live-panel-skill
-    description: "Config-driven animated architecture diagrams: turn one JSON file into a terminal-style, always-running diagram or a light-theme infographic that moves. Outputs H.264 mp4 or a live web page; also a Claude Code style skill (SKILL.md)."
-    language: HTML
-    stars: 639
-  - name: zzzz7788990213-ops/EvoVLM
-    url: https://github.com/zzzz7788990213-ops/EvoVLM
-    description: "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference."
-    language: Python
-    stars: 507
-  - name: DozenTwelve/Papermorph
-    url: https://github.com/DozenTwelve/Papermorph
-    description: An AI skill that turns books into animated, narrated, interactive web experiences
-    language: HTML
-    stars: 501
+    stars: 1055
