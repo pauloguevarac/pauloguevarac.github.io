@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-10-09
+updated: 2026-10-10
 repos:
-  - name: nullmoth/nvidia-macos-driver
-    url: https://github.com/nullmoth/nvidia-macos-driver
-    description: Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.
-    language: Rust
-    stars: 1699
   - name: alchaincyf/huashu-art-motion
     url: https://github.com/alchaincyf/huashu-art-motion
-    description: 艺术动画skill - 35种艺术风格、9种解说语法，用代码让画动起来。
+    description: 艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。
     language: JavaScript
-    stars: 2790
+    stars: 3128
   - name: mhtsec/ARTEX
     url: https://github.com/mhtsec/ARTEX
-    description: AI 自主渗透测试系统 - 百度"agent+"攻防挑战赛冠军项目
+    description: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目
     language: Go
-    stars: 1984
-  - name: zhongerxin/iPhone-use
-    url: https://github.com/zhongerxin/iPhone-use
-    description: 让 Codex 通过 USB 操作真实 iPhone - 引导安装、App 自动化、实时屏幕与截图回退。
-    language: Python
-    stars: 1466
+    stars: 2819
   - name: storytold/wordcraft
     url: https://github.com/storytold/wordcraft
     description: An open-source, clean-room reimplementation of Microsoft Word in pure Rust
     language: Rust
-    stars: 1303
-  - name: Jakeschincariol/replica-skill
-    url: https://github.com/Jakeschincariol/replica-skill
-    description: Eleven free Claude skills that clone any app - reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.
+    stars: 2703
+  - name: zhongerxin/iPhone-use
+    url: https://github.com/zhongerxin/iPhone-use
+    description: 让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。
     language: Python
-    stars: 1265
-  - name: alejandrobujan/tendedero
-    url: https://github.com/alejandrobujan/tendedero
-    description: Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.
-    language: Swift
-    stars: 1162
-  - name: storytold/cadcraft
-    url: https://github.com/storytold/cadcraft
-    description: CADCraft - computer-aided design and drafting - an open-source, clean-room AutoCAD-style app in pure Rust
+    stars: 2455
+  - name: nullmoth/nvidia-macos-driver
+    url: https://github.com/nullmoth/nvidia-macos-driver
+    description: Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.
     language: Rust
-    stars: 1140
-  - name: LoreanXavier/pt-pc
-    url: https://github.com/LoreanXavier/pt-pc
-    description: Native PC port of P.T. (runs from your own PS4 game files)
-    language: C++
-    stars: 1136
+    stars: 2197
   - name: LosaLosSantos/aurelio-finance
     url: https://github.com/LosaLosSantos/aurelio-finance
     description: Open-source personal finance app with an AI financial advisor - track your net worth, investments, ETFs, cash and debts on your own computer.
     language: Python
-    stars: 1002
-  - name: noahdunnagan/fsearch
-    url: https://github.com/noahdunnagan/fsearch
-    description: Whole-disk file search for macOS - fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.
+    stars: 1819
+  - name: storytold/cadcraft
+    url: https://github.com/storytold/cadcraft
+    description: CADCraft - computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust
     language: Rust
-    stars: 893
+    stars: 1644
   - name: storytold/gridcraft
     url: https://github.com/storytold/gridcraft
     description: GridCraft - an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.
     language: Rust
-    stars: 874
+    stars: 1568
+  - name: alejandrobujan/tendedero
+    url: https://github.com/alejandrobujan/tendedero
+    description: Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.
+    language: Swift
+    stars: 1470
+  - name: noahdunnagan/fsearch
+    url: https://github.com/noahdunnagan/fsearch
+    description: Whole-disk file search for macOS - fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.
+    language: Rust
+    stars: 1441
+  - name: storytold/deckcraft
+    url: https://github.com/storytold/deckcraft
+    description: Presentations and slide shows - an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.
+    language: Rust
+    stars: 1233
+  - name: storytold/soundcraft
+    url: https://github.com/storytold/soundcraft
+    description: An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust
+    language: Rust
+    stars: 1184
