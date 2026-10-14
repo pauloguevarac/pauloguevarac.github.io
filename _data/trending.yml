@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-10-13
+updated: 2026-10-14
 repos:
-  - name: storytold/wordcraft
-    url: https://github.com/storytold/wordcraft
-    description: "An open-source, clean-room reimplementation of Microsoft Word in pure Rust"
-    language: Rust
-    stars: 10455
   - name: wheresryan22/anatomy
     url: https://github.com/wheresryan22/anatomy
-    description: "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems."
+    description: "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and systems"
     language: JavaScript
-    stars: 7688
-  - name: storytold/gridcraft
-    url: https://github.com/storytold/gridcraft
-    description: "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft."
-    language: Rust
-    stars: 4260
-  - name: storytold/cadcraft
-    url: https://github.com/storytold/cadcraft
-    description: "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust"
-    language: Rust
-    stars: 3952
+    stars: 9405
   - name: mhtsec/ARTEX
     url: https://github.com/mhtsec/ARTEX
-    description: "AI autonomous penetration-testing system; Baidu 'agent+' attack/defense challenge champion project"
+    description: "AI 自主渗透测试系统 | 百度 agent+ 攻防挑战赛冠军项目"
     language: Go
-    stars: 3846
-  - name: nullmoth/nvidia-macos-driver
-    url: https://github.com/nullmoth/nvidia-macos-driver
-    description: "Metal driver for NVIDIA GeForce cards on macOS Sequoia"
-    language: Rust
-    stars: 2871
-  - name: storytold/deckcraft
-    url: https://github.com/storytold/deckcraft
-    description: "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the Craft suite."
-    language: Rust
-    stars: 2834
+    stars: 4044
+  - name: ARahim3/DigUp
+    url: https://github.com/ARahim3/DigUp
+    description: "Search your Mac by what's in your files: photos, PDFs, recordings, videos and code. On-device, built for speed"
+    language: Swift
+    stars: 3315
   - name: t4t5/omdrop-owl
     url: https://github.com/t4t5/omdrop-owl
     description: "airdrop for non-apple devices"
     language: Shell
-    stars: 2544
-  - name: storytold/soundcraft
-    url: https://github.com/storytold/soundcraft
-    description: "An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust"
+    stars: 2647
+  - name: storytold/craft-launcher
+    url: https://github.com/storytold/craft-launcher
+    description: "The Craft App Launcher"
     language: Rust
-    stars: 2452
-  - name: ARahim3/DigUp
-    url: https://github.com/ARahim3/DigUp
-    description: "Search your Mac by what's in your files: photos, PDFs, recordings, videos and code. On-device, built on Google DeepMind tech."
-    language: Swift
-    stars: 2147
-  - name: alejandrobujan/tendedero
-    url: https://github.com/alejandrobujan/tendedero
-    description: "Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen."
-    language: Swift
-    stars: 2069
+    stars: 2550
   - name: noahdunnagan/fsearch
     url: https://github.com/noahdunnagan/fsearch
-    description: "Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files."
+    description: "Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files"
     language: Rust
-    stars: 2015
+    stars: 2043
+  - name: onehumanbeing/esp32-iphone-agent
+    url: https://github.com/onehumanbeing/esp32-iphone-agent
+    description: "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible model"
+    language: Python
+    stars: 2000
+  - name: jhaizhou-ops/d2r-mobile
+    url: https://github.com/jhaizhou-ops/d2r-mobile
+    description: "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock"
+    language: C
+    stars: 1840
+  - name: NVIDIA-Omniverse/usd-brep
+    url: https://github.com/NVIDIA-Omniverse/usd-brep
+    description: "USD BRep is a standalone C++ and Python library for NURBS-based boundary representation (BRep) solid modeling"
+    language: C++
+    stars: 1353
+  - name: T-Auto/dsh-ops
+    url: https://github.com/T-Auto/dsh-ops
+    description: "A toolkit for low-level operations in DSH, designed to reduce token usage and task execution time"
+    language: JavaScript
+    stars: 1343
+  - name: shaongitbd/doory
+    url: https://github.com/shaongitbd/doory
+    description: "Open source canva alternative"
+    language: TypeScript
+    stars: 1148
+  - name: wesbos/photo-frame-dashboard
+    url: https://github.com/wesbos/photo-frame-dashboard
+    description: "Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, and more)"
+    language: Python
+    stars: 1123
