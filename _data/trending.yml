@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-10-14
+updated: 2026-10-16
 repos:
-  - name: wheresryan22/anatomy
-    url: https://github.com/wheresryan22/anatomy
-    description: "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and systems"
-    language: JavaScript
-    stars: 9405
-  - name: mhtsec/ARTEX
-    url: https://github.com/mhtsec/ARTEX
-    description: "AI 自主渗透测试系统 | 百度 agent+ 攻防挑战赛冠军项目"
-    language: Go
-    stars: 4044
-  - name: ARahim3/DigUp
-    url: https://github.com/ARahim3/DigUp
-    description: "Search your Mac by what's in your files: photos, PDFs, recordings, videos and code. On-device, built for speed"
-    language: Swift
-    stars: 3315
-  - name: t4t5/omdrop-owl
-    url: https://github.com/t4t5/omdrop-owl
-    description: "airdrop for non-apple devices"
-    language: Shell
-    stars: 2647
-  - name: storytold/craft-launcher
-    url: https://github.com/storytold/craft-launcher
-    description: "The Craft App Launcher"
-    language: Rust
-    stars: 2550
-  - name: noahdunnagan/fsearch
-    url: https://github.com/noahdunnagan/fsearch
-    description: "Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files"
-    language: Rust
-    stars: 2043
-  - name: onehumanbeing/esp32-iphone-agent
-    url: https://github.com/onehumanbeing/esp32-iphone-agent
-    description: "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible model"
-    language: Python
-    stars: 2000
   - name: jhaizhou-ops/d2r-mobile
     url: https://github.com/jhaizhou-ops/d2r-mobile
-    description: "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock"
+    description: "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层"
     language: C
-    stars: 1840
-  - name: NVIDIA-Omniverse/usd-brep
-    url: https://github.com/NVIDIA-Omniverse/usd-brep
-    description: "USD BRep is a standalone C++ and Python library for NURBS-based boundary representation (BRep) solid modeling"
-    language: C++
-    stars: 1353
-  - name: T-Auto/dsh-ops
-    url: https://github.com/T-Auto/dsh-ops
-    description: "A toolkit for low-level operations in DSH, designed to reduce token usage and task execution time"
+    stars: 3481
+  - name: onehumanbeing/esp32-iphone-agent
+    url: https://github.com/onehumanbeing/esp32-iphone-agent
+    description: "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak."
+    language: C
+    stars: 2786
+  - name: HeyPuter/everything
+    url: https://github.com/HeyPuter/everything
+    description: "We're rebuilding and open-sourcing the world’s software from scratch."
     language: JavaScript
-    stars: 1343
+    stars: 1592
+  - name: chenglou/handwired
+    url: https://github.com/chenglou/handwired
+    description: "Turn your regular JavaScript code into a neural net."
+    language: TypeScript
+    stars: 1429
+  - name: ahwootech/BRUTAL
+    url: https://github.com/ahwootech/BRUTAL
+    description: "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld's Waylith engine."
+    language: C#
+    stars: 1420
   - name: shaongitbd/doory
     url: https://github.com/shaongitbd/doory
     description: "Open source canva alternative"
     language: TypeScript
-    stars: 1148
-  - name: wesbos/photo-frame-dashboard
-    url: https://github.com/wesbos/photo-frame-dashboard
-    description: "Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, and more)"
+    stars: 1389
+  - name: deeplethe/solid-glass
+    url: https://github.com/deeplethe/solid-glass
+    description: "A design system for AI applications. Material, physical, tactile, technical."
+    language: TypeScript
+    stars: 1328
+  - name: opengeos/RustGIS
+    url: https://github.com/opengeos/RustGIS
+    description: "A fast, free and open-source GIS in pure Rust."
+    language: Rust
+    stars: 1306
+  - name: rociiu/talorys
+    url: https://github.com/rociiu/talorys
+    description: "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry."
+    language: TypeScript
+    stars: 1230
+  - name: marclou/mailcheap
+    url: https://github.com/marclou/mailcheap
+    description: "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai."
+    language: JavaScript
+    stars: 1112
+  - name: zhuyansen/new-term-radar
+    url: https://github.com/zhuyansen/new-term-radar
+    description: "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them."
     language: Python
-    stars: 1123
+    stars: 1061
+  - name: feder-cr/git-ai
+    url: https://github.com/feder-cr/git-ai
+    description: "Git designed for AI agents."
+    language: Go
+    stars: 1036
