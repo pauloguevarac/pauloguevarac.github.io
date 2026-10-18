@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-10-16
+updated: 2026-10-18
 repos:
   - name: jhaizhou-ops/d2r-mobile
     url: https://github.com/jhaizhou-ops/d2r-mobile
-    description: "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层"
+    description: "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files."
     language: C
-    stars: 3481
-  - name: onehumanbeing/esp32-iphone-agent
-    url: https://github.com/onehumanbeing/esp32-iphone-agent
-    description: "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak."
-    language: C
-    stars: 2786
+    stars: 3799
   - name: HeyPuter/everything
     url: https://github.com/HeyPuter/everything
-    description: "We're rebuilding and open-sourcing the world’s software from scratch."
+    description: "We're rebuilding and open-sourcing the world's software from scratch."
     language: JavaScript
-    stars: 1592
-  - name: chenglou/handwired
-    url: https://github.com/chenglou/handwired
-    description: "Turn your regular JavaScript code into a neural net."
-    language: TypeScript
-    stars: 1429
-  - name: ahwootech/BRUTAL
-    url: https://github.com/ahwootech/BRUTAL
-    description: "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld's Waylith engine."
-    language: C#
-    stars: 1420
-  - name: shaongitbd/doory
-    url: https://github.com/shaongitbd/doory
-    description: "Open source canva alternative"
-    language: TypeScript
-    stars: 1389
+    stars: 2152
   - name: deeplethe/solid-glass
     url: https://github.com/deeplethe/solid-glass
     description: "A design system for AI applications. Material, physical, tactile, technical."
     language: TypeScript
-    stars: 1328
-  - name: opengeos/RustGIS
-    url: https://github.com/opengeos/RustGIS
-    description: "A fast, free and open-source GIS in pure Rust."
-    language: Rust
-    stars: 1306
-  - name: rociiu/talorys
-    url: https://github.com/rociiu/talorys
-    description: "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry."
+    stars: 2003
+  - name: ahwootech/BRUTAL
+    url: https://github.com/ahwootech/BRUTAL
+    description: "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld's Waylith engine."
+    language: C#
+    stars: 1863
+  - name: chenglou/handwired
+    url: https://github.com/chenglou/handwired
+    description: "Turn your regular JavaScript code into a neural net."
     language: TypeScript
-    stars: 1230
-  - name: marclou/mailcheap
-    url: https://github.com/marclou/mailcheap
-    description: "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai."
-    language: JavaScript
-    stars: 1112
-  - name: zhuyansen/new-term-radar
-    url: https://github.com/zhuyansen/new-term-radar
-    description: "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them."
-    language: Python
-    stars: 1061
+    stars: 1706
   - name: feder-cr/git-ai
     url: https://github.com/feder-cr/git-ai
     description: "Git designed for AI agents."
     language: Go
-    stars: 1036
+    stars: 1472
+  - name: Supermedo/uncharted_pc
+    url: https://github.com/Supermedo/uncharted_pc
+    description: "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo"
+    language: C++
+    stars: 1381
+  - name: Caho1/open-claude-ui
+    url: https://github.com/Caho1/open-claude-ui
+    description: "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。"
+    language: TypeScript
+    stars: 1198
+  - name: Gathin23/tv-vibehack
+    url: https://github.com/Gathin23/tv-vibehack
+    description: "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code."
+    language: Java
+    stars: 1139
+  - name: zhuyansen/new-term-radar
+    url: https://github.com/zhuyansen/new-term-radar
+    description: "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them."
+    language: Python
+    stars: 1101
+  - name: AjncSystem/ShadowOfTheColossus-PC
+    url: https://github.com/AjncSystem/ShadowOfTheColossus-PC
+    description: "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC."
+    language: C++
+    stars: 1033
+  - name: rohit267/net-merge
+    url: https://github.com/rohit267/net-merge
+    description: "Use all your network adapters at once on Windows/Linux/Mac: per-connection load balancing over Wi-Fi, Ethernet and phone/USB tethers (TUN + Wintun)"
+    language: Go
+    stars: 1004
