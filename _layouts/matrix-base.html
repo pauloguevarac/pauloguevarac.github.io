@@ -3,26 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{% if page.title %}{{ page.title }} — Paulo Guevara{% else %}Paulo Guevara — DevOps & Cloud Architect{% endif %}</title>
+<title>{% if page.title %}{{ page.title }} — Paulo Guevara, M.S.{% else %}Paulo Guevara, M.S. — Staff AI Systems &amp; Cloud Platform Architect{% endif %}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/matrix.css">
 <link rel="stylesheet" href="/assets/css/matrix-content.css">
 </head>
 <body>
-<canvas id="rain"></canvas>
-<div class="veil"></div>
 
 <nav>
   <div class="wrap">
-    <div class="brand">Paulo Guevara</div>
+    <a href="/" class="brand" style="text-decoration:none;">
+      <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3ecf8e;"></span>
+      NODE: pauloguevarac-prod-01
+    </a>
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/resume/">Resume</a></li>
-      <li><a href="/#work">Work</a></li>
-      <li><a href="/#writing">Writing</a></li>
-      <li><a href="/#trending">Trending</a></li>
+      <li><a href="/">Control Plane</a></li>
+      <li><a href="/resume/">Resume / Dossier</a></li>
+      <li><a href="/#artifacts">Publications &amp; Repos</a></li>
       <li><a href="/github-trending-repos/">Trending Repos</a></li>
+      <li><a href="/archives/">Archives</a></li>
     </ul>
-    <a class="nav-cta" href="/#contact">Let's talk</a>
+    <a class="nav-cta" href="mailto:paulo.guevara@gmail.com">paulo.guevara@gmail.com</a>
   </div>
 </nav>
 
@@ -30,38 +33,9 @@
 
 <footer>
   <div class="wrap">
-    <div class="mono">© 2026 paulo.guevara · DevOps Cloud Architect &amp; Engineer</div>
+    <div class="mono">© {{ 'now' | date: "%Y" }} Paulo Guevara, M.S. · Staff AI Systems &amp; Cloud Platform Architect</div>
   </div>
 </footer>
-
-<script>
-const c = document.getElementById('rain');
-const ctx = c.getContext('2d');
-c.width = window.innerWidth;
-c.height = window.innerHeight;
-const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノ0123456789ABCDEF';
-const fontSize = 16;
-let columns = Math.floor(c.width / fontSize);
-let drops = new Array(columns).fill(1);
-function draw(){
-  ctx.fillStyle = 'rgba(3,7,4,0.06)';
-  ctx.fillRect(0,0,c.width,c.height);
-  ctx.fillStyle = '#00ff41';
-  ctx.font = fontSize + 'px monospace';
-  for(let i=0;i<drops.length;i++){
-    const text = chars[Math.floor(Math.random()*chars.length)];
-    ctx.fillText(text, i*fontSize, drops[i]*fontSize);
-    if(drops[i]*fontSize>c.height && Math.random()>0.975) drops[i]=0;
-    drops[i]++;
-  }
-}
-setInterval(draw, 60);
-window.addEventListener('resize',()=>{
-  c.width = window.innerWidth; c.height = window.innerHeight;
-  columns = Math.floor(c.width / fontSize);
-  drops = new Array(columns).fill(1);
-});
-</script>
 
 </body>
 </html>
