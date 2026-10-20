@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-10-19
+updated: 2026-10-20
 repos:
   - name: Gathin23/cleanyourtv
     url: https://github.com/Gathin23/cleanyourtv
-    description: 'Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.'
+    description: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
     language: Java
-    stars: 3862
+    stars: 9803
+  - name: deepseek-ai/DeepInfer
+    url: https://github.com/deepseek-ai/DeepInfer
+    description: DeepInfer - High-performance, large-scale inference framework for DeepSeek models
+    language: Python
+    stars: 9057
   - name: feder-cr/git-ai
     url: https://github.com/feder-cr/git-ai
-    description: 'Git designed for AI agents.'
+    description: Git designed for AI agents.
     language: Go
-    stars: 2406
-  - name: HeyPuter/everything
-    url: https://github.com/HeyPuter/everything
-    description: 'We''re rebuilding and open-sourcing the world’s software from scratch.'
-    language: JavaScript
-    stars: 2295
+    stars: 2893
   - name: ahwootech/BRUTAL
     url: https://github.com/ahwootech/BRUTAL
-    description: 'A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld''s Waylith engine.'
+    description: A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan.
     language: C#
-    stars: 1955
+    stars: 2028
   - name: chenglou/handwired
     url: https://github.com/chenglou/handwired
-    description: 'Turn your regular JavaScript code into a neural net.'
+    description: Turn your regular JavaScript code into a neural net.
     language: TypeScript
-    stars: 1785
-  - name: Supermedo/uncharted_pc
-    url: https://github.com/Supermedo/uncharted_pc
-    description: 'Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo'
-    language: C++
-    stars: 1519
+    stars: 1845
   - name: Leonxlnx/earshot
     url: https://github.com/Leonxlnx/earshot
-    description: 'Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.'
+    description: Ears for coding agents - let AI hear, review and make sound. CPU-only, open source.
     language: Python
-    stars: 1275
+    stars: 1827
+  - name: Supermedo/uncharted_pc
+    url: https://github.com/Supermedo/uncharted_pc
+    description: Uncharted - The Nathan Drake Collection running natively on Windows.
+    language: C++
+    stars: 1668
+  - name: xiaoyang111222/cn-math-taxonomy
+    url: https://github.com/xiaoyang111222/cn-math-taxonomy
+    description: Chinese K-12 math knowledge graph with prerequisite diagnostics, curriculum-aligned topics and adaptive quizzing.
+    language: Python
+    stars: 1472
   - name: Caho1/open-claude-ui
     url: https://github.com/Caho1/open-claude-ui
-    description: '基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。'
+    description: High-fidelity recreation of the Claude desktop UI in React, with 30 components and a reverse-engineering handbook.
     language: TypeScript
-    stars: 1240
-  - name: OpenMOSS/MOSS-Image
-    url: https://github.com/OpenMOSS/MOSS-Image
-    description: 'Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.'
-    language: Python
-    stars: 903
+    stars: 1279
   - name: aicodeking/leanrea
     url: https://github.com/aicodeking/leanrea
-    description: 'One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.'
+    description: One 8 KB skill that replaces REA (Reverse Engineer Anything) - plain CLI tools, no MCP. Benchmarked 38% faster, 35% cheaper.
     language: Python
-    stars: 878
-  - name: LiCinCan/blender-ai-mcp-addon
-    url: https://github.com/LiCinCan/blender-ai-mcp-addon
-    description: 'AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.'
+    stars: 1130
+  - name: OpenMOSS/MOSS-Image
+    url: https://github.com/OpenMOSS/MOSS-Image
+    description: Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation and efficient fine-tuning.
     language: Python
-    stars: 866
-  - name: MyLuxy/overdrive
-    url: https://github.com/MyLuxy/overdrive
-    description: 'Overdrive, a PS5 homebrew game store with 1,800+ games.'
-    language: C++
-    stars: 856
+    stars: 1124
+  - name: alchaincyf/huashu-motion
+    url: https://github.com/alchaincyf/huashu-motion
+    description: Commercial-grade launch films by your coding agent - composes music and lets you point at the frame to change it.
+    language: JavaScript
+    stars: 1115
