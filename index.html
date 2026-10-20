@@ -776,7 +776,10 @@ permalink: /
         </div>
       </section>
 
-      <!-- Dynamic Jekyll Table of All Publications, Open-Source Repos & Daily Trending -->
+    <!-- Dynamic Jekyll Table of All Publications, Open-Source Repos & Daily Trending -->
+      <span id="work" style="display:block;height:0;visibility:hidden;"></span>
+      <span id="writing" style="display:block;height:0;visibility:hidden;"></span>
+      <span id="trending" style="display:block;height:0;visibility:hidden;"></span>
       <section id="artifacts">
         <div class="sre-table-tabs">
           <button class="sre-ttab active" onclick="filterRows('all', this)">All Engineering Artifacts ({{ site.posts.size | plus: 4 }})</button>
@@ -845,7 +848,7 @@ permalink: /
         </table>
       </section>
 
-      <footer class="sre-footer">
+      <footer class="sre-footer" id="contact">
         <div>© {{ 'now' | date: "%Y" }} Paulo Guevara, M.S. · Staff AI Systems &amp; Cloud Platform Architect</div>
         <div>
           <a href="/resume/">Resume</a> ·
