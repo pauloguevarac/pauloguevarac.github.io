@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-10-20
+updated: 2026-10-21
 repos:
+  - name: deepseek-ai/DeepInfer
+    url: https://github.com/deepseek-ai/DeepInfer
+    description: "DeepInfer: High-performance, large-scale inference framework for DeepSeek models"
+    language: Python
+    stars: 17158
   - name: Gathin23/cleanyourtv
     url: https://github.com/Gathin23/cleanyourtv
     description: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
     language: Java
-    stars: 9803
-  - name: deepseek-ai/DeepInfer
-    url: https://github.com/deepseek-ai/DeepInfer
-    description: DeepInfer - High-performance, large-scale inference framework for DeepSeek models
+    stars: 16886
+  - name: simbasjungles/free-my-tv
+    url: https://github.com/simbasjungles/free-my-tv
+    description: "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo."
+    language: Java
+    stars: 2353
+  - name: Leonxlnx/earshot
+    url: https://github.com/Leonxlnx/earshot
+    description: "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
     language: Python
-    stars: 9057
-  - name: feder-cr/git-ai
-    url: https://github.com/feder-cr/git-ai
-    description: Git designed for AI agents.
-    language: Go
-    stars: 2893
-  - name: ahwootech/BRUTAL
-    url: https://github.com/ahwootech/BRUTAL
-    description: A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan.
-    language: C#
-    stars: 2028
+    stars: 2034
+  - name: xiaoyang111222/cn-math-taxonomy
+    url: https://github.com/xiaoyang111222/cn-math-taxonomy
+    description: 中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中、高中），课标对齐、人教版，1503 知识点、6159 题、自适应诊断
+    language: Python
+    stars: 1902
   - name: chenglou/handwired
     url: https://github.com/chenglou/handwired
     description: Turn your regular JavaScript code into a neural net.
     language: TypeScript
-    stars: 1845
-  - name: Leonxlnx/earshot
-    url: https://github.com/Leonxlnx/earshot
-    description: Ears for coding agents - let AI hear, review and make sound. CPU-only, open source.
-    language: Python
-    stars: 1827
+    stars: 1866
+  - name: pengchujin/aerial-tv
+    url: https://github.com/pengchujin/aerial-tv
+    description: "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."
+    language: Kotlin
+    stars: 1864
   - name: Supermedo/uncharted_pc
     url: https://github.com/Supermedo/uncharted_pc
-    description: Uncharted - The Nathan Drake Collection running natively on Windows.
+    description: "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo"
     language: C++
-    stars: 1668
-  - name: xiaoyang111222/cn-math-taxonomy
-    url: https://github.com/xiaoyang111222/cn-math-taxonomy
-    description: Chinese K-12 math knowledge graph with prerequisite diagnostics, curriculum-aligned topics and adaptive quizzing.
-    language: Python
-    stars: 1472
-  - name: Caho1/open-claude-ui
-    url: https://github.com/Caho1/open-claude-ui
-    description: High-fidelity recreation of the Claude desktop UI in React, with 30 components and a reverse-engineering handbook.
-    language: TypeScript
-    stars: 1279
+    stars: 1759
+  - name: JoasASantos/REA-Prompts
+    url: https://github.com/JoasASantos/REA-Prompts
+    description: "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program"
+    language: null
+    stars: 1267
   - name: aicodeking/leanrea
     url: https://github.com/aicodeking/leanrea
-    description: One 8 KB skill that replaces REA (Reverse Engineer Anything) - plain CLI tools, no MCP. Benchmarked 38% faster, 35% cheaper.
+    description: "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper."
     language: Python
-    stars: 1130
+    stars: 1249
   - name: OpenMOSS/MOSS-Image
     url: https://github.com/OpenMOSS/MOSS-Image
-    description: Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation and efficient fine-tuning.
+    description: "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning."
     language: Python
-    stars: 1124
+    stars: 1246
   - name: alchaincyf/huashu-motion
     url: https://github.com/alchaincyf/huashu-motion
-    description: Commercial-grade launch films by your coding agent - composes music and lets you point at the frame to change it.
+    description: 让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.
     language: JavaScript
-    stars: 1115
+    stars: 1244
