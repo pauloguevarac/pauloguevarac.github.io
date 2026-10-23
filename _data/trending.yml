@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-10-22
+updated: 2026-10-23
 repos:
   - name: Gathin23/cleanyourtv
     url: https://github.com/Gathin23/cleanyourtv
-    description: "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."
+    description: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
     language: Java
-    stars: 22619
-  - name: deepseek-ai/DeepInfer
-    url: https://github.com/deepseek-ai/DeepInfer
-    description: "DeepInfer - High-performance, large-scale inference framework for DeepSeek models"
-    language: Python
-    stars: 19518
+    stars: 27195
   - name: simbasjungles/free-my-tv
     url: https://github.com/simbasjungles/free-my-tv
-    description: "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo."
+    description: "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo."
     language: Java
-    stars: 3106
+    stars: 3819
   - name: pengchujin/aerial-tv
     url: https://github.com/pengchujin/aerial-tv
-    description: "A tvOS-style launcher for Xiaomi, TCL and other China-market TVs. Clean Android TV home without ads."
+    description: "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."
     language: Kotlin
-    stars: 2949
+    stars: 3757
   - name: xiaoyang111222/cn-math-taxonomy
     url: https://github.com/xiaoyang111222/cn-math-taxonomy
-    description: "Knowledge graph of K-12 math, English and physics - 1644 knowledge points, 2403 prerequisite edges, 6723 problems, aligned with the national curriculum."
+    description: 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。
     language: Python
-    stars: 2166
-  - name: tek-sys-hub/Rubix-lang
-    url: https://github.com/tek-sys-hub/Rubix-lang
-    description: "The 100% Pure x86-64 Assembly Systems Language"
-    language: Assembly
-    stars: 1901
-  - name: OpenMOSS/MOSS-Image
-    url: https://github.com/OpenMOSS/MOSS-Image
-    description: "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering and layout generation."
-    language: Python
-    stars: 1421
+    stars: 2724
   - name: alchaincyf/huashu-motion
     url: https://github.com/alchaincyf/huashu-motion
-    description: "Commercial-grade launch films by your coding agent - compose music and edit scenes by pointing at the frame."
+    description: 让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.
     language: JavaScript
-    stars: 1385
-  - name: aicodeking/leanrea
-    url: https://github.com/aicodeking/leanrea
-    description: "One 8 KB skill that replaces REA (Reverse Engineer Anything) - plain CLI tools, no MCP. Benchmarked - 38% faster, 35% cheaper."
-    language: Python
-    stars: 1346
-  - name: humblemuzzu/dumbtv
-    url: https://github.com/humblemuzzu/dumbtv
-    description: "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone."
-    language: Java
-    stars: 1256
+    stars: 1523
+  - name: EthanArbuckle/fairplay-decrypt
+    url: https://github.com/EthanArbuckle/fairplay-decrypt
+    description: Offline FairPlay App Store IPA decryption with independent key derivation
+    language: C
+    stars: 1435
   - name: Ansub/tv-detox
     url: https://github.com/Ansub/tv-detox
-    description: "Make an old Android TV fast again with Claude Code or Codex - a tiny ad-free home screen plus the prompt to clean it up."
+    description: "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up"
     language: Java
-    stars: 1239
-  - name: xscreensaver-official/xscreensaver
-    url: https://github.com/xscreensaver-official/xscreensaver
-    description: "There is no official XScreenSaver GitHub repository."
-    language: null
-    stars: 1139
+    stars: 1352
+  - name: humblemuzzu/dumbtv
+    url: https://github.com/humblemuzzu/dumbtv
+    description: "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen."
+    language: Java
+    stars: 1351
+  - name: colinhacks/reylo
+    url: https://github.com/colinhacks/reylo
+    description: Import .sql files into TypeScript with full type inference and zero codegen.
+    language: Rust
+    stars: 979
+  - name: eagle-hq/EAGLE-4
+    url: https://github.com/eagle-hq/EAGLE-4
+    description: Official Inference Code of EAGLE-4
+    language: Python
+    stars: 937
+  - name: ELY-Open-Source/ElyOffice
+    url: https://github.com/ELY-Open-Source/ElyOffice
+    description: "Ely Office: offline-first desktop apps in Rust and GPUI"
+    language: Rust
+    stars: 923
+  - name: wesbos/3d-model-anything
+    url: https://github.com/wesbos/3d-model-anything
+    description: "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser."
+    language: Swift
+    stars: 913
