@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-10-23
+updated: 2026-10-25
 repos:
-  - name: Gathin23/cleanyourtv
-    url: https://github.com/Gathin23/cleanyourtv
-    description: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
-    language: Java
-    stars: 27195
-  - name: simbasjungles/free-my-tv
-    url: https://github.com/simbasjungles/free-my-tv
-    description: "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo."
-    language: Java
-    stars: 3819
   - name: pengchujin/aerial-tv
     url: https://github.com/pengchujin/aerial-tv
     description: "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."
     language: Kotlin
-    stars: 3757
-  - name: xiaoyang111222/cn-math-taxonomy
-    url: https://github.com/xiaoyang111222/cn-math-taxonomy
-    description: 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。
-    language: Python
-    stars: 2724
-  - name: alchaincyf/huashu-motion
-    url: https://github.com/alchaincyf/huashu-motion
-    description: 让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.
-    language: JavaScript
-    stars: 1523
-  - name: EthanArbuckle/fairplay-decrypt
-    url: https://github.com/EthanArbuckle/fairplay-decrypt
-    description: Offline FairPlay App Store IPA decryption with independent key derivation
-    language: C
-    stars: 1435
-  - name: Ansub/tv-detox
-    url: https://github.com/Ansub/tv-detox
-    description: "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up"
+    stars: 4882
+  - name: simbasjungles/free-my-tv
+    url: https://github.com/simbasjungles/free-my-tv
+    description: "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo."
     language: Java
-    stars: 1352
-  - name: humblemuzzu/dumbtv
-    url: https://github.com/humblemuzzu/dumbtv
-    description: "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen."
-    language: Java
-    stars: 1351
-  - name: colinhacks/reylo
-    url: https://github.com/colinhacks/reylo
-    description: Import .sql files into TypeScript with full type inference and zero codegen.
+    stars: 4462
+  - name: JoasASantos/REA-Prompts
+    url: https://github.com/JoasASantos/REA-Prompts
+    description: "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program"
+    language: null
+    stars: 2331
+  - name: xevrion/hatchzip
+    url: https://github.com/xevrion/hatchzip
+    description: "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI."
     language: Rust
-    stars: 979
-  - name: eagle-hq/EAGLE-4
-    url: https://github.com/eagle-hq/EAGLE-4
-    description: Official Inference Code of EAGLE-4
-    language: Python
-    stars: 937
-  - name: ELY-Open-Source/ElyOffice
-    url: https://github.com/ELY-Open-Source/ElyOffice
-    description: "Ely Office: offline-first desktop apps in Rust and GPUI"
-    language: Rust
-    stars: 923
+    stars: 1888
   - name: wesbos/3d-model-anything
     url: https://github.com/wesbos/3d-model-anything
     description: "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser."
     language: Swift
-    stars: 913
+    stars: 1853
+  - name: Jakeschincariol/day-trader-skill
+    url: https://github.com/Jakeschincariol/day-trader-skill
+    description: "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar."
+    language: Python
+    stars: 1389
+  - name: colinhacks/reylo
+    url: https://github.com/colinhacks/reylo
+    description: "Import .sql files into TypeScript with full type inference and zero codegen."
+    language: Rust
+    stars: 1248
+  - name: ELY-Open-Source/ElyOffice
+    url: https://github.com/ELY-Open-Source/ElyOffice
+    description: "Ely Office: offline-first desktop apps in Rust and GPUI"
+    language: Rust
+    stars: 984
+  - name: eagle-hq/EAGLE-4
+    url: https://github.com/eagle-hq/EAGLE-4
+    description: "Official Inference Code of EAGLE-4"
+    language: Python
+    stars: 983
+  - name: Hugo-Dz/spritefusion-sprite-normals
+    url: https://github.com/Hugo-Dz/spritefusion-sprite-normals
+    description: "A tool to generate normal maps from any sprite and animated sprite sheet."
+    language: Rust
+    stars: 665
+  - name: dominikmartn/harp
+    url: https://github.com/dominikmartn/harp
+    description: "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp."
+    language: Rust
+    stars: 609
+  - name: nthnclrk/CleanFrame
+    url: https://github.com/nthnclrk/CleanFrame
+    description: "A personal home screen for Samsung The Frame. A starting point to fork and adapt."
+    language: JavaScript
+    stars: 596
