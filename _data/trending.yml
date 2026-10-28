@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-10-27
+updated: 2026-10-28
 repos:
   - name: JustAResearcher/gpu-unlock-ada
     url: https://github.com/JustAResearcher/gpu-unlock-ada
     description: "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally"
     language: C
-    stars: 4157
+    stars: 4376
   - name: rddmwmddr/android-ad-cleaner
     url: https://github.com/rddmwmddr/android-ad-cleaner
     description: "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。"
     language: Python
-    stars: 3012
+    stars: 4178
   - name: designfuchen/word-atlas
     url: https://github.com/designfuchen/word-atlas
     description: "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
     language: TypeScript
-    stars: 2339
-  - name: wesbos/3d-model-anything
-    url: https://github.com/wesbos/3d-model-anything
-    description: "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser."
-    language: Swift
-    stars: 2166
-  - name: xevrion/hatchzip
-    url: https://github.com/xevrion/hatchzip
-    description: "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI."
-    language: Rust
-    stars: 2117
-  - name: ikow/php2shell-poc
-    url: https://github.com/ikow/php2shell-poc
-    description: "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research."
-    language: Python
-    stars: 1861
+    stars: 3000
   - name: t3dotgg/tstack
     url: https://github.com/t3dotgg/tstack
     description: "The agent skills I use every day. Works with Claude Code and Codex."
     language: Python
-    stars: 1846
-  - name: 9bie/php2shell-bypass-aslr-exp
-    url: https://github.com/9bie/php2shell-bypass-aslr-exp
-    description: "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory."
+    stars: 2182
+  - name: interplains/Zero-Breach-Toolkit
+    url: https://github.com/interplains/Zero-Breach-Toolkit
+    description: "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backup"
     language: Python
-    stars: 1494
-  - name: lyramakesmusic/neuron-explorer
-    url: https://github.com/lyramakesmusic/neuron-explorer
-    description: "Steering-first neuron explorer for Qwen3.5-4B: push every MLP neuron, keep every rollout, browse the results"
-    language: Python
-    stars: 1415
-  - name: colinhacks/reylo
-    url: https://github.com/colinhacks/reylo
-    description: "Import .sql files into TypeScript with full type inference and zero codegen."
-    language: Rust
-    stars: 1331
+    stars: 2098
+  - name: anhao/ai-pose-gallery-zh
+    url: https://github.com/anhao/ai-pose-gallery-zh
+    description: "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
+    language: HTML
+    stars: 1617
   - name: morganlinton/BeautifulRust
     url: https://github.com/morganlinton/BeautifulRust
     description: "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI."
     language: Python
-    stars: 1279
+    stars: 1352
   - name: enesozturk/dimensional-drawing
     url: https://github.com/enesozturk/dimensional-drawing
     description: "Create Apple style dimensional drawings of UI components."
     language: HTML
-    stars: 1163
+    stars: 1347
+  - name: andyhuo520/digital-human-koubo
+    url: https://github.com/andyhuo520/digital-human-koubo
+    description: "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components."
+    language: TypeScript
+    stars: 1263
+  - name: DenisSergeevitch/ex-ussr-kinship-research
+    url: https://github.com/DenisSergeevitch/ex-ussr-kinship-research
+    description: "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR."
+    language: Python
+    stars: 1136
+  - name: Snapintosh/Snapintosh
+    url: https://github.com/Snapintosh/Snapintosh
+    description: "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack"
+    language: Python
+    stars: 1024
+  - name: KillaBoi/StealMyBitcoin-PoC
+    url: https://github.com/KillaBoi/StealMyBitcoin-PoC
+    description: "A public release of the Steal My Bitcoin challenge"
+    language: Python
+    stars: 979
