@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-10-28
+updated: 2026-10-30
 repos:
-  - name: JustAResearcher/gpu-unlock-ada
-    url: https://github.com/JustAResearcher/gpu-unlock-ada
-    description: "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally"
-    language: C
-    stars: 4376
   - name: rddmwmddr/android-ad-cleaner
     url: https://github.com/rddmwmddr/android-ad-cleaner
     description: "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。"
     language: Python
-    stars: 4178
-  - name: designfuchen/word-atlas
-    url: https://github.com/designfuchen/word-atlas
-    description: "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
-    language: TypeScript
-    stars: 3000
-  - name: t3dotgg/tstack
-    url: https://github.com/t3dotgg/tstack
-    description: "The agent skills I use every day. Works with Claude Code and Codex."
-    language: Python
-    stars: 2182
-  - name: interplains/Zero-Breach-Toolkit
-    url: https://github.com/interplains/Zero-Breach-Toolkit
-    description: "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backup"
-    language: Python
-    stars: 2098
+    stars: 5001
   - name: anhao/ai-pose-gallery-zh
     url: https://github.com/anhao/ai-pose-gallery-zh
     description: "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
     language: HTML
-    stars: 1617
-  - name: morganlinton/BeautifulRust
-    url: https://github.com/morganlinton/BeautifulRust
-    description: "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI."
+    stars: 3834
+  - name: interplains/Zero-Breach-Toolkit
+    url: https://github.com/interplains/Zero-Breach-Toolkit
+    description: "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups."
     language: Python
-    stars: 1352
-  - name: enesozturk/dimensional-drawing
-    url: https://github.com/enesozturk/dimensional-drawing
-    description: "Create Apple style dimensional drawings of UI components."
-    language: HTML
-    stars: 1347
+    stars: 3779
+  - name: designfuchen/word-atlas
+    url: https://github.com/designfuchen/word-atlas
+    description: "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
+    language: TypeScript
+    stars: 3336
+  - name: t3dotgg/tstack
+    url: https://github.com/t3dotgg/tstack
+    description: "The agent skills I use every day. Works with Claude Code and Codex."
+    language: Python
+    stars: 2446
+  - name: ccch1mneyyy/dsh-Go
+    url: https://github.com/ccch1mneyyy/dsh-Go
+    description: "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"
+    language: Dart
+    stars: 2039
   - name: andyhuo520/digital-human-koubo
     url: https://github.com/andyhuo520/digital-human-koubo
-    description: "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components."
+    description: "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …"
     language: TypeScript
-    stars: 1263
+    stars: 1540
   - name: DenisSergeevitch/ex-ussr-kinship-research
     url: https://github.com/DenisSergeevitch/ex-ussr-kinship-research
-    description: "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR."
+    description: "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language."
     language: Python
-    stars: 1136
-  - name: Snapintosh/Snapintosh
-    url: https://github.com/Snapintosh/Snapintosh
-    description: "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack"
+    stars: 1294
+  - name: qybaihe/bla
+    url: https://github.com/qybaihe/bla
+    description: "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate."
+    language: TypeScript
+    stars: 1243
+  - name: Motionsites-AI/claude-skill
+    url: https://github.com/Motionsites-AI/claude-skill
+    description: "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites."
     language: Python
-    stars: 1024
-  - name: KillaBoi/StealMyBitcoin-PoC
-    url: https://github.com/KillaBoi/StealMyBitcoin-PoC
-    description: "A public release of the Steal My Bitcoin challenge"
-    language: Python
-    stars: 979
+    stars: 1133
+  - name: valentderah/totk-pc-recomp
+    url: https://github.com/valentderah/totk-pc-recomp
+    description: "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included."
+    language: C
+    stars: 1108
+  - name: smithjohn78390/tongjiang-lab
+    url: https://github.com/smithjohn78390/tongjiang-lab
+    description: "Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app"
+    language: HTML
+    stars: 1083
