@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-11-01
+updated: 2026-11-02
 repos:
   - name: deepseek-ai/dsh-superagent-prototype
     url: https://github.com/deepseek-ai/dsh-superagent-prototype
-    description: Towards a More Autonomous Agent System
+    description: "Towards a More Autonomous Agent System"
     language: TypeScript
-    stars: 6241
-  - name: anhao/ai-pose-gallery-zh
-    url: https://github.com/anhao/ai-pose-gallery-zh
-    description: Chinese AI pose reference gallery - 1439 sets / 2878 images, fully localized, zero-dependency static gallery
-    language: TypeScript
-    stars: 5074
+    stars: 12277
   - name: heydamir/unslop
     url: https://github.com/heydamir/unslop
-    description: A Claude skill that turns vibecoded, AI-looking UI into a designed interface
+    description: "A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
     language: JavaScript
-    stars: 4429
+    stars: 5829
+  - name: anhao/ai-pose-gallery-zh
+    url: https://github.com/anhao/ai-pose-gallery-zh
+    description: "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
+    language: TypeScript
+    stars: 5458
   - name: wangzan101/Mika
     url: https://github.com/wangzan101/Mika
-    description: An on-device AI agent for Android that operates apps and the web to get things done for you.
+    description: "An on-device AI agent for Android that operates apps and the web to get things done for you."
     language: Kotlin
-    stars: 3574
+    stars: 5131
   - name: valentderah/totk-pc-recomp
     url: https://github.com/valentderah/totk-pc-recomp
-    description: Static recompilation of The Legend of Zelda - Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer.
+    description: "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included."
     language: C
-    stars: 2976
+    stars: 3778
   - name: patch-gg/pixelfx
     url: https://github.com/patch-gg/pixelfx
-    description: 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.
+    description: "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
     language: JavaScript
-    stars: 2303
+    stars: 3358
+  - name: storytold/craft-anything
+    url: https://github.com/storytold/craft-anything
+    description: "Craft Anything: understand how any software works, and craft your own."
+    language: Rust
+    stars: 3072
   - name: Djihads80/Eglantine
     url: https://github.com/Djihads80/Eglantine
-    description: VERY experimental Nintendo Switch 2 emulator
+    description: "VERY experimental Nintendo Switch 2 emulator"
     language: C++
-    stars: 1714
-  - name: andyhuo520/digital-human-koubo
-    url: https://github.com/andyhuo520/digital-human-koubo
-    description: AI digital-human talking-head videos from one photo - Renoise MCP generation + 5 editing styles + 48 creator-grade components
-    language: TypeScript
-    stars: 1628
-  - name: lexifina/global-law
-    url: https://github.com/lexifina/global-law
-    description: Git for Global Law - the law of every country as one git history, each country's record a submodule
-    language: HTML
-    stars: 1527
-  - name: Motionsites-AI/claude-skill
-    url: https://github.com/Motionsites-AI/claude-skill
-    description: Free Claude skill - make Claude build award-level, cinematic landing pages. By MotionSites.
-    language: Python
-    stars: 1372
+    stars: 2316
   - name: haydenschmitty/floorplan
     url: https://github.com/haydenschmitty/floorplan
-    description: See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.
+    description: "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex."
     language: JavaScript
-    stars: 1301
+    stars: 2132
+  - name: paipiange/nvzhuang
+    url: https://github.com/paipiange/nvzhuang
+    description: "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang"
+    language: Go
+    stars: 2040
+  - name: lexifina/global-law
+    url: https://github.com/lexifina/global-law
+    description: "Git for Global Law: the law of every country as one git history, each country's record a submodule, every commit one law taking effect"
+    language: HTML
+    stars: 1676
   - name: smithjohn78390/tongjiang-lab
     url: https://github.com/smithjohn78390/tongjiang-lab
-    description: Free interactive 3D science lessons for high school (Tongjiang Lab)
+    description: "Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app"
     language: HTML
-    stars: 1248
+    stars: 1425
