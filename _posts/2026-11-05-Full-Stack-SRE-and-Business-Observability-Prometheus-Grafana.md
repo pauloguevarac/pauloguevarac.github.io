@@ -1,8 +1,8 @@
 ---
-title: "Full-Stack SRE & Revenue Observability: Building a Custom Prometheus Exporter and Provisioned Grafana NOC for Nginx, AI Crawlers, SSL & GA4"
+title: "Full-Stack SRE & Revenue Observability: Building a Custom Prometheus Exporter and Provisioned Grafana NOC for Nginx, GeoIP World Map, AI Crawlers, SSL & GA4"
 date: 2026-11-05 09:00:00 -0700
 categories: [Cloud Monitoring, SRE]
-tags: [prometheus, grafana, observability, sre, python, docker]
+tags: [prometheus, grafana, observability, sre, python, docker, geoip]
 toc: true
 comments: true
 image: /assets/img/covers/Full-Stack-SRE-and-Business-Observability-Prometheus-Grafana.png
@@ -57,6 +57,7 @@ Instead of installing heavy agents on the production web server or paying for hi
 4. **SSL/TLS Certificate Expiration Countdown:** Performs a live TLS handshake on port `443`, parses the X.509 `notAfter` timestamp, and exports `ssl_cert_days_remaining`.
 5. **External Link & Ad Network Readiness:** Audits sample redirect chains (`HTTP 301/302` latency in milliseconds) and checks `/ads.txt` + ad-server fill status.
 6. **GA4 Realtime & 7-Day Funnel Metrics:** Queries Google Analytics 4 (`runRealtimeReport` and `runReport`) via Service Account to export active users, engagement duration per page, and conversion CTR %.
+7. **Live World Map (Grafana Geomap) via Nginx GeoIP + GA4:** Resolves public visitor and crawler IP addresses in batch via `ip-api.com` (with in-memory caching) alongside GA4 city/country coordinates, exposing `latitude` and `longitude` labels for real-time global traffic visualization.
 
 ---
 
@@ -197,6 +198,51 @@ def fetch_ga4_realtime(key_path: str, property_id: str) -> dict:
     }
 ```
 
+### 3.5 Batch GeoIP Resolution for Grafana's `geomap` World Map Panel
+
+To visualize exactly where human visitors and AI crawlers are connecting from without installing MaxMind GeoLite2 databases on the host, the exporter batches newly discovered Nginx public IPs against `ip-api.com/batch`, caches their coordinates in memory, and emits a gauge metric enriched with `latitude`, `longitude`, `city`, `country`, and `traffic_type` labels:
+
+```python
+def resolve_geoip_points(ip_counts: dict[str, int], ip_actors: dict[str, str], cache: dict) -> dict:
+    unknown_ips = [ip for ip in ip_counts if ip not in cache][:45]
+    if unknown_ips:
+        req = urllib.request.Request(
+            "http://ip-api.com/batch?fields=query,status,country,city,lat,lon",
+            data=json.dumps(unknown_ips).encode("utf-8"),
+            headers={"Content-Type": "application/json", "User-Agent": "NOC-GeoMapper/1.0"},
+        )
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            for item in json.loads(resp.read().decode("utf-8")):
+                if item.get("status") == "success":
+                    cache[item["query"]] = {
+                        "country": item.get("country", "Unknown"),
+                        "city": item.get("city", "Unknown"),
+                        "lat": float(item.get("lat", 0.0)),
+                        "lon": float(item.get("lon", 0.0)),
+                    }
+
+    geo_agg = {}
+    for ip, hits in ip_counts.items():
+        g = cache.get(ip)
+        if not g:
+            continue
+        act_group = "Human" if ip_actors.get(ip) == "Human-Visitor" else "Crawler/Bot"
+        key = (g["country"], g["city"], round(g["lat"], 3), round(g["lon"], 3), act_group)
+        geo_agg[key] = geo_agg.get(key, 0) + hits
+    return geo_agg
+```
+
+When serialized to Prometheus format, each city/coordinate pair becomes a single time-series point that Grafana's native `geomap` panel can plot directly on OpenStreetMap:
+
+```text
+# HELP app_geo_point_requests Geographic traffic points with latitude and longitude for Grafana Geomap
+# TYPE app_geo_point_requests gauge
+app_geo_point_requests{place="Coyoacán, Mexico",country="Mexico",city="Coyoacán",traffic_type="Human",latitude="19.346",longitude="-99.161"} 62
+app_geo_point_requests{place="Mountain View, United States",country="United States",city="Mountain View",traffic_type="Crawler/Bot",latitude="37.422",longitude="-122.084"} 189
+```
+
+![Live World Map (Geomap) and Top Cities in Grafana](/assets/img/covers/Grafana-Geomap-Live-GeoIP-Traffic.png)
+
 ---
 
 ## 4. Configuring Prometheus & Zero-Touch Grafana Provisioning
@@ -316,6 +362,12 @@ Once the stack is running (`docker compose up -d --build`), these PromQL express
   ```
 - **Rendering Recent Nginx Log Rows in a Grafana Table Panel:**
   Query `app_nginx_recent_log_entry` with `Format: Table` and `Instant: true`, then apply Grafana's **Organize fields** transformation to display `seq`, `time_utc`, `actor`, `status`, `path`, and `ip`.
+- **Plotting Live Global Traffic on a Grafana `geomap` World Map Panel:**
+  Query `app_geo_point_requests` with `Format: Table` and `Instant: true`. Because Prometheus exports label values as strings, add a **Convert field type** transformation in Grafana (`convertFieldType`) to cast `latitude`, `longitude`, and `Value` to `number`, then bind the `markers` layer to `latitude` and `longitude` with marker size scaled by `Value`.
+- **Top 12 Cities & Countries by Traffic Type (Humans vs. Crawlers):**
+  ```promql
+  topk(12, app_geo_point_requests)
+  ```
 
 ---
 
