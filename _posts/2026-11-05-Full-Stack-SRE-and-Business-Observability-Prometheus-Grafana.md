@@ -1,5 +1,5 @@
 ---
-title: "Full-Stack SRE & Revenue Observability: Building a Custom Prometheus Exporter and Provisioned Grafana NOC for Nginx, GeoIP World Map, AI Crawlers, SSL & GA4"
+title: "Full-Stack SRE & Revenue Observability: Building a Custom Prometheus Exporter and Provisioned Grafana NOC with Live World Map (Nginx, AI Crawlers, GeoIP, SSL & GA4)"
 date: 2026-11-05 09:00:00 -0700
 categories: [Cloud Monitoring, SRE]
 tags: [prometheus, grafana, observability, sre, python, docker, geoip]
@@ -10,7 +10,7 @@ image: /assets/img/covers/Full-Stack-SRE-and-Business-Observability-Prometheus-G
 
 # Introduction
 
-Most monitoring tutorials stop at installing `node_exporter` to watch CPU and RAM. While infrastructure telemetry is essential, a modern **Staff SRE / Cloud Platform Architect** needs a single pane of glass that correlates **low-level Linux and Nginx signals** with **AI crawler activity (`Googlebot`, `ClaudeBot`, `ChatGPT-User`), SSL certificate lifecycles, synthetic endpoint latency, and real-time conversion funnels (GA4 & Search Console)**.
+Most monitoring tutorials stop at installing `node_exporter` to watch CPU and RAM. While infrastructure telemetry is essential, a modern **Staff SRE / Cloud Platform Architect** needs a single pane of glass that correlates **low-level Linux and Nginx signals** with **AI crawler activity (`Googlebot`, `ClaudeBot`, `ChatGPT-User`), live geographic traffic origins on a World Map (`GeoIP` + `GA4`), SSL certificate lifecycles, synthetic endpoint latency, and real-time conversion funnels (GA4 & Search Console)**.
 
 In this technical guide—a hands-on continuation of my earlier post on [Installing Grafana and Prometheus](/posts/Install-Grafana-and-Prometheus-for-Powerful-Monitoring-and-Visualization/)—we will architect and deploy a complete **Zero-Touch NOC (Network Operations Center)** using **Docker Compose**, a **Custom Python OpenMetrics Exporter**, **Prometheus**, and **Grafana Dashboards-as-Code**.
 
@@ -336,6 +336,84 @@ services:
 volumes:
   prom_data:
   grafana_data:
+```
+
+### 4.4 Provisioning the Grafana `geomap` World Map Panel (`grafana/dashboards/noc-overview.json`)
+
+Because Prometheus exports all metric labels as strings, Grafana's `geomap` panel requires a `convertFieldType` transformation to cast `latitude`, `longitude`, and `Value` into numbers before binding them to the `markers` layer. Setting `"opacity": 1` and `"config": {}` on the `osm-standard` basemap ensures OpenStreetMap tiles render immediately on first load:
+
+```json
+{
+  "id": 40,
+  "title": "🌎 Live World Map of Visitors & Crawlers (Nginx GeoIP + GA4)",
+  "type": "geomap",
+  "gridPos": { "h": 11, "w": 15, "x": 0, "y": 20 },
+  "datasource": { "type": "prometheus", "uid": "prometheus_fs" },
+  "targets": [
+    {
+      "expr": "app_geo_point_requests",
+      "format": "table",
+      "instant": true,
+      "refId": "A"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "convertFieldType",
+      "options": {
+        "conversions": [
+          { "targetField": "latitude", "destinationType": "number" },
+          { "targetField": "longitude", "destinationType": "number" },
+          { "targetField": "Value", "destinationType": "number" }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "view": { "id": "coords", "lat": 24.0, "lon": -35.0, "zoom": 1.8 },
+    "basemap": {
+      "type": "osm-standard",
+      "name": "OpenStreetMap",
+      "opacity": 1,
+      "config": {}
+    },
+    "layers": [
+      {
+        "type": "markers",
+        "name": "Traffic Origin",
+        "location": {
+          "mode": "coords",
+          "latitude": "latitude",
+          "longitude": "longitude"
+        },
+        "config": {
+          "showLegend": true,
+          "style": {
+            "size": { "field": "Value", "min": 7, "max": 26 },
+            "color": { "field": "Value", "fixed": "light-green" },
+            "opacity": 0.85,
+            "symbol": { "mode": "fixed", "fixed": "img/icons/marker/circle.svg" },
+            "text": { "field": "place", "mode": "field" },
+            "textConfig": { "fontSize": 11, "offsetY": -14 }
+          }
+        },
+        "tooltip": true
+      }
+    ],
+    "tooltip": { "mode": "details" },
+    "controls": {
+      "showZoom": true,
+      "mouseWheelZoom": true,
+      "showAttribution": false,
+      "showScale": true
+    }
+  },
+  "fieldConfig": {
+    "defaults": {
+      "color": { "mode": "continuous-GrYlRd" }
+    }
+  }
+}
 ```
 
 ---
