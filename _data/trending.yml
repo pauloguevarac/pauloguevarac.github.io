@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-11-04
+updated: 2026-11-05
 repos:
   - name: deepseek-ai/dsh-superagent-prototype
     url: https://github.com/deepseek-ai/dsh-superagent-prototype
     description: "Towards a More Autonomous Agent System"
     language: TypeScript
-    stars: 18356
+    stars: 19338
   - name: storytold/craft-anything
     url: https://github.com/storytold/craft-anything
     description: "Craft Anything: understand how any software works, and craft your own."
     language: Rust
-    stars: 10515
-  - name: heydamir/unslop
-    url: https://github.com/heydamir/unslop
-    description: "A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
-    language: JavaScript
-    stars: 8256
-  - name: wangzan101/Mika
-    url: https://github.com/wangzan101/Mika
-    description: "An on-device AI agent for Android that operates apps and the web to get things done for you."
-    language: Kotlin
-    stars: 6531
-  - name: valentderah/totk-pc-recomp
-    url: https://github.com/valentderah/totk-pc-recomp
-    description: "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included."
-    language: C
-    stars: 4736
+    stars: 14286
   - name: patch-gg/pixelfx
     url: https://github.com/patch-gg/pixelfx
     description: "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
     language: JavaScript
-    stars: 4567
-  - name: BryceYuuu/RUN
-    url: https://github.com/BryceYuuu/RUN
-    description: "RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）"
-    language: Python
-    stars: 3571
-  - name: Djihads80/Eglantine
-    url: https://github.com/Djihads80/Eglantine
-    description: "VERY experimental Nintendo Switch 2 emulator"
-    language: C++
-    stars: 3399
+    stars: 5182
   - name: KKKKhazix/agent-autoloop
     url: https://github.com/KKKKhazix/agent-autoloop
     description: "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。"
     language: TypeScript
-    stars: 2250
+    stars: 3144
   - name: Verlintas/NOIR
     url: https://github.com/Verlintas/NOIR
     description: "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes."
     language: Kotlin
-    stars: 1935
+    stars: 2402
   - name: elvarofficial/teardown
     url: https://github.com/elvarofficial/teardown
     description: "A Claude Code skill that turns any machine into a 3D simulator you can take apart"
     language: JavaScript
-    stars: 1847
+    stars: 2114
+  - name: govijr/terminal-mac
+    url: https://github.com/govijr/terminal-mac
+    description: "Entire MacOS running in your terminal."
+    language: Swift
+    stars: 1859
   - name: caru-ini/stack-diagram
     url: https://github.com/caru-ini/stack-diagram
     description: "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos"
     language: TypeScript
-    stars: 1724
+    stars: 1843
+  - name: zortos293/Lichii
+    url: https://github.com/zortos293/Lichii
+    description: "VERY experimental Nintendo Switch 2 emulator"
+    language: C++
+    stars: 1676
+  - name: mromidev/claude-animated-shorts
+    url: https://github.com/mromidev/claude-animated-shorts
+    description: "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion"
+    language: TypeScript
+    stars: 1661
+  - name: Arjun-Ingole/hop
+    url: https://github.com/Arjun-Ingole/hop
+    description: "Install Linux next to Windows without a USB stick"
+    language: PowerShell
+    stars: 1526
+  - name: wquguru/cicada
+    url: https://github.com/wquguru/cicada
+    description: "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream."
+    language: Swift
+    stars: 1453
