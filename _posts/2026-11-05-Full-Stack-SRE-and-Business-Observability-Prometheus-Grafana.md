@@ -1,0 +1,324 @@
+---
+title: "Full-Stack SRE & Revenue Observability: Building a Custom Prometheus Exporter and Provisioned Grafana NOC for Nginx, AI Crawlers, SSL & GA4"
+date: 2026-11-05 09:00:00 -0700
+categories: [Cloud Monitoring, SRE]
+tags: [prometheus, grafana, observability, sre, python, docker]
+toc: true
+comments: true
+image: /assets/img/covers/Full-Stack-SRE-and-Business-Observability-Prometheus-Grafana.png
+---
+
+# Introduction
+
+Most monitoring tutorials stop at installing `node_exporter` to watch CPU and RAM. While infrastructure telemetry is essential, a modern **Staff SRE / Cloud Platform Architect** needs a single pane of glass that correlates **low-level Linux and Nginx signals** with **AI crawler activity (`Googlebot`, `ClaudeBot`, `ChatGPT-User`), SSL certificate lifecycles, synthetic endpoint latency, and real-time conversion funnels (GA4 & Search Console)**.
+
+In this technical guide—a hands-on continuation of my earlier post on [Installing Grafana and Prometheus](/posts/Install-Grafana-and-Prometheus-for-Powerful-Monitoring-and-Visualization/)—we will architect and deploy a complete **Zero-Touch NOC (Network Operations Center)** using **Docker Compose**, a **Custom Python OpenMetrics Exporter**, **Prometheus**, and **Grafana Dashboards-as-Code**.
+
+![Full-Stack SRE & Business Observability NOC in Grafana](/assets/img/covers/Full-Stack-SRE-and-Business-Observability-Prometheus-Grafana.png)
+
+---
+
+## 1. Architecture Overview
+
+Instead of installing heavy agents on the production web server or paying for high-cardinality SaaS ingestion, our architecture runs a lightweight **Python OpenMetrics Exporter (`:9105`)** that aggregates six telemetry streams into a single Prometheus scrape target every `15s`:
+
+```text
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    PRODUCTION WEB & ANALYTICS PLANE                     │
+│                                                                         │
+│  ┌──────────────────────┐  ┌──────────────────────┐  ┌───────────────┐  │
+│  │ Production Linux VPS │  │ Google Analytics 4 & │  │ TLS :443 &    │  │
+│  │ Nginx access.log +   │  │ Search Console APIs  │  │ Shortlink     │  │
+│  │ /proc/{load,mem,df}  │  │ (Realtime + 7d CTR)  │  │ Redirects     │  │
+│  └──────────┬───────────┘  └──────────┬───────────┘  └───────┬───────┘  │
+└─────────────┼─────────────────────────┼──────────────────────┼──────────┘
+              │ SSH Tail (15s)          │ OAuth2 REST (30s)    │ TLS/HTTP Probe
+              ▼                         ▼                      ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                CUSTOM PYTHON OPENMETRICS EXPORTER (:9105)               │
+│   Exposes /metrics in Prometheus 0.0.4 text format (Zero dependencies)  │
+└───────────────────────────────────┬─────────────────────────────────────┘
+                                    │ Pull / Scrape (15s)
+                                    ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         PROMETHEUS TSDB (:9090)                         │
+└───────────────────────────────────┬─────────────────────────────────────┘
+                                    │ Provisioned Datasource (prometheus_fs)
+                                    ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│             GRAFANA 11 NOC DASHBOARD-AS-CODE (:3005 / :3000)            │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### What This Stack Tracks in Real Time:
+1. **Live Nginx Bot & Crawler Classification (every 15s):** Parses `access.log` streams to separate human visitors from `Googlebot`, `Google-AdSense-Bot` (`Mediapartners-Google`), `Bingbot`, `ClaudeBot (Anthropic)`, `ChatGPT-OpenAI (OAI-SearchBot)`, `YandexBot`, and `AhrefsBot`.
+2. **Live Access Log Stream Table in Grafana:** Exposes the last 15 real HTTP requests (`timestamp`, `actor`, `status`, `path`, `ip`) as Prometheus metric labels rendered natively inside a Grafana Table panel—without requiring a separate Loki/Promtail cluster.
+3. **Production VPS Telemetry:** CPU 1m/5m/15m load average, RAM usage %, free disk GB, and uptime days collected in a single SSH multiplexing pass.
+4. **SSL/TLS Certificate Expiration Countdown:** Performs a live TLS handshake on port `443`, parses the X.509 `notAfter` timestamp, and exports `ssl_cert_days_remaining`.
+5. **External Link & Ad Network Readiness:** Audits sample redirect chains (`HTTP 301/302` latency in milliseconds) and checks `/ads.txt` + ad-server fill status.
+6. **GA4 Realtime & 7-Day Funnel Metrics:** Queries Google Analytics 4 (`runRealtimeReport` and `runReport`) via Service Account to export active users, engagement duration per page, and conversion CTR %.
+
+---
+
+## 2. Directory Structure (Observability-as-Code)
+
+Everything is self-contained and reproducible from version control:
+
+```text
+observability/
+├── docker-compose.yml
+├── exporter/
+│   ├── Dockerfile
+│   └── custom_noc_exporter.py
+├── prometheus/
+│   └── prometheus.yml
+└── grafana/
+    ├── dashboards/
+    │   └── noc-overview.json
+    └── provisioning/
+        ├── datasources/
+        │   └── datasource.yml
+        └── dashboards/
+            └── dashboard.yml
+```
+
+---
+
+## 3. Building the Custom Python Prometheus Exporter
+
+You do not need external libraries to speak the Prometheus exposition format; Python's standard `http.server` can serve `text/plain; version=0.0.4` directly while a daemon thread updates the in-memory state dictionary.
+
+### 3.1 `exporter/Dockerfile`
+
+```dockerfile
+FROM python:3.12-slim
+RUN apt-get update && apt-get install -y --no-install-recommends openssh-client && rm -rf /var/lib/apt/lists/*
+RUN pip install --no-cache-dir google-auth requests
+WORKDIR /app
+COPY custom_noc_exporter.py /app/custom_noc_exporter.py
+CMD ["python3", "custom_noc_exporter.py"]
+```
+
+### 3.2 Classifier for AI Crawlers, Search Bots, and Human Traffic
+
+One of the most valuable insights for any modern web property is knowing whether AI search engines (`ChatGPT`, `Claude`, `Perplexity`) and ad verifiers (`Mediapartners-Google`) are actively crawling your pages:
+
+```python
+import re
+
+NGINX_LINE_RE = re.compile(
+    r'^(?P<ip>\S+) \S+ \S+ \[(?P<ts>[^\]]+)\] "(?P<method>\S+) (?P<path>\S+) [^"]*" '
+    r'(?P<status>\d{3}) (?P<bytes>\d+) "(?P<ref>[^"]*)" "(?P<ua>[^"]*)"'
+)
+
+def classify_user_agent(ua: str) -> str:
+    u = ua.lower()
+    if "prometheusprobe" in u:
+        return "InternalProbe"
+    if "mediapartners-google" in u or "adsbot-google" in u:
+        return "Google-AdSense-Bot"
+    if "googlebot" in u or "googleother" in u:
+        return "Googlebot"
+    if "bingbot" in u:
+        return "Bingbot"
+    if "claudebot" in u or "anthropic" in u:
+        return "ClaudeBot (AI)"
+    if "chatgpt" in u or "oai-searchbot" in u or "gptbot" in u:
+        return "ChatGPT-OpenAI (AI)"
+    if "perplexity" in u:
+        return "PerplexityBot (AI)"
+    if "yandex" in u:
+        return "YandexBot"
+    if "ahrefsbot" in u or "semrush" in u:
+        return "SEO-Crawler (Ahrefs)"
+    if "mozilla/" in u and ("chrome/" in u or "safari/" in u or "firefox/" in u):
+        return "Human-Visitor"
+    return "Other-Bot"
+```
+
+### 3.3 Checking SSL Certificate Expiration in Pure Python
+
+Instead of shelling out to `openssl`, we inspect the peer certificate directly via Python's `ssl` module:
+
+```python
+import datetime
+import socket
+import ssl
+
+def check_ssl_days_remaining(hostname: str, port: int = 443) -> float:
+    ctx = ssl.create_default_context()
+    with ctx.wrap_socket(socket.socket(), server_hostname=hostname) as s:
+        s.settimeout(6)
+        s.connect((hostname, port))
+        cert = s.getpeercert()
+        not_after = cert.get("notAfter")
+        exp_dt = datetime.datetime.strptime(
+            not_after, "%b %d %H:%M:%S %Y %Z"
+        ).replace(tzinfo=datetime.timezone.utc)
+        now_dt = datetime.datetime.now(datetime.timezone.utc)
+        return round((exp_dt - now_dt).total_seconds() / 86400.0, 2)
+```
+
+### 3.4 Querying Google Analytics 4 Realtime API (`runRealtimeReport`)
+
+Using a read-only Google Cloud Service Account added to your GA4 property, the exporter pulls live active users and events every 30 seconds:
+
+```python
+import json
+import urllib.request
+from google.auth.transport.requests import Request
+from google.oauth2 import service_account
+
+def fetch_ga4_realtime(key_path: str, property_id: str) -> dict:
+    creds = service_account.Credentials.from_service_account_file(
+        key_path,
+        scopes=["https://www.googleapis.com/auth/analytics.readonly"],
+    )
+    creds.refresh(Request())
+
+    url = f"https://analyticsdata.googleapis.com/v1beta/properties/{property_id}:runRealtimeReport"
+    req = urllib.request.Request(
+        url,
+        data=json.dumps({
+            "dimensions": [{"name": "eventName"}],
+            "metrics": [{"name": "eventCount"}],
+        }).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {creds.token}",
+            "Content-Type": "application/json",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=10) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+
+    return {
+        row["dimensionValues"][0]["value"]: int(float(row["metricValues"][0]["value"]))
+        for row in data.get("rows", [])
+    }
+```
+
+---
+
+## 4. Configuring Prometheus & Zero-Touch Grafana Provisioning
+
+### 4.1 `prometheus/prometheus.yml`
+
+```yaml
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'noc-exporter'
+    scrape_interval: 15s
+    static_configs:
+      - targets: ['noc-exporter:9105']
+        labels:
+          env: 'production'
+```
+
+![Prometheus Targets Verification](/assets/img/covers/Prometheus-Targets-Custom-Exporter.png)
+
+### 4.2 Auto-Provisioning Grafana Datasource (`grafana/provisioning/datasources/datasource.yml`)
+
+By assigning a deterministic `uid: prometheus_fs` to the Prometheus datasource, our JSON dashboards work immediately on `docker compose up` without manual clicking:
+
+```yaml
+apiVersion: 1
+
+datasources:
+  - name: Prometheus
+    type: prometheus
+    uid: prometheus_fs
+    access: proxy
+    url: http://noc-prometheus:9090
+    isDefault: true
+    editable: true
+```
+
+### 4.3 `docker-compose.yml`
+
+```yaml
+services:
+  noc-exporter:
+    build:
+      context: ./exporter
+    container_name: noc-exporter
+    environment:
+      - PORT=9105
+    ports:
+      - "9105:9105"
+    restart: unless-stopped
+
+  noc-prometheus:
+    image: prom/prometheus:v2.54.1
+    container_name: noc-prometheus
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.path=/prometheus"
+      - "--web.enable-lifecycle"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prom_data:/prometheus
+    ports:
+      - "9090:9090"
+    depends_on:
+      - noc-exporter
+    restart: unless-stopped
+
+  noc-grafana:
+    image: grafana/grafana:11.2.0
+    container_name: noc-grafana
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=changeme
+      - GF_DASHBOARDS_DEFAULT_HOME_DASHBOARD_PATH=/var/lib/grafana/dashboards/noc-overview.json
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+      - grafana_data:/var/lib/grafana
+    ports:
+      - "3005:3000"
+    depends_on:
+      - noc-prometheus
+    restart: unless-stopped
+
+volumes:
+  prom_data:
+  grafana_data:
+```
+
+---
+
+## 5. Useful PromQL Queries for Your NOC Dashboard
+
+Once the stack is running (`docker compose up -d --build`), these PromQL expressions power the key panels:
+
+- **Top 10 Most Crawled & Visited URLs in Live Nginx Logs:**
+  ```promql
+  topk(10, app_nginx_top_path_hits)
+  ```
+- **Live Bot Breakdown (`Googlebot`, `Google-AdSense-Bot`, `ClaudeBot`, `ChatGPT-OpenAI`):**
+  ```promql
+  app_nginx_actor_hits_total
+  ```
+- **Affiliate / Conversion Click-Through Rate (CTR %):**
+  ```promql
+  (app_ga4_affiliate_clicks_7d / app_ga4_unique_new_visitors_7d) * 100
+  ```
+- **External Shortlink Health Percentage (`HTTP 200/301`):**
+  ```promql
+  (app_affiliate_sample_healthy_links / (app_affiliate_sample_healthy_links + app_affiliate_sample_broken_links)) * 100
+  ```
+- **Rendering Recent Nginx Log Rows in a Grafana Table Panel:**
+  Query `app_nginx_recent_log_entry` with `Format: Table` and `Instant: true`, then apply Grafana's **Organize fields** transformation to display `seq`, `time_utc`, `actor`, `status`, `path`, and `ip`.
+
+---
+
+## Conclusion
+
+By combining a 250-line Python exporter with Prometheus and provisioned Grafana JSON dashboards, you bridge the gap between **infrastructure reliability** (VPS load, SSL expiry, HTTP latency) and **business observability** (AI search engine indexing, ad network readiness, and real-time user conversions)—all running reproducibly in Docker in under 60 seconds.
