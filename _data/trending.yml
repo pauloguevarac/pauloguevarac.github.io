@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-11-05
+updated: 2026-11-06
 repos:
   - name: deepseek-ai/dsh-superagent-prototype
     url: https://github.com/deepseek-ai/dsh-superagent-prototype
-    description: "Towards a More Autonomous Agent System"
+    description: Towards a More Autonomous Agent System
     language: TypeScript
-    stars: 19338
+    stars: 20103
   - name: storytold/craft-anything
     url: https://github.com/storytold/craft-anything
-    description: "Craft Anything: understand how any software works, and craft your own."
+    description: Craft Anything - understand how any software works, and craft your own.
     language: Rust
-    stars: 14286
-  - name: patch-gg/pixelfx
-    url: https://github.com/patch-gg/pixelfx
-    description: "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
-    language: JavaScript
-    stars: 5182
+    stars: 17077
   - name: KKKKhazix/agent-autoloop
     url: https://github.com/KKKKhazix/agent-autoloop
-    description: "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。"
+    description: 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
     language: TypeScript
-    stars: 3144
-  - name: Verlintas/NOIR
-    url: https://github.com/Verlintas/NOIR
-    description: "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes."
-    language: Kotlin
-    stars: 2402
-  - name: elvarofficial/teardown
-    url: https://github.com/elvarofficial/teardown
-    description: "A Claude Code skill that turns any machine into a 3D simulator you can take apart"
-    language: JavaScript
-    stars: 2114
-  - name: govijr/terminal-mac
-    url: https://github.com/govijr/terminal-mac
-    description: "Entire MacOS running in your terminal."
-    language: Swift
-    stars: 1859
-  - name: caru-ini/stack-diagram
-    url: https://github.com/caru-ini/stack-diagram
-    description: "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos"
-    language: TypeScript
-    stars: 1843
+    stars: 3570
   - name: zortos293/Lichii
     url: https://github.com/zortos293/Lichii
-    description: "VERY experimental Nintendo Switch 2 emulator"
+    description: VERY experimental Nintendo Switch 2 emulator
     language: C++
-    stars: 1676
+    stars: 3282
+  - name: Verlintas/NOIR
+    url: https://github.com/Verlintas/NOIR
+    description: 手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit - permissions, endpoints, data flows, reversible fixes.
+    language: Kotlin
+    stars: 2710
+  - name: govijr/terminal-mac
+    url: https://github.com/govijr/terminal-mac
+    description: Entire MacOS running in your terminal.
+    language: Swift
+    stars: 2075
   - name: mromidev/claude-animated-shorts
     url: https://github.com/mromidev/claude-animated-shorts
-    description: "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion"
+    description: Free Claude skill - viral animated story shorts (2D characters in a 3D world) with three.js + Remotion
     language: TypeScript
-    stars: 1661
-  - name: Arjun-Ingole/hop
-    url: https://github.com/Arjun-Ingole/hop
-    description: "Install Linux next to Windows without a USB stick"
-    language: PowerShell
-    stars: 1526
+    stars: 1965
+  - name: caru-ini/stack-diagram
+    url: https://github.com/caru-ini/stack-diagram
+    description: Agent skill - describe your stack in a sentence, get an architecture diagram with official logos
+    language: TypeScript
+    stars: 1918
   - name: wquguru/cicada
     url: https://github.com/wquguru/cicada
-    description: "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream."
+    description: 知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.
     language: Swift
-    stars: 1453
+    stars: 1539
+  - name: s1dashu/quiet-md
+    url: https://github.com/s1dashu/quiet-md
+    description: Blazing-fast native notes app for macOS & Windows. Rust + GPUI, local-first, compatible with Feishu/Lark DocxXML.
+    language: Rust
+    stars: 1156
+  - name: UncensoredLabs/uncensored-ai-api
+    url: https://github.com/UncensoredLabs/uncensored-ai-api
+    description: Uncensored AI API and browser chat - DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides.
+    language: JavaScript
+    stars: 949
+  - name: andrew-babo/muse4ai
+    url: https://github.com/andrew-babo/muse4ai
+    description: Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth.
+    language: TypeScript
+    stars: 928
