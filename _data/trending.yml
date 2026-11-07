@@ -1,64 +1,64 @@
 # GitHub trending repositories — updated daily by cron
 # Source: GitHub Search API (created:>7d, stars:>=50, sort by stars)
-updated: 2026-11-06
+updated: '2026-11-07'
 repos:
-  - name: deepseek-ai/dsh-superagent-prototype
-    url: https://github.com/deepseek-ai/dsh-superagent-prototype
-    description: Towards a More Autonomous Agent System
-    language: TypeScript
-    stars: 20103
-  - name: storytold/craft-anything
-    url: https://github.com/storytold/craft-anything
-    description: Craft Anything - understand how any software works, and craft your own.
-    language: Rust
-    stars: 17077
-  - name: KKKKhazix/agent-autoloop
-    url: https://github.com/KKKKhazix/agent-autoloop
-    description: 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
-    language: TypeScript
-    stars: 3570
-  - name: zortos293/Lichii
-    url: https://github.com/zortos293/Lichii
-    description: VERY experimental Nintendo Switch 2 emulator
-    language: C++
-    stars: 3282
-  - name: Verlintas/NOIR
-    url: https://github.com/Verlintas/NOIR
-    description: 手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit - permissions, endpoints, data flows, reversible fixes.
-    language: Kotlin
-    stars: 2710
-  - name: govijr/terminal-mac
-    url: https://github.com/govijr/terminal-mac
-    description: Entire MacOS running in your terminal.
-    language: Swift
-    stars: 2075
-  - name: mromidev/claude-animated-shorts
-    url: https://github.com/mromidev/claude-animated-shorts
-    description: Free Claude skill - viral animated story shorts (2D characters in a 3D world) with three.js + Remotion
-    language: TypeScript
-    stars: 1965
-  - name: caru-ini/stack-diagram
-    url: https://github.com/caru-ini/stack-diagram
-    description: Agent skill - describe your stack in a sentence, get an architecture diagram with official logos
-    language: TypeScript
-    stars: 1918
-  - name: wquguru/cicada
-    url: https://github.com/wquguru/cicada
-    description: 知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.
-    language: Swift
-    stars: 1539
-  - name: s1dashu/quiet-md
-    url: https://github.com/s1dashu/quiet-md
-    description: Blazing-fast native notes app for macOS & Windows. Rust + GPUI, local-first, compatible with Feishu/Lark DocxXML.
-    language: Rust
-    stars: 1156
-  - name: UncensoredLabs/uncensored-ai-api
-    url: https://github.com/UncensoredLabs/uncensored-ai-api
-    description: Uncensored AI API and browser chat - DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides.
-    language: JavaScript
-    stars: 949
-  - name: andrew-babo/muse4ai
-    url: https://github.com/andrew-babo/muse4ai
-    description: Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth.
-    language: TypeScript
-    stars: 928
+- name: KKKKhazix/agent-autoloop
+  url: https://github.com/KKKKhazix/agent-autoloop
+  description: "\u8BA9\u4F60\u7684\u547D\u4EE4\u884C Agent \u5728\u540E\u53F0\u81EA\u5DF1\u63A5\u6D3B\u3001\u81EA\u5DF1\u8DDF\u8FDB\u5230\u5E95\uFF1B\u5E73\u65F6\u4E0D\u70E6\u4F60\uFF0C\u9047\u5230\u62FF\u4E0D\u51C6\u7684\u4E8B\u624D\u53D1\u5361\u7247\u627E\u4F60\u62CD\u677F\u3002"
+  language: TypeScript
+  stars: 3905
+- name: govijr/terminal-mac
+  url: https://github.com/govijr/terminal-mac
+  description: Entire MacOS running in your terminal.
+  language: Swift
+  stars: 2213
+- name: mromidev/claude-animated-shorts
+  url: https://github.com/mromidev/claude-animated-shorts
+  description: 'Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion'
+  language: TypeScript
+  stars: 2146
+- name: Minireel/HGhub
+  url: https://github.com/Minireel/HGhub
+  description: YellowFruit third-party client
+  language: TypeScript
+  stars: 2040
+- name: caru-ini/stack-diagram
+  url: https://github.com/caru-ini/stack-diagram
+  description: 'Agent skill: describe your stack in a sentence, get an architecture diagram with official logos'
+  language: TypeScript
+  stars: 2036
+- name: wquguru/cicada
+  url: https://github.com/wquguru/cicada
+  description: "\u77E5\u4E86 Cicada \xB7 \u4EFB\u4F55\u4F1A\u8BAE\u548C\u76F4\u64AD\u7684\u5B9E\u65F6\u5B57\u5E55\u3001\u540C\u58F0\u4F20\u8BD1\u3001AI \u4F1A\u8BAE\u7EAA\u8981\uFF0CMac\u3001Windows\u3001Linux\u3001Android \u514D\u8D39\u5F00\u6E90\u3002Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android."
+  language: Swift
+  stars: 1606
+- name: s1dashu/quiet-md
+  url: https://github.com/s1dashu/quiet-md
+  description: Blazing-fast native notes app for macOS & Windows. Rust + GPUI, local-first, compatible with Feishu/Lark DocxXML.
+  language: Rust
+  stars: 1251
+- name: livliv-dev/player
+  url: https://github.com/livliv-dev/player
+  description: A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.
+  language: TypeScript
+  stars: 1123
+- name: NotRexed/Hookshot
+  url: https://github.com/NotRexed/Hookshot
+  description: 'A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake'
+  language: C++
+  stars: 1119
+- name: Sandflow-ai/sand3d
+  url: https://github.com/Sandflow-ai/sand3d
+  description: 3D modeling in Python, built for LLMs.
+  language: HTML
+  stars: 958
+- name: chadyi/StudyOnTV
+  url: https://github.com/chadyi/StudyOnTV
+  description: "StudyOnTV (Tiledaoti TV) \u2014 open-source Android TV app where kids unlock screen time by answering questions. Runs fully on the TV: no server, no account. Parents scan a QR code and manage questions from the LAN. Learn first. Watch later."
+  language: Kotlin
+  stars: 819
+- name: AssassinCreator/steam-stash-value-report-card
+  url: https://github.com/AssassinCreator/steam-stash-value-report-card
+  description: 'Value your Steam stash in the terminal and print it as a share card: per game, per market, what sold and what sits. One Windows portable build, no account.'
+  language: Python
+  stars: 789
