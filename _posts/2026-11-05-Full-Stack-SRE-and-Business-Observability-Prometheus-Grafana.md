@@ -452,3 +452,8 @@ Once the stack is running (`docker compose up -d --build`), these PromQL express
 ## Conclusion
 
 By combining a 250-line Python exporter with Prometheus and provisioned Grafana JSON dashboards, you bridge the gap between **infrastructure reliability** (VPS load, SSL expiry, HTTP latency) and **business observability** (AI search engine indexing, ad network readiness, and real-time user conversions)—all running reproducibly in Docker in under 60 seconds.
+
+### Live Production Case Studies Using This Architecture
+If you want to inspect the client-side zero-JS-framework static engines and Sub-Millisecond First-Party Beacons (`/_beacon`) monitored by this exact NOC stack in production:
+- **[AaronTools.online](https://aarontools.online/)** — Interactive Mexican payroll (LFT), SAT tax, CFE tariff, Infonavit, and [10-SOFIPO real-time yield simulators](https://aarontools.online/finanzas/rendimiento-cetes-sofipos/) served via multi-tenant wildcard Nginx + TCP BBR.
+- **[FamilySouvenirs.shop](https://www.familysouvenirs.shop/)** — Programmatic e-commerce comparison engine and interactive [Meses Sin Intereses (MSI) financial calculator](https://www.familysouvenirs.shop/calculadora-msi/).
